@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="Texture2D" uid="uid://cvxa3ov41rary" path="res://sprite/Untitled_۲۰۲۴۱۱۱۸_۱۴۳۳۵۶.jpg" id="1_ta58c"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۱۱۸_۱۴۳۳۵۶.jpg" id="1_fqde2"]
 
 [sub_resource type="Animation" id="Animation_cpkwi"]
 length = 0.001
@@ -55,13 +55,13 @@ theme_override_constants/separation = 1000
 [node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
 layout_mode = 2
 mouse_filter = 2
-texture = ExtResource("1_ta58c")
+texture = ExtResource("1_fqde2")
 
 [node name="TextureRect2" type="TextureRect" parent="HBoxContainer"]
 light_mask = 3
 layout_mode = 2
 mouse_filter = 2
-texture = ExtResource("1_ta58c")
+texture = ExtResource("1_fqde2")
 flip_h = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

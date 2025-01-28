@@ -31,14 +31,14 @@ func _ready() -> void:
 	get_files()
 	save_resource()
 func save_resource():
-	for file in DirAccess.get_files_at("D:/api_flask/static/files/files"):
-		DirAccess.remove_absolute("D:/api_flask/static/files/files/"+file)
+	for file in DirAccess.get_files_at("D:/api_flask-Copy/static/files/files"):
+		DirAccess.remove_absolute("D:/api_flask-Copy/static/files/files/"+file)
 	for file in DirAccess.get_files_at("res://scenes"):
 		if file.get_extension() == 'tscn':
-			ResourceSaver.save(load("res://scenes/"+file), "D:/api_flask/static/files/files/"+file)
+			ResourceSaver.save(load("res://scenes/"+file), "D:/api_flask-Copy/static/files/files/"+file)
 	for file in DirAccess.get_files_at("res://script"):
 		if file.get_extension() == 'gd':
-			ResourceSaver.save(load("res://script/"+file), "D:/api_flask/static/files/files/"+file)
+			ResourceSaver.save(load("res://script/"+file), "D:/api_flask-Copy/static/files/files/"+file)
 
 func load_user():
 	var d = null

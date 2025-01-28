@@ -3,8 +3,12 @@ extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
-
+	$Button/TextureRect/TextureRect2.texture = ImageTexture.create_from_image(Image.load_from_file("user://gift3_img/"+DirAccess.get_files_at("user://gift3_img")[0]))
+	$Button2/TextureRect/TextureRect2.texture = ImageTexture.create_from_image(Image.load_from_file("user://gift2_img/"+DirAccess.get_files_at("user://gift2_img")[0]))
+	$Button3/TextureRect/TextureRect2.texture = ImageTexture.create_from_image(Image.load_from_file("user://gift1_img/"+DirAccess.get_files_at("user://gift1_img")[0]))
+	$Button4/TextureRect/TextureRect2.texture = $Button/TextureRect/TextureRect2.texture
+	$Button5/TextureRect/TextureRect2.texture = $Button2/TextureRect/TextureRect2.texture
+	$Button6/TextureRect/TextureRect2.texture = $Button3/TextureRect/TextureRect2.texture
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass

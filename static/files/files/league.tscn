@@ -1,42 +1,42 @@
 [gd_scene load_steps=120 format=3]
 
-[ext_resource type="Script" path="res://script/league.gd" id="1_h6o3m"]
-[ext_resource type="Texture2D" uid="uid://dq87l2qmj6nnq" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۲۱۳۹.jpg" id="2_ro5n3"]
-[ext_resource type="Texture2D" uid="uid://c6cehtrxjq85d" path="res://sprite/Polygon 3.png" id="3_0cy3w"]
-[ext_resource type="Texture2D" uid="uid://bniypapx8cqi2" path="res://sprite/Polygon 4.png" id="4_yfp60"]
-[ext_resource type="Texture2D" uid="uid://beesoj63tr2gc" path="res://sprite/Untitled756-4.png" id="5_kw5b1"]
-[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="6_7goip"]
-[ext_resource type="StyleBox" uid="uid://dj50v4a2kfprp" path="res://styles/word_label_n3.tres" id="7_r532g"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="8_nsefq"]
-[ext_resource type="Texture2D" uid="uid://cv0elnory156l" path="res://sprite/show_panle_r.png" id="9_drmg2"]
-[ext_resource type="Texture2D" uid="uid://dt3qjwpn7y8i3" path="res://sprite/show_panle_c.png" id="10_4jwkt"]
-[ext_resource type="Texture2D" uid="uid://c2lfvjy0cqg5i" path="res://sprite/mar.png" id="11_himyv"]
-[ext_resource type="Texture2D" uid="uid://cppekcjr6xx7v" path="res://sprite/honey.png" id="12_3hiys"]
-[ext_resource type="Texture2D" uid="uid://bchtwxc83yxea" path="res://sprite/menu.png" id="13_kmejc"]
-[ext_resource type="Texture2D" uid="uid://dohm5i066hyu7" path="res://sprite/turn_words.png" id="14_7kb42"]
-[ext_resource type="Texture2D" uid="uid://bg24akx2cwpi3" path="res://sprite/turn_words_h.png" id="15_3fiyn"]
-[ext_resource type="Texture2D" uid="uid://cf3kihgyxox8u" path="res://sprite/آیکون2.png" id="16_xy6bv"]
-[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="17_rnadt"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="18_dt2e3"]
-[ext_resource type="Texture2D" uid="uid://23xftlsrhhig" path="res://sprite/honeycomb2.png" id="19_pohua"]
-[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="20_2d6dl"]
-[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="21_l7thw"]
-[ext_resource type="Texture2D" uid="uid://ci58qngdsqe3b" path="res://sprite/so.png" id="22_n8h0m"]
-[ext_resource type="Texture2D" uid="uid://cw8akri5ppdq0" path="res://sprite/bg7.png" id="23_38o51"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="24_shkys"]
-[ext_resource type="Texture2D" uid="uid://b32evagccsp3u" path="res://sprite/bach3.png" id="25_f8p2s"]
-[ext_resource type="Texture2D" uid="uid://d0xil12s60i1j" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۳۵۷۱۲.jpg" id="26_xy7ua"]
-[ext_resource type="Texture2D" uid="uid://c1txet70se2d6" path="res://sprite/بک گراند3.jpg" id="27_igfye"]
-[ext_resource type="Texture2D" uid="uid://cdisly78igpjj" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۴۱۴۰۳ (3).png" id="28_rbwgy"]
-[ext_resource type="Texture2D" uid="uid://dykbkbvdsg1j3" path="res://sprite/Untitled-2 (2).jpg" id="29_ir8pu"]
-[ext_resource type="Texture2D" uid="uid://nci884aups37" path="res://sprite/panel_q_2.png" id="30_g51n4"]
-[ext_resource type="PackedScene" uid="uid://cxebda5o26j25" path="res://scenes/biography.tscn" id="31_afdn1"]
-[ext_resource type="PackedScene" uid="uid://c3ycbi8y84744" path="res://scenes/satan.tscn" id="32_tyajg"]
-[ext_resource type="PackedScene" uid="uid://drfvcvn3rnthe" path="res://scenes/box_word.tscn" id="33_yhspe"]
-[ext_resource type="PackedScene" uid="uid://c0v6yech42sfm" path="res://scenes/jar.tscn" id="34_b7d60"]
-[ext_resource type="PackedScene" uid="uid://d375yikpsib6q" path="res://scenes/help_menu.tscn" id="35_5cktq"]
-[ext_resource type="FontFile" uid="uid://b4pwk2xsrdeh4" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="36_2q4o2"]
-[ext_resource type="Texture2D" uid="uid://drdjbhpt02pwx" path="res://sprite/آیکون1.png" id="37_hv25t"]
+[ext_resource type="Script" path="res://script/league.gd" id="1_vbe77"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۲۱۳۹.jpg" id="2_bdh4s"]
+[ext_resource type="Texture2D" path="res://sprite/Polygon 3.png" id="3_m6uv6"]
+[ext_resource type="Texture2D" path="res://sprite/Polygon 4.png" id="4_qwsep"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled756-4.png" id="5_s0w3a"]
+[ext_resource type="FontFile" path="res://fonts/BTitrBd.ttf" id="6_aa5e1"]
+[ext_resource type="StyleBox" path="res://styles/word_label_n3.tres" id="7_eq6dw"]
+[ext_resource type="FontFile" path="res://fonts/B Titr Bold_0.ttf" id="8_m0y7d"]
+[ext_resource type="Texture2D" path="res://sprite/show_panle_r.png" id="9_dmuxf"]
+[ext_resource type="Texture2D" path="res://sprite/show_panle_c.png" id="10_0h0kj"]
+[ext_resource type="Texture2D" path="res://sprite/mar.png" id="11_bxbem"]
+[ext_resource type="Texture2D" path="res://sprite/honey.png" id="12_r4nri"]
+[ext_resource type="Texture2D" path="res://sprite/menu.png" id="13_7jh38"]
+[ext_resource type="Texture2D" path="res://sprite/turn_words.png" id="14_yg800"]
+[ext_resource type="Texture2D" path="res://sprite/turn_words_h.png" id="15_6ghxh"]
+[ext_resource type="Texture2D" path="res://sprite/آیکون2.png" id="16_dy6em"]
+[ext_resource type="FontFile" path="res://fonts/BTrafcBd.ttf" id="17_2ymyv"]
+[ext_resource type="FontFile" path="res://fonts/Aviny2-mfnbbn.ttf" id="18_bnpql"]
+[ext_resource type="Texture2D" path="res://sprite/honeycomb2.png" id="19_gblge"]
+[ext_resource type="Texture2D" path="res://sprite/bee_sheet.png" id="20_02nii"]
+[ext_resource type="Texture2D" path="res://sprite/mouth.png" id="21_0pp8u"]
+[ext_resource type="Texture2D" path="res://sprite/so.png" id="22_8rej8"]
+[ext_resource type="Texture2D" path="res://sprite/bg7.png" id="23_jwbmp"]
+[ext_resource type="FontFile" path="res://fonts/B Traffic Bold_0.ttf" id="24_n57iu"]
+[ext_resource type="Texture2D" path="res://sprite/bach3.png" id="25_6qxcs"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۳۵۷۱۲.jpg" id="26_8e38k"]
+[ext_resource type="Texture2D" path="res://sprite/بک گراند3.jpg" id="27_7bka0"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۴۱۴۰۳ (3).png" id="28_1u200"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled-2 (2).jpg" id="29_1lcb2"]
+[ext_resource type="Texture2D" path="res://sprite/panel_q_2.png" id="30_hlchy"]
+[ext_resource type="PackedScene" path="res://scenes/biography.tscn" id="31_xg5lk"]
+[ext_resource type="PackedScene" path="res://scenes/satan.tscn" id="32_kvqdx"]
+[ext_resource type="PackedScene" path="res://scenes/box_word.tscn" id="33_qphrk"]
+[ext_resource type="PackedScene" path="res://scenes/jar.tscn" id="34_2om5u"]
+[ext_resource type="PackedScene" path="res://scenes/help_menu.tscn" id="35_ntcbp"]
+[ext_resource type="FontFile" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="36_4g88t"]
+[ext_resource type="Texture2D" path="res://sprite/آیکون1.png" id="37_oeftf"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_o1x51"]
 tile_data = PackedInt32Array(65536, 2, 0, 131072, 2, 0, 1, 2, 0, 65537, 1, 0, 131073, 2, 0, 65538, 2, 0, 131074, 2, 0)
@@ -45,12 +45,12 @@ tile_data = PackedInt32Array(65536, 2, 0, 131072, 2, 0, 1, 2, 0, 65537, 1, 0, 13
 tile_data = PackedInt32Array(65536, 1, 0, 131072, 1, 0, 1, 1, 0, 65537, 2, 0, 131073, 1, 0, 65538, 1, 0, 131074, 1, 0)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q2qlk"]
-texture = ExtResource("3_0cy3w")
+texture = ExtResource("3_m6uv6")
 texture_region_size = Vector2i(100, 100)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ll8g0"]
-texture = ExtResource("4_yfp60")
+texture = ExtResource("4_qwsep")
 texture_region_size = Vector2i(100, 100)
 0:0/0 = 0
 
@@ -149,7 +149,7 @@ Button/colors/font_hover_pressed_color = Color(0, 0.227451, 0, 1)
 Button/colors/font_pressed_color = Color(0, 0.376471, 0, 1)
 Button/constants/outline_size = 7
 Button/font_sizes/font_size = 50
-Button/fonts/font = ExtResource("6_7goip")
+Button/fonts/font = ExtResource("6_aa5e1")
 Button/styles/disabled = SubResource("StyleBoxFlat_42g74")
 Button/styles/focus = SubResource("StyleBoxEmpty_0cfwl")
 Button/styles/hover = SubResource("StyleBoxFlat_46vvw")
@@ -157,7 +157,7 @@ Button/styles/normal = SubResource("StyleBoxFlat_gqslq")
 Button/styles/pressed = SubResource("StyleBoxFlat_24651")
 
 [sub_resource type="LabelSettings" id="LabelSettings_8rd6i"]
-font = ExtResource("8_nsefq")
+font = ExtResource("8_m0y7d")
 font_size = 60
 font_color = Color(0.909804, 1, 0.172549, 1)
 outline_size = 9
@@ -166,22 +166,22 @@ shadow_size = 10
 shadow_color = Color(0, 0, 0, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2il77"]
-texture = ExtResource("11_himyv")
+texture = ExtResource("11_bxbem")
 expand_margin_left = 20.0
 expand_margin_top = 8.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_6qc2t"]
-font = ExtResource("8_nsefq")
+font = ExtResource("8_m0y7d")
 font_size = 70
 font_color = Color(0.0901961, 0.447059, 0.152941, 1)
 outline_size = 8
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6fhtb"]
-texture = ExtResource("11_himyv")
+texture = ExtResource("11_bxbem")
 expand_margin_top = 8.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_fhkoj"]
-font = ExtResource("8_nsefq")
+font = ExtResource("8_m0y7d")
 font_size = 58
 font_color = Color(0.0901961, 0.447059, 0.152941, 1)
 outline_size = 8
@@ -189,7 +189,7 @@ outline_size = 8
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1c8n2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mxvhb"]
-texture = ExtResource("16_xy6bv")
+texture = ExtResource("16_dy6em")
 modulate_color = Color(0, 1, 0.0705882, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3nccg"]
@@ -206,33 +206,33 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="LabelSettings" id="LabelSettings_hrokh"]
-font = ExtResource("18_dt2e3")
+font = ExtResource("18_bnpql")
 font_size = 50
 font_color = Color(0.0117647, 0.160784, 1, 1)
 outline_size = 10
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_athrc"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jcj6q"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_76kk0"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gn5p4"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(70, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0mk7k"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(140, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24lmi"]
-atlas = ExtResource("21_l7thw")
+atlas = ExtResource("21_0pp8u")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h2anp"]
@@ -3201,18 +3201,18 @@ radius = 295.507
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2rdjk"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_njfyo"]
-texture = ExtResource("22_n8h0m")
+texture = ExtResource("22_8rej8")
 modulate_color = Color(0.627451, 0.627451, 0.627451, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7ns6x"]
-texture = ExtResource("22_n8h0m")
+texture = ExtResource("22_8rej8")
 modulate_color = Color(0.529412, 0.529412, 0.529412, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u3vuq"]
-texture = ExtResource("22_n8h0m")
+texture = ExtResource("22_8rej8")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_42w20"]
-texture = ExtResource("23_38o51")
+texture = ExtResource("23_jwbmp")
 
 [sub_resource type="Gradient" id="Gradient_w8l20"]
 offsets = PackedFloat32Array(0, 0.684211, 0.7)
@@ -3227,30 +3227,30 @@ fill_from = Vector2(0.5, 0.5)
 fill_to = Vector2(0, 0)
 
 [sub_resource type="LabelSettings" id="LabelSettings_rdoh8"]
-font = ExtResource("24_shkys")
+font = ExtResource("24_n57iu")
 font_size = 35
 font_color = Color(1, 0, 0.0941176, 1)
 outline_size = 6
 
 [sub_resource type="LabelSettings" id="LabelSettings_k0dc5"]
-font = ExtResource("8_nsefq")
+font = ExtResource("8_m0y7d")
 font_size = 50
 font_color = Color(0.0470588, 0.32549, 0.00392157, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jdmge"]
-texture = ExtResource("25_f8p2s")
+texture = ExtResource("25_6qxcs")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.517647, 0, 0, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5glho"]
-texture = ExtResource("25_f8p2s")
+texture = ExtResource("25_6qxcs")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.52549, 0, 0, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q01w4"]
-texture = ExtResource("25_f8p2s")
+texture = ExtResource("25_6qxcs")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.552941, 0, 0, 1)
@@ -4117,7 +4117,7 @@ tracks/41/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("2_ro5n3")]
+"values": [ExtResource("2_bdh4s")]
 }
 tracks/42/type = "value"
 tracks/42/imported = false
@@ -4129,7 +4129,7 @@ tracks/42/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("16_xy6bv")]
+"values": [ExtResource("16_dy6em")]
 }
 tracks/43/type = "value"
 tracks/43/imported = false
@@ -4515,7 +4515,7 @@ tracks/24/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("26_xy7ua")]
+"values": [ExtResource("26_8e38k")]
 }
 
 [sub_resource type="Animation" id="Animation_w6dri"]
@@ -4841,7 +4841,7 @@ tracks/26/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("27_igfye")]
+"values": [ExtResource("27_7bka0")]
 }
 tracks/27/type = "value"
 tracks/27/imported = false
@@ -4853,7 +4853,7 @@ tracks/27/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("28_rbwgy")]
+"values": [ExtResource("28_1u200")]
 }
 tracks/28/type = "value"
 tracks/28/imported = false
@@ -5203,7 +5203,7 @@ tracks/21/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("29_ir8pu")]
+"values": [ExtResource("29_1lcb2")]
 }
 tracks/22/type = "value"
 tracks/22/imported = false
@@ -5215,7 +5215,7 @@ tracks/22/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("30_g51n4")]
+"values": [ExtResource("30_hlchy")]
 }
 tracks/23/type = "value"
 tracks/23/imported = false
@@ -5736,7 +5736,7 @@ border_width_bottom = 10
 border_blend = true
 
 [sub_resource type="LabelSettings" id="LabelSettings_eq4nd"]
-font = ExtResource("6_7goip")
+font = ExtResource("6_aa5e1")
 font_size = 80
 font_color = Color(1, 0.211765, 0, 1)
 outline_size = 10
@@ -5780,26 +5780,26 @@ _data = {
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_qj1ld"]
-font = ExtResource("18_dt2e3")
+font = ExtResource("18_bnpql")
 font_size = 100
 font_color = Color(1, 0, 0.168627, 1)
 outline_size = 12
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nggdn"]
-texture = ExtResource("37_hv25t")
+texture = ExtResource("37_oeftf")
 modulate_color = Color(0.266575, 0.266575, 0.266575, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_r4mvf"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vikab"]
-texture = ExtResource("37_hv25t")
+texture = ExtResource("37_oeftf")
 modulate_color = Color(0.947199, 0.947199, 0.947199, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_m0e8h"]
-texture = ExtResource("37_hv25t")
+texture = ExtResource("37_oeftf")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kaxvt"]
-texture = ExtResource("37_hv25t")
+texture = ExtResource("37_oeftf")
 modulate_color = Color(0.796243, 0.796243, 0.796243, 1)
 
 [sub_resource type="Theme" id="Theme_1x6l1"]
@@ -5811,7 +5811,7 @@ Button/colors/font_outline_color = Color(0, 0, 0, 1)
 Button/colors/font_pressed_color = Color(0.0862745, 0.192157, 0.87451, 1)
 Button/constants/outline_size = 5
 Button/font_sizes/font_size = 40
-Button/fonts/font = ExtResource("36_2q4o2")
+Button/fonts/font = ExtResource("36_4g88t")
 Button/styles/disabled = SubResource("StyleBoxTexture_nggdn")
 Button/styles/focus = SubResource("StyleBoxEmpty_r4mvf")
 Button/styles/hover = SubResource("StyleBoxTexture_vikab")
@@ -5827,7 +5827,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_h6o3m")
+script = ExtResource("1_vbe77")
 metadata/_edit_lock_ = true
 
 [node name="TextureRect2" type="TextureRect" parent="."]
@@ -5840,7 +5840,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("2_ro5n3")
+texture = ExtResource("2_bdh4s")
 expand_mode = 1
 stretch_mode = 6
 metadata/_edit_lock_ = true
@@ -5863,7 +5863,7 @@ anchor_bottom = 0.999
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("5_kw5b1")
+texture = ExtResource("5_s0w3a")
 expand_mode = 1
 stretch_mode = 5
 metadata/_edit_use_anchors_ = true
@@ -6059,7 +6059,7 @@ texture_repeat = 2
 layout_direction = 2
 offset_right = 1.0
 offset_bottom = 132.0
-theme_override_styles/normal = ExtResource("7_r532g")
+theme_override_styles/normal = ExtResource("7_eq6dw")
 label_settings = SubResource("LabelSettings_8rd6i")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -6079,7 +6079,7 @@ offset_right = 53.0
 offset_bottom = 67.0
 grow_horizontal = 0
 grow_vertical = 2
-texture = ExtResource("9_drmg2")
+texture = ExtResource("9_dmuxf")
 expand_mode = 1
 
 [node name="TextureRect3" type="TextureRect" parent="label_pos/Label"]
@@ -6092,7 +6092,7 @@ offset_top = -2.0
 offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("10_4jwkt")
+texture = ExtResource("10_0h0kj")
 expand_mode = 1
 
 [node name="TextureRect2" type="TextureRect" parent="label_pos/Label"]
@@ -6104,7 +6104,7 @@ offset_left = -55.0
 offset_top = -68.0
 offset_bottom = 67.0
 grow_vertical = 2
-texture = ExtResource("9_drmg2")
+texture = ExtResource("9_dmuxf")
 expand_mode = 1
 stretch_mode = 5
 flip_h = true
@@ -6138,7 +6138,7 @@ offset_right = 448.0
 offset_bottom = 123.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.07
-texture = ExtResource("12_3hiys")
+texture = ExtResource("12_r4nri")
 expand_mode = 1
 
 [node name="Label3" type="Label" parent="."]
@@ -6207,8 +6207,8 @@ offset_left = 19.0
 offset_top = -1.686
 offset_right = 68.0
 offset_bottom = 43.752
-texture_normal = ExtResource("13_kmejc")
-texture_disabled = ExtResource("13_kmejc")
+texture_normal = ExtResource("13_7jh38")
+texture_disabled = ExtResource("13_7jh38")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -6220,9 +6220,9 @@ anchor_top = 0.6085
 anchor_right = 0.291
 anchor_bottom = 0.682
 grow_vertical = 2
-texture_normal = ExtResource("14_7kb42")
-texture_pressed = ExtResource("15_3fiyn")
-texture_hover = ExtResource("15_3fiyn")
+texture_normal = ExtResource("14_yg800")
+texture_pressed = ExtResource("15_6ghxh")
+texture_hover = ExtResource("15_6ghxh")
 ignore_texture_size = true
 stretch_mode = 0
 metadata/_edit_layout_mode = 1
@@ -6266,7 +6266,7 @@ size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0.886275, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 5
-theme_override_fonts/font = ExtResource("17_rnadt")
+theme_override_fonts/font = ExtResource("17_2ymyv")
 theme_override_font_sizes/font_size = 40
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -6307,7 +6307,7 @@ vertical_alignment = 1
 modulate = Color(0.12549, 0.886275, 0.701961, 1)
 position = Vector2(639, 857)
 scale = Vector2(0.135972, 0.135972)
-texture = ExtResource("19_pohua")
+texture = ExtResource("19_gblge")
 
 [node name="bee" type="Node2D" parent="."]
 position = Vector2(710, 627)
@@ -6332,7 +6332,7 @@ scale = Vector2(0.1, 0.1)
 [node name="hand_r" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(950, 1360)
 offset = Vector2(-2058, -1857)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
 uv = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
@@ -6344,7 +6344,7 @@ internal_vertex_count = 6
 texture_repeat = 2
 position = Vector2(210, 1850)
 offset = Vector2(-537, -2596)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
 uv = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
@@ -6355,7 +6355,7 @@ internal_vertex_count = 1
 [node name="body" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(570, 1420)
 offset = Vector2(-1371, -2226)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
 uv = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
@@ -6367,7 +6367,7 @@ clip_children = 2
 position = Vector2(700, 430)
 scale = Vector2(1.00828, 1.03242)
 offset = Vector2(-575.237, -1404.47)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
 uv = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
@@ -6377,7 +6377,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(-119.014, 77.488)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1375.81, -1166.16)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
 uv = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
@@ -6387,7 +6387,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(267.783, -38.7438)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1885.8, -988.161)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
 uv = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
@@ -6397,7 +6397,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0), "body/head", Packed
 texture_repeat = 2
 position = Vector2(640, 580)
 offset = Vector2(-640, -580)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
 uv = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
@@ -6408,7 +6408,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(780, 1800)
 offset = Vector2(-2161, -2546)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
 uv = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
@@ -6419,7 +6419,7 @@ internal_vertex_count = 4
 [node name="Polygon2D" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(390, 210)
 offset = Vector2(-1820, -670)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
 uv = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
@@ -6428,7 +6428,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D3" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(770, 130)
 offset = Vector2(-2150, -610)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
 uv = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
@@ -6437,7 +6437,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D2" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(890, -70)
 offset = Vector2(-2070, -330)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
 uv = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
@@ -6447,7 +6447,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 [node name="Polygon2D4" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(520, -120)
 offset = Vector2(-1700, -270)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
 uv = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
@@ -6458,7 +6458,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(110, 1410)
 offset = Vector2(-530, -1931)
-texture = ExtResource("20_2d6dl")
+texture = ExtResource("20_02nii")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
 uv = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
@@ -6657,7 +6657,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 6
-theme_override_fonts/font = ExtResource("8_nsefq")
+theme_override_fonts/font = ExtResource("8_m0y7d")
 theme_override_font_sizes/font_size = 76
 theme_override_styles/focus = SubResource("StyleBoxEmpty_2rdjk")
 theme_override_styles/hover = SubResource("StyleBoxTexture_njfyo")
@@ -6853,7 +6853,7 @@ offset_left = -63.0
 offset_right = 5.42563
 offset_bottom = 87.268
 grow_horizontal = 0
-texture_normal = ExtResource("13_kmejc")
+texture_normal = ExtResource("13_7jh38")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -6878,7 +6878,7 @@ libraries = {
 "": SubResource("AnimationLibrary_nq2lr")
 }
 
-[node name="biography" parent="." instance=ExtResource("31_afdn1")]
+[node name="biography" parent="." instance=ExtResource("31_xg5lk")]
 visible = false
 position = Vector2(4, 194)
 
@@ -6906,7 +6906,7 @@ label_settings = SubResource("LabelSettings_eq4nd")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="satan" parent="." instance=ExtResource("32_tyajg")]
+[node name="satan" parent="." instance=ExtResource("32_kvqdx")]
 position = Vector2(-46, 516)
 scale = Vector2(1.24, 1.24)
 
@@ -6946,7 +6946,7 @@ offset_bottom = -6.10352e-05
 columns = 6
 metadata/_edit_use_anchors_ = true
 
-[node name="box_word" parent="GridContainer2" instance=ExtResource("33_yhspe")]
+[node name="box_word" parent="GridContainer2" instance=ExtResource("33_qphrk")]
 custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
 size_flags_horizontal = 6
@@ -6955,7 +6955,7 @@ size_flags_vertical = 6
 [node name="options" type="Node2D" parent="."]
 position = Vector2(81, 1183)
 
-[node name="Area2D" parent="." groups=["jar"] instance=ExtResource("34_b7d60")]
+[node name="Area2D" parent="." groups=["jar"] instance=ExtResource("34_2om5u")]
 visible = false
 position = Vector2(378, 1060)
 
@@ -6983,7 +6983,7 @@ label_settings = SubResource("LabelSettings_qj1ld")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="PopupMenu" parent="." instance=ExtResource("35_5cktq")]
+[node name="PopupMenu" parent="." instance=ExtResource("35_ntcbp")]
 position = Vector2i(40, 80)
 size = Vector2i(350, 400)
 visible = false

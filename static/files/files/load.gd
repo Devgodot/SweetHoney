@@ -145,7 +145,6 @@ func _on_http_request_request_completed(body:Array):
 				http.queue_free()
 				return self
 func _process(delta):
-
 	if load_data and !update_game2 and job_complate  and !$login.visible:
 		load_complate = true
 		$Timer.stop()

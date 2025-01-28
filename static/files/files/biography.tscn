@@ -1,14 +1,14 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://script/biography.gd" id="1_hqk4r"]
-[ext_resource type="Texture2D" uid="uid://cuduuiyh54dhw" path="res://sprite/flower2.png" id="2_auden"]
+[ext_resource type="Script" path="res://script/biography.gd" id="1_k6juw"]
+[ext_resource type="Texture2D" path="res://sprite/flower2.png" id="2_1aol2"]
 
 [node name="biography" type="Node2D"]
-script = ExtResource("1_hqk4r")
+script = ExtResource("1_k6juw")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 400.0
 offset_bottom = 400.0
-texture = ExtResource("2_auden")
+texture = ExtResource("2_1aol2")
 expand_mode = 1
 stretch_mode = 5

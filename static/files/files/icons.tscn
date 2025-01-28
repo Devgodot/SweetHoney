@@ -1,10 +1,10 @@
 [gd_scene load_steps=33 format=3]
 
-[ext_resource type="Script" path="res://script/icons.gd" id="1_hwria"]
-[ext_resource type="Texture2D" uid="uid://4goavpvpka03" path="res://sprite/122932.png" id="2_hcmt7"]
-[ext_resource type="FontFile" uid="uid://doy1oy3h7uje" path="res://fonts/BZarBd.ttf" id="3_nsq3s"]
-[ext_resource type="FontFile" uid="uid://m51h310jhiit" path="res://fonts/BRoyaBd.ttf" id="4_pj2bt"]
-[ext_resource type="Texture2D" uid="uid://crip4nfsqx5un" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="5_586vj"]
+[ext_resource type="Script" path="res://script/icons.gd" id="1_q43s4"]
+[ext_resource type="Texture2D" path="res://sprite/122932.png" id="2_sugy0"]
+[ext_resource type="FontFile" path="res://fonts/BZarBd.ttf" id="3_pbpts"]
+[ext_resource type="FontFile" path="res://fonts/BRoyaBd.ttf" id="4_274jq"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="5_br3ln"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yfm7r"]
 
@@ -48,7 +48,7 @@ corner_radius_bottom_left = 10
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yeuo0"]
 
 [sub_resource type="Theme" id="Theme_vwmm3"]
-default_font = ExtResource("3_nsq3s")
+default_font = ExtResource("3_pbpts")
 Button/styles/disabled = SubResource("StyleBoxEmpty_smc5s")
 Button/styles/focus = SubResource("StyleBoxEmpty_4iguq")
 Button/styles/hover = SubResource("StyleBoxEmpty_swo23")
@@ -210,7 +210,7 @@ current_screen = 0
 visible = true
 max_size = Vector2i(740, 800)
 theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
-script = ExtResource("1_hwria")
+script = ExtResource("1_q43s4")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 offset_right = 740.0
@@ -233,7 +233,7 @@ layout_mode = 2
 [node name="TextureRect" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(80, 50)
 layout_mode = 2
-texture = ExtResource("2_hcmt7")
+texture = ExtResource("2_sugy0")
 expand_mode = 1
 stretch_mode = 5
 
@@ -290,6 +290,7 @@ text = "<"
 [node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_constants/separation = 55
 
 [node name="Button2" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
 layout_mode = 2
@@ -389,7 +390,7 @@ custom_minimum_size = Vector2(80, 45)
 offset_right = 740.0
 offset_bottom = 800.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_fonts/normal_font = ExtResource("4_pj2bt")
+theme_override_fonts/normal_font = ExtResource("4_274jq")
 theme_override_font_sizes/normal_font_size = 35
 bbcode_enabled = true
 text = "قاسم سلیمانی"
@@ -404,7 +405,7 @@ size = Vector2i(740, 800)
 texture_repeat = 2
 position = Vector2(81.5, 42.5)
 scale = Vector2(1.415, 1.415)
-texture = ExtResource("5_586vj")
+texture = ExtResource("5_br3ln")
 region_rect = Rect2(418, 405, 163, 85)
 
 [node name="TextureRect2" type="TextureRect" parent="SubViewport2"]

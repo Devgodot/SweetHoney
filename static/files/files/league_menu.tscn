@@ -1,33 +1,33 @@
 [gd_scene load_steps=75 format=3]
 
-[ext_resource type="Script" path="res://script/league_menu.gd" id="1_5f3rk"]
-[ext_resource type="Texture2D" uid="uid://ci4jqpxx0yj67" path="res://sprite/لیگ.jpg" id="2_cjwl8"]
-[ext_resource type="Shader" path="res://shaders/light.gdshader" id="3_lrwtj"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="4_ctkd2"]
-[ext_resource type="Texture2D" uid="uid://c6q4kr4mrdrcx" path="res://sprite/Layer 43 copy.png" id="5_4h2sl"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="6_rj1ve"]
-[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="7_te34g"]
-[ext_resource type="PackedScene" uid="uid://5l827jhuyqn6" path="res://scenes/bee2.tscn" id="8_iyiro"]
-[ext_resource type="Texture2D" uid="uid://dtuqgtke472tc" path="res://sprite/Untitled_۲۰۲۴۱۱۱۶_۲۰۳۲۴۸2.png" id="9_vy2fq"]
-[ext_resource type="Texture2D" uid="uid://dm7scm51orim7" path="res://sprite/Untitled_۲۰۲۴۱۱۱۶_۲۰۳۲۴۸.png" id="10_cgsxw"]
-[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="11_41wxa"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="12_6ypdp"]
-[ext_resource type="Texture2D" uid="uid://h3ot5t4ktfgk" path="res://sprite/Layer 38 copy 2.png" id="13_77vah"]
-[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="14_rmpa7"]
-[ext_resource type="Script" path="res://script/scaler.gd" id="15_y54wa"]
-[ext_resource type="Script" path="res://script/light.gd" id="16_wwq2h"]
-[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="17_yv0su"]
-[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="18_mkwh7"]
-[ext_resource type="Texture2D" uid="uid://x50koawm04kx" path="res://sprite/Layer 6.png" id="19_6habp"]
-[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="20_t2caq"]
-[ext_resource type="FontFile" uid="uid://4wtr1qx8p8jh" path="res://fonts/AbdoMaster-Black_p30download.com.otf" id="21_vdgrp"]
-[ext_resource type="FontFile" uid="uid://byi8vo42aogla" path="res://fonts/Afaaq_MRT.ttf" id="22_kiawo"]
-[ext_resource type="Texture2D" uid="uid://b2lym5upwxrsl" path="res://sprite/Untitled_۲۰۲۴۱۲۰۸_۱۰۵۱۳۸.png" id="23_trdk1"]
-[ext_resource type="FontFile" uid="uid://bo1aqrd738l82" path="res://fonts/BZar.ttf" id="24_id3yn"]
-[ext_resource type="Texture2D" uid="uid://dw2lwwma0wlep" path="res://sprite/Untitled-8.png" id="25_oq6y5"]
+[ext_resource type="Script" path="res://script/league_menu.gd" id="1_ki8vs"]
+[ext_resource type="Texture2D" path="res://sprite/لیگ.jpg" id="2_06ynw"]
+[ext_resource type="Shader" path="res://shaders/light.gdshader" id="3_uo4w0"]
+[ext_resource type="FontFile" path="res://fonts/Aviny2-mfnbbn.ttf" id="4_vxv4b"]
+[ext_resource type="Texture2D" path="res://sprite/Layer 43 copy.png" id="5_14mi8"]
+[ext_resource type="FontFile" path="res://fonts/B Traffic Bold_0.ttf" id="6_gyho6"]
+[ext_resource type="Texture2D" path="res://sprite/user_img.png" id="7_tnu6t"]
+[ext_resource type="PackedScene" path="res://scenes/bee2.tscn" id="8_4r1mc"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۱۱۶_۲۰۳۲۴۸2.png" id="9_cqa8m"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۱۱۶_۲۰۳۲۴۸.png" id="10_e1wuu"]
+[ext_resource type="PackedScene" path="res://scenes/timer.tscn" id="11_burq6"]
+[ext_resource type="FontFile" path="res://fonts/B Titr Bold_0.ttf" id="12_upmub"]
+[ext_resource type="Texture2D" path="res://sprite/Layer 38 copy 2.png" id="13_r2rr7"]
+[ext_resource type="FontFile" path="res://fonts/IR Morabba Regular.ttf" id="14_v1g6m"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="15_xo5da"]
+[ext_resource type="Script" path="res://script/light.gd" id="16_mtrf1"]
+[ext_resource type="Texture2D" path="res://sprite/2نور.png" id="17_srn6m"]
+[ext_resource type="Texture2D" path="res://sprite/honey_drop.png" id="18_jf7l2"]
+[ext_resource type="Texture2D" path="res://sprite/Layer 6.png" id="19_dfg3h"]
+[ext_resource type="FontFile" path="res://fonts/BTitrBd.ttf" id="20_bu7xj"]
+[ext_resource type="FontFile" path="res://fonts/AbdoMaster-Black_p30download.com.otf" id="21_a41xs"]
+[ext_resource type="FontFile" path="res://fonts/Afaaq_MRT.ttf" id="22_82kwr"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled_۲۰۲۴۱۲۰۸_۱۰۵۱۳۸.png" id="23_wjerh"]
+[ext_resource type="FontFile" path="res://fonts/BZar.ttf" id="24_fnhlc"]
+[ext_resource type="Texture2D" path="res://sprite/Untitled-8.png" id="25_4tifk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ayxnk"]
-shader = ExtResource("3_lrwtj")
+shader = ExtResource("3_uo4w0")
 shader_parameter/waite_time = 3
 shader_parameter/speed = 80.0
 shader_parameter/down = false
@@ -43,7 +43,7 @@ shader_parameter/move_range = Vector2(0, 0)
 shader_parameter/move_speed = 1.0
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ily36"]
-shader = ExtResource("3_lrwtj")
+shader = ExtResource("3_uo4w0")
 shader_parameter/waite_time = 2
 shader_parameter/speed = 80.0
 shader_parameter/down = false
@@ -71,7 +71,7 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="LabelSettings" id="LabelSettings_y0u4p"]
-font = ExtResource("4_ctkd2")
+font = ExtResource("4_vxv4b")
 font_size = 50
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bfr2w"]
@@ -83,7 +83,7 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fepvw"]
-texture = ExtResource("5_4h2sl")
+texture = ExtResource("5_14mi8")
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 region_rect = Rect2(58.6269, 43.6908, 27.8781, 17.9859)
@@ -99,7 +99,7 @@ border_color = Color(0, 0, 0, 1)
 border_blend = true
 
 [sub_resource type="LabelSettings" id="LabelSettings_oyvof"]
-font = ExtResource("6_rj1ve")
+font = ExtResource("6_gyho6")
 font_size = 60
 font_color = Color(0, 0, 0, 1)
 outline_size = 10
@@ -146,26 +146,26 @@ viewport_path = NodePath("SubViewport4")
 viewport_path = NodePath("SubViewport5")
 
 [sub_resource type="LabelSettings" id="LabelSettings_fykt6"]
-font = ExtResource("12_6ypdp")
+font = ExtResource("12_upmub")
 font_size = 50
 font_color = Color(1, 0.211765, 0.0313726, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_5s46l"]
-font = ExtResource("12_6ypdp")
+font = ExtResource("12_upmub")
 font_size = 29
 font_color = Color(0.356863, 0, 0, 1)
 outline_size = 10
 
 [sub_resource type="FontVariation" id="FontVariation_whtqm"]
-base_font = ExtResource("14_rmpa7")
+base_font = ExtResource("14_v1g6m")
 spacing_top = 20
 spacing_bottom = -120
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
-script = ExtResource("15_y54wa")
+script = ExtResource("15_xo5da")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
-script = ExtResource("16_wwq2h")
+script = ExtResource("16_mtrf1")
 
 [sub_resource type="Animation" id="Animation_3mlsc"]
 length = 0.001
@@ -205,7 +205,7 @@ _data = {
 }
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yyj81"]
-atlas = ExtResource("18_mkwh7")
+atlas = ExtResource("18_jf7l2")
 region = Rect2(268.983, 41.8624, 133.672, 193.261)
 
 [sub_resource type="Curve" id="Curve_ky346"]
@@ -217,13 +217,13 @@ offsets = PackedFloat32Array(0.0133333, 0.7, 1)
 colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3p87b"]
-texture = ExtResource("19_6habp")
+texture = ExtResource("19_dfg3h")
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 region_rect = Rect2(102, 31.5, 46, 78)
 
 [sub_resource type="LabelSettings" id="LabelSettings_gk8wa"]
-font = ExtResource("20_t2caq")
+font = ExtResource("20_bu7xj")
 font_size = 48
 font_color = Color(0.0431373, 0.380392, 0, 1)
 outline_size = 12
@@ -231,7 +231,7 @@ shadow_size = 15
 shadow_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_e02bc"]
-font = ExtResource("21_vdgrp")
+font = ExtResource("21_a41xs")
 font_size = 61
 font_color = Color(1, 0, 0, 1)
 outline_size = 13
@@ -239,13 +239,13 @@ shadow_size = 19
 shadow_color = Color(0, 0, 0, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pvhxv"]
-texture = ExtResource("23_trdk1")
+texture = ExtResource("23_wjerh")
 modulate_color = Color(1, 0.266667, 0.266667, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2bclb"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t1ql4"]
-texture = ExtResource("23_trdk1")
+texture = ExtResource("23_wjerh")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ant5h"]
 bg_color = Color(0.0280529, 0.27575, 0, 1)
@@ -268,7 +268,7 @@ corner_radius_top_left = 15
 corner_radius_top_right = 15
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ql2m"]
-texture = ExtResource("25_oq6y5")
+texture = ExtResource("25_4tifk")
 modulate_color = Color(0.470588, 0.341176, 0.368627, 1)
 
 [sub_resource type="Theme" id="Theme_qod0j"]
@@ -281,7 +281,7 @@ Button/colors/font_outline_color = Color(1, 1, 1, 1)
 Button/colors/font_pressed_color = Color(0, 0.258824, 0, 1)
 Button/constants/outline_size = 7
 Button/font_sizes/font_size = 43
-Button/fonts/font = ExtResource("22_kiawo")
+Button/fonts/font = ExtResource("22_82kwr")
 Button/styles/disabled = SubResource("StyleBoxTexture_pvhxv")
 Button/styles/focus = SubResource("StyleBoxEmpty_2bclb")
 Button/styles/hover = SubResource("StyleBoxTexture_t1ql4")
@@ -293,9 +293,9 @@ Label/colors/font_shadow_color = Color(1, 1, 1, 1)
 Label/constants/outline_size = 6
 Label/constants/shadow_outline_size = 16
 Label/font_sizes/font_size = 32
-Label/fonts/font = ExtResource("21_vdgrp")
+Label/fonts/font = ExtResource("21_a41xs")
 LineEdit/font_sizes/font_size = 50
-LineEdit/fonts/font = ExtResource("24_id3yn")
+LineEdit/fonts/font = ExtResource("24_fnhlc")
 LineEdit/styles/focus = SubResource("StyleBoxFlat_ant5h")
 LineEdit/styles/normal = SubResource("StyleBoxFlat_g0sn0")
 PanelContainer/styles/panel = SubResource("StyleBoxTexture_4ql2m")
@@ -398,7 +398,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_5f3rk")
+script = ExtResource("1_ki8vs")
 need_score = 1000
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -408,7 +408,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_cjwl8")
+texture = ExtResource("2_06ynw")
 
 [node name="Sprite2D" type="Polygon2D" parent="."]
 light_mask = 5
@@ -416,7 +416,7 @@ texture_repeat = 2
 material = SubResource("ShaderMaterial_ayxnk")
 position = Vector2(0.0122165, 0.0152288)
 scale = Vector2(1.96084, 1.96084)
-texture = ExtResource("2_cjwl8")
+texture = ExtResource("2_06ynw")
 polygon = PackedVector2Array(-0.239639, 489.194, 109.935, 419.973, 84.4722, 355.75, 53.7951, 323.641, 22.9546, 256.852, 16.3058, 184.75, 55.1166, 84.2206, 82.2732, 49.6586, 113.133, 17.5648, 128.51, 0.292501, 72.6997, -0.789101, -0.633015, 0.725142, -0.239655, 330.922)
 uv = PackedVector2Array(-0.239639, 489.194, 109.935, 419.973, 84.4722, 355.75, 53.7951, 323.641, 22.9546, 256.852, 16.3058, 184.75, 55.1166, 84.2206, 82.2732, 49.6586, 113.133, 17.5648, 128.51, 0.292501, 72.6997, -0.789101, -0.633015, 0.725142, -0.239655, 330.922)
 
@@ -426,7 +426,7 @@ texture_repeat = 2
 material = SubResource("ShaderMaterial_ily36")
 position = Vector2(997, -2)
 scale = Vector2(-1.961, 1.961)
-texture = ExtResource("2_cjwl8")
+texture = ExtResource("2_06ynw")
 polygon = PackedVector2Array(-0.239639, 489.194, 109.935, 419.973, 84.4722, 355.75, 53.7951, 323.641, 22.9546, 256.852, 16.3058, 184.75, 55.1166, 84.2206, 82.2732, 49.6586, 113.133, 17.5648, 128.51, 0.292501, 72.6997, -0.789101, -0.633015, 0.725142, -0.239655, 330.922)
 uv = PackedVector2Array(-0.239639, 489.194, 109.935, 419.973, 84.4722, 355.75, 53.7951, 323.641, 22.9546, 256.852, 16.3058, 184.75, 55.1166, 84.2206, 82.2732, 49.6586, 113.133, 17.5648, 128.51, 0.292501, 72.6997, -0.789101, -0.633015, 0.725142, -0.239655, 330.922)
 
@@ -553,7 +553,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_te34g")
+texture = ExtResource("7_tnu6t")
 expand_mode = 1
 stretch_mode = 5
 
@@ -577,7 +577,7 @@ color = Color(0.882353, 1, 0, 1)
 color_ramp = SubResource("Gradient_finu8")
 hue_variation_max = 1.0
 
-[node name="bee" parent="." instance=ExtResource("8_iyiro")]
+[node name="bee" parent="." instance=ExtResource("8_4r1mc")]
 position = Vector2(514, 530)
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="."]
@@ -588,8 +588,8 @@ offset_right = 540.0
 offset_bottom = 775.0
 fill_mode = 3
 nine_patch_stretch = true
-texture_under = ExtResource("9_vy2fq")
-texture_progress = ExtResource("10_cgsxw")
+texture_under = ExtResource("9_cqa8m")
+texture_progress = ExtResource("10_e1wuu")
 
 [node name="Button2" type="TextureButton" parent="."]
 layout_mode = 0
@@ -622,7 +622,7 @@ texture_normal = SubResource("ViewportTexture_bvqx2")
 ignore_texture_size = true
 stretch_mode = 0
 
-[node name="timer" parent="." instance=ExtResource("11_41wxa")]
+[node name="timer" parent="." instance=ExtResource("11_burq6")]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -636,7 +636,7 @@ text = "xx:xx:xx"
 label_settings = SubResource("LabelSettings_fykt6")
 mode = 0
 
-[node name="timer2" parent="." instance=ExtResource("11_41wxa")]
+[node name="timer2" parent="." instance=ExtResource("11_burq6")]
 visible = false
 layout_mode = 1
 anchors_preset = 5
@@ -679,7 +679,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("13_77vah")
+texture = ExtResource("13_r2rr7")
 expand_mode = 1
 flip_h = true
 
@@ -704,7 +704,7 @@ custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffe
 position = Vector2(100, 100)
 color = Color(1, 1, 0, 1)
 energy = 16.0
-texture = ExtResource("17_yv0su")
+texture = ExtResource("17_srn6m")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport3"]
 libraries = {
@@ -722,7 +722,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("13_77vah")
+texture = ExtResource("13_r2rr7")
 expand_mode = 1
 
 [node name="Label2" type="RichTextLabel" parent="SubViewport4"]
@@ -735,7 +735,7 @@ theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
 theme_override_constants/outline_size = 11
 theme_override_constants/shadow_outline_size = 18
-theme_override_fonts/normal_font = ExtResource("14_rmpa7")
+theme_override_fonts/normal_font = ExtResource("14_v1g6m")
 theme_override_font_sizes/normal_font_size = 55
 bbcode_enabled = true
 text = "[light freq=20 len=50 num=2 color=yellow][scaler min=1 max=1.2 freq=2][center]مراحل"
@@ -745,7 +745,7 @@ custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffe
 position = Vector2(100, 100)
 color = Color(1, 1, 0, 1)
 energy = 16.0
-texture = ExtResource("17_yv0su")
+texture = ExtResource("17_srn6m")
 texture_scale = 1.2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport4"]
@@ -764,7 +764,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("13_77vah")
+texture = ExtResource("13_r2rr7")
 expand_mode = 1
 
 [node name="Label2" type="RichTextLabel" parent="SubViewport5"]
@@ -777,7 +777,7 @@ theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
 theme_override_constants/outline_size = 11
 theme_override_constants/shadow_outline_size = 18
-theme_override_fonts/normal_font = ExtResource("14_rmpa7")
+theme_override_fonts/normal_font = ExtResource("14_v1g6m")
 theme_override_font_sizes/normal_font_size = 55
 bbcode_enabled = true
 text = "[light freq=20 len=50 num=2 color=yellow][scaler min=1 max=1.2 freq=2][center]آغاز"
@@ -787,7 +787,7 @@ custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffe
 position = Vector2(100, 100)
 color = Color(1, 1, 0, 1)
 energy = 16.0
-texture = ExtResource("17_yv0su")
+texture = ExtResource("17_srn6m")
 texture_scale = 1.2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport5"]

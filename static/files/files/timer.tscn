@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="1_20fs7"]
-[ext_resource type="Script" path="res://script/time.gd" id="2_xb7g3"]
+[ext_resource type="FontFile" path="res://fonts/B Titr Bold_0.ttf" id="1_dkl1e"]
+[ext_resource type="Script" path="res://script/time.gd" id="2_dhbqv"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_aj6xm"]
-font = ExtResource("1_20fs7")
+font = ExtResource("1_dkl1e")
 font_size = 100
 font_color = Color(0, 0, 0, 1)
 outline_size = 15
@@ -18,7 +18,7 @@ grow_vertical = 2
 label_settings = SubResource("LabelSettings_aj6xm")
 horizontal_alignment = 1
 vertical_alignment = 1
-script = ExtResource("2_xb7g3")
+script = ExtResource("2_dhbqv")
 mode = 1
 open_time = {
 "day": 24,

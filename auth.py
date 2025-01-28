@@ -305,19 +305,20 @@ def answer_league():
                             correct_answers.append(answer[0])
                     for answer in user_answers:
                         if answer in correct_answers:
-                            score += level_score
+                            score += int(level_score / len(correct_answers))
                         else:
-                            score -= level_score
+                            score -= int(level_score / len(correct_answers))
                     if user_answers == correct_answers:
                         lvl += 1
                 if state == 4:
                     answers = level.get("answers")
+                    
                     for answer in user_answers:
                         if answer in answers:
-                            score += level_score
+                            score += int(level_score / len(answers))
                         else:
                             if answer != "":
-                                score -= level_score
+                                score -= int(level_score / len(answers))
                     if user_answers == answers:
                         lvl += 1
                 if state == 5:

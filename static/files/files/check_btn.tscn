@@ -1,13 +1,13 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="Texture2D" uid="uid://cd2fbe3vl1qb" path="res://sprite/pngimg.com - question_mark_PNG126.png" id="1_qg84p"]
+[ext_resource type="Texture2D" path="res://sprite/pngimg.com - question_mark_PNG126.png" id="1_jfyms"]
 
 [node name="TextureButton" type="TextureButton"]
 offset_right = 18.0
 offset_bottom = 18.0
-texture_normal = ExtResource("1_qg84p")
-texture_pressed = ExtResource("1_qg84p")
-texture_hover = ExtResource("1_qg84p")
-texture_focused = ExtResource("1_qg84p")
+texture_normal = ExtResource("1_jfyms")
+texture_pressed = ExtResource("1_jfyms")
+texture_hover = ExtResource("1_jfyms")
+texture_focused = ExtResource("1_jfyms")
 ignore_texture_size = true
 stretch_mode = 5
