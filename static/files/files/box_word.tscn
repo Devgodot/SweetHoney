@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Texture2D" uid="uid://beahknjx17iyr" path="res://sprite/asal-kv-Tarh.ir5-3-b.png" id="1_b6x7x"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="2_83iho"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tpw4e"]
+texture = ExtResource("1_b6x7x")
+
+[sub_resource type="LabelSettings" id="LabelSettings_15pxp"]
+font = ExtResource("2_83iho")
+font_size = 70
+font_color = Color(0, 0, 0, 1)
+outline_size = 10
+shadow_size = 15
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Curve" id="Curve_vrqyj"]
+min_value = -360.0
+max_value = 360.0
+_data = [Vector2(0, -360), 0.0, 0.0, 0, 0, Vector2(1, 360), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_ukvg2"]
+curve = SubResource("Curve_vrqyj")
+
+[sub_resource type="Curve" id="Curve_j8ac4"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.336364), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_r1aa8"]
+curve = SubResource("Curve_j8ac4")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_8230j"]
+particle_flag_disable_z = true
+emission_shape = 2
+emission_sphere_radius = 22.31
+angle_curve = SubResource("CurveTexture_ukvg2")
+gravity = Vector3(0, -98, 0)
+linear_accel_min = 20.41
+linear_accel_max = 100.0
+radial_accel_min = 34.69
+radial_accel_max = 46.94
+scale_max = 1.6
+scale_curve = SubResource("CurveTexture_r1aa8")
+color = Color(0.243137, 1, 0.176471, 1)
+hue_variation_min = -0.29
+hue_variation_max = 0.14
+turbulence_noise_strength = 8.14
+turbulence_noise_speed_random = 2.14
+turbulence_influence_min = 0.0
+turbulence_influence_max = 0.82
+turbulence_initial_displacement_min = 14.1
+turbulence_initial_displacement_max = 16.7
+
+[sub_resource type="Gradient" id="Gradient_0jb7n"]
+offsets = PackedFloat32Array(0, 0.708075, 0.819876)
+colors = PackedColorArray(0.980392, 0.952941, 0, 1, 0.831373, 0.278431, 0.0901961, 1, 0.905882, 0.905882, 0.905882, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_2ughb"]
+gradient = SubResource("Gradient_0jb7n")
+width = 10
+height = 10
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0, 0)
+
+[node name="box_word" type="Label"]
+offset_right = 130.0
+offset_bottom = 130.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_tpw4e")
+label_settings = SubResource("LabelSettings_15pxp")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+position = Vector2(48, 92)
+emitting = false
+amount = 20
+process_material = SubResource("ParticleProcessMaterial_8230j")
+texture = SubResource("GradientTexture2D_2ughb")
+one_shot = true
+speed_scale = 1.84

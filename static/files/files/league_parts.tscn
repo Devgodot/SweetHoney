@@ -1,0 +1,388 @@
+[gd_scene load_steps=22 format=3]
+
+[ext_resource type="Script" path="res://script/league_parts.gd" id="1_mpgy7"]
+[ext_resource type="Texture2D" uid="uid://d0chy87jo2rgd" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۲۲۵۳.jpg" id="2_b88y0"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_gyx5r"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="4_37dn3"]
+[ext_resource type="Script" path="res://script/light.gd" id="5_l3dqa"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="6_6rwpy"]
+[ext_resource type="Texture2D" uid="uid://ct2xwkrdanh5" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۳۹۵۱.png" id="7_rxclt"]
+[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="8_2io57"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oqr4j"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_df2v2"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gyscw"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_df2v2")
+
+[sub_resource type="FontVariation" id="FontVariation_26jrf"]
+base_font = ExtResource("3_gyx5r")
+spacing_top = 18
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
+script = ExtResource("4_37dn3")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
+script = ExtResource("5_l3dqa")
+
+[sub_resource type="Animation" id="Animation_2j1aw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect/PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_cns2u"]
+resource_name = "rot"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect/PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_r6yvm"]
+_data = {
+"RESET": SubResource("Animation_2j1aw"),
+"rot": SubResource("Animation_cns2u")
+}
+
+[sub_resource type="Gradient" id="Gradient_kkhe6"]
+offsets = PackedFloat32Array(0, 0.796703, 1)
+colors = PackedColorArray(0.960784, 1, 0, 1, 0.992157, 1, 0.796078, 0, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_fop7j"]
+gradient = SubResource("Gradient_kkhe6")
+width = 5
+height = 5
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0, 0)
+metadata/_snap_enabled = true
+
+[sub_resource type="Curve" id="Curve_ib0qk"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.157895), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_h2vwx"]
+offsets = PackedFloat32Array(0.663158, 1)
+colors = PackedColorArray(1, 1, 0, 1, 1, 1, 1, 0)
+
+[node name="Control" type="Control" groups=["parts"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mpgy7")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_b88y0")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0859375
+anchor_top = 0.198389
+anchor_right = 0.473958
+anchor_bottom = 0.442899
+offset_left = 0.0625
+offset_top = 0.222015
+offset_right = 0.0420227
+offset_bottom = -99.798
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oqr4j")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyscw")
+
+[node name="Label2" type="RichTextLabel" parent="Button"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -135.0
+offset_right = 200.0
+offset_bottom = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.164706, 0.266667, 0.47451, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_26jrf")
+theme_override_font_sizes/normal_font_size = 62
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]ساخت 
+کلمه "
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.473958
+anchor_top = 0.103221
+anchor_right = 0.871093
+anchor_bottom = 0.30161
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oqr4j")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyscw")
+
+[node name="Label2" type="RichTextLabel" parent="Button2"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.525
+offset_top = -138.831
+offset_right = 199.475
+offset_bottom = 156.169
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.164706, 0.266667, 0.47451, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_26jrf")
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]ساخت
+ کلمه
+[/center][/scaler][center][color=red][font_size=40]جدول"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0859375
+anchor_top = 0.442899
+anchor_right = 0.483073
+anchor_bottom = 0.641288
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oqr4j")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyscw")
+
+[node name="Label2" type="RichTextLabel" parent="Button3"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -75.0
+offset_right = 200.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.164706, 0.266667, 0.47451, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_26jrf")
+theme_override_font_sizes/normal_font_size = 62
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]تستی "
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.483073
+anchor_top = 0.565886
+anchor_right = 0.880208
+anchor_bottom = 0.764275
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oqr4j")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyscw")
+
+[node name="Label2" type="RichTextLabel" parent="Button4"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -196.641
+offset_top = -144.161
+offset_right = 203.359
+offset_bottom = 100.839
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.164706, 0.266667, 0.47451, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_26jrf")
+theme_override_font_sizes/normal_font_size = 62
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]اتصال
+کلمات"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button7" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.483073
+anchor_top = 0.329429
+anchor_right = 0.880208
+anchor_bottom = 0.527818
+theme_override_styles/focus = SubResource("StyleBoxEmpty_oqr4j")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_gyscw")
+theme_override_styles/normal = SubResource("StyleBoxTexture_gyscw")
+
+[node name="Label2" type="RichTextLabel" parent="Button7"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -137.0
+offset_right = 200.0
+offset_bottom = 137.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.165037, 0.265244, 0.474544, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_26jrf")
+theme_override_font_sizes/normal_font_size = 62
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]انتخاب 
+گزینه "
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button6" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.0
+offset_bottom = 111.0
+grow_horizontal = 0
+texture_normal = ExtResource("6_6rwpy")
+stretch_mode = 5
+
+[node name="SubViewport" type="SubViewport" parent="."]
+transparent_bg = true
+size = Vector2i(324, 332)
+
+[node name="TextureRect" type="TextureRect" parent="SubViewport"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_rxclt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport/TextureRect"]
+position = Vector2(162, 166)
+energy = 3.67
+texture = ExtResource("8_2io57")
+texture_scale = 1.4
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
+libraries = {
+"": SubResource("AnimationLibrary_r6yvm")
+}
+autoplay = "rot"
+
+[node name="GPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(525, 974)
+amount = 50
+lifetime = 4.0
+lifetime_randomness = 1.0
+texture = SubResource("GradientTexture2D_fop7j")
+emission_shape = 3
+emission_rect_extents = Vector2(500, 1000)
+gravity = Vector2(0, 0)
+angular_velocity_min = -720.0
+angular_velocity_max = 720.0
+linear_accel_min = -100.0
+linear_accel_max = 100.0
+radial_accel_min = -100.0
+radial_accel_max = 100.0
+tangential_accel_min = -100.0
+tangential_accel_max = 100.0
+scale_amount_min = 5.0
+scale_amount_max = 10.0
+scale_amount_curve = SubResource("Curve_ib0qk")
+color = Color(0, 0.964706, 0, 1)
+color_ramp = SubResource("Gradient_h2vwx")
+hue_variation_min = -1.0
+hue_variation_max = 1.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed" binds= [0]]
+[connection signal="pressed" from="Button2" to="." method="_on_button_pressed" binds= [1]]
+[connection signal="pressed" from="Button3" to="." method="_on_button_pressed" binds= [2]]
+[connection signal="pressed" from="Button4" to="." method="_on_button_pressed" binds= [4]]
+[connection signal="pressed" from="Button7" to="." method="_on_button_pressed" binds= [3]]
+[connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]

@@ -1,0 +1,196 @@
+[gd_scene load_steps=14 format=3]
+
+[ext_resource type="Texture2D" uid="uid://bwylog0tjvnpt" path="res://sprite/honey_wood.png" id="1_piq1n"]
+[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="2_67lsr"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_t032b"]
+[ext_resource type="Texture2D" uid="uid://x5ixvbs26pb8" path="res://sprite/default.png" id="4_j3cds"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xhceu"]
+
+[sub_resource type="Gradient" id="Gradient_prjte"]
+offsets = PackedFloat32Array(0, 0.574194)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_5a5uo"]
+gradient = SubResource("Gradient_prjte")
+width = 500
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cnda2"]
+bg_color = Color(0.360784, 0.45098, 0.47451, 1)
+border_width_left = 20
+border_width_top = 20
+border_width_right = 20
+border_width_bottom = 20
+border_blend = true
+corner_radius_top_left = 50
+corner_radius_bottom_right = 50
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jb6ga"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_upmq0"]
+bg_color = Color(1, 0.658824, 0.129412, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(1, 0.984314, 0.0352941, 1)
+corner_radius_top_left = 50
+corner_radius_bottom_right = 50
+
+[sub_resource type="Gradient" id="Gradient_ddm6w"]
+offsets = PackedFloat32Array(0, 0.678947, 0.736842, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.0620721, 0.0677154, 0.146768, 1, 1, 1, 1, 0, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_gy0v6"]
+gradient = SubResource("Gradient_ddm6w")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ntyr0"]
+font = ExtResource("3_t032b")
+font_size = 24
+font_color = Color(1, 0, 0, 1)
+
+[node name="HBoxContainer4" type="PopupPanel"]
+transparent_bg = true
+size = Vector2i(500, 400)
+visible = true
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.6, 0.6)
+
+[node name="Panel" type="Panel" parent="Control"]
+light_mask = 2
+layout_mode = 2
+offset_right = 680.0
+offset_bottom = 300.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxTexture_xhceu")
+metadata/_edit_use_anchors_ = true
+
+[node name="PointLight2D2" type="PointLight2D" parent="Control/Panel"]
+position = Vector2(501, 223)
+scale = Vector2(0.484, 1)
+range_item_cull_mask = 2
+texture = SubResource("GradientTexture2D_5a5uo")
+
+[node name="Label" type="LineEdit" parent="Control/Panel"]
+light_mask = 2
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -320.0
+offset_top = 100.0
+offset_right = 26.0
+offset_bottom = 204.0
+grow_horizontal = 0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.188235, 0.0431373, 0.603922, 1)
+theme_override_colors/font_selected_color = Color(0, 1, 0, 1)
+theme_override_colors/font_uneditable_color = Color(0.905882, 0.282353, 0, 1)
+theme_override_colors/font_placeholder_color = Color(0, 0, 0, 0.533333)
+theme_override_colors/font_outline_color = Color(0.992157, 0.992157, 0.992157, 1)
+theme_override_colors/selection_color = Color(0, 0.87451, 0.976471, 1)
+theme_override_colors/clear_button_color = Color(0.992157, 0, 0, 1)
+theme_override_colors/clear_button_color_pressed = Color(0.933333, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_cnda2")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_jb6ga")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_upmq0")
+placeholder_text = "نام خود را بنویسید"
+alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="Control/Panel/Label"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 40.0
+grow_horizontal = 0
+texture_normal = ExtResource("1_piq1n")
+ignore_texture_size = true
+stretch_mode = 0
+flip_h = true
+
+[node name="TextureRect" type="TextureRect" parent="Control/Panel"]
+clip_children = 2
+layout_mode = 1
+offset_left = 22.0
+offset_top = 27.0
+offset_right = 272.0
+offset_bottom = 277.0
+texture = SubResource("GradientTexture2D_gy0v6")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="Control/Panel/TextureRect"]
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(125, 125)
+size_flags_horizontal = 3
+texture = ExtResource("2_67lsr")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="Control/Panel/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -73.0
+offset_top = -20.0
+offset_right = 73.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "تصویر خود را انتخاب کنید"
+label_settings = SubResource("LabelSettings_ntyr0")
+
+[node name="TextureButton2" type="TextureButton" parent="Control/Panel"]
+visible = false
+layout_mode = 1
+offset_left = 22.224
+offset_top = 27.458
+offset_right = 62.224
+offset_bottom = 67.458
+texture_normal = ExtResource("4_j3cds")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="TextureButton" type="TextureButton" parent="Control/Panel"]
+visibility_layer = 3
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -114.0
+offset_top = 25.0
+offset_right = -74.0
+offset_bottom = 65.0
+grow_horizontal = 2
+texture_normal = ExtResource("1_piq1n")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true

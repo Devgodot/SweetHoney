@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://script/menu.gd" id="1_tfmvb"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="2_0vtxh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ykvjc"]
+font = ExtResource("2_0vtxh")
+font_size = 30
+font_color = Color(1, 0.0431373, 0.0901961, 1)
+outline_size = 2
+outline_color = Color(0.0392157, 0.0392157, 0.0392157, 1)
+
+[node name="menu" type="Panel"]
+offset_right = 228.0
+offset_bottom = 163.0
+mouse_force_pass_scroll_events = false
+script = ExtResource("1_tfmvb")
+btn_text = PackedStringArray("آیکون ها", "انتخاب فایل")
+font = SubResource("LabelSettings_ykvjc")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 9.0
+offset_top = 8.0
+offset_right = -7.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1

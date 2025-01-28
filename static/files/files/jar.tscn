@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://script/jar.gd" id="1_u7wsf"]
+[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="2_03d54"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_edrji"]
+radius = 117.0
+height = 316.0
+
+[node name="Area2D" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_u7wsf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_edrji")
+
+[node name="Jar-of-honey-empty" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.752941)
+scale = Vector2(0.301136, 0.301136)
+texture = ExtResource("2_03d54")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(0, -169)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(81, 128, 53, 146, 27, 154, 3.7575, 159.984, -29.2516, 158.14, -63.3175, 144.301, -77, 120, -106, 50, -122, -11, -115, -60, -91, -93, -102, -186, -96, -190, -85, -128, -84, -108, -85, -89, -95, -74, -109.25, -52.4833, -113, -8, -102.795, 43.4872, -85.5919, 86.4062, -60.3412, 139.287, -39.2846, 151.188, -15.2565, 157.074, 7.74325, 156.965, 39.6955, 146.814, 58.6575, 138.724, 79.5035, 123.678, 92.3814, 93.6252, 104.207, 50.5767, 116, 1, 116, -30, 106, -68, 83, -94, 83, -117, 93, -186, 98, -188, 89, -129, 86, -106, 107, -73, 116, -49, 123, -12, 117, 20, 108, 54, 97, 97)
+
+[connection signal="area_entered" from="." to="." method="_on_body_entered"]
+[connection signal="area_exited" from="." to="." method="_on_body_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

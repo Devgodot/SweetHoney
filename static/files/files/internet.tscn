@@ -1,0 +1,118 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://script/internet.gd" id="1_0kqfi"]
+[ext_resource type="FontFile" uid="uid://ypl8tei5unmv" path="res://fonts/B Koodak Bold_0.ttf" id="2_42yl4"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_r16o7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6y8mv"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.815686, 0.839216, 0.207843, 1)
+border_blend = true
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1lqy8"]
+bg_color = Color(0.584314, 0.243137, 0.929412, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0392157, 0.8, 0.8, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1at1n"]
+bg_color = Color(0.427451, 0.113725, 0.709804, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0392157, 0.8, 0.8, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vuh4e"]
+bg_color = Color(0.627451, 0.333333, 0.956863, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0392157, 0.8, 0.8, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dhq7f"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_i8ad1"]
+font = ExtResource("3_r16o7")
+font_size = 36
+outline_size = 2
+outline_color = Color(0.247059, 0.721569, 0.584314, 1)
+
+[node name="Panel" type="Panel"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -335.0
+offset_top = -173.0
+offset_right = 335.0
+offset_bottom = 173.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6y8mv")
+script = ExtResource("1_0kqfi")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -82.0
+offset_top = -77.0
+offset_right = 83.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0.443137, 0.721569, 0.513726)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_42yl4")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_1lqy8")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1at1n")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vuh4e")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dhq7f")
+text = "باشه"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 21.0
+offset_bottom = 111.0
+grow_horizontal = 2
+text = "اتصال شما وصل نیست لطفاً اتصال خو را بررسی کنید و دوباره امتحان کنید"
+label_settings = SubResource("LabelSettings_i8ad1")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

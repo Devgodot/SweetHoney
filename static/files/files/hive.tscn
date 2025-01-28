@@ -1,0 +1,64 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Texture2D" uid="uid://c6itf7a8i78lf" path="res://sprite/hive2.png" id="1_jr4it"]
+[ext_resource type="Texture2D" uid="uid://chpqdk0ckjvei" path="res://sprite/hive.png" id="2_rtfox"]
+[ext_resource type="Script" path="res://script/hive.gd" id="3_sdgjf"]
+[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="4_2vq2m"]
+
+[sub_resource type="SystemFont" id="SystemFont_i0d2t"]
+font_names = PackedStringArray("Serif")
+font_weight = 600
+subpixel_positioning = 0
+multichannel_signed_distance_field = true
+
+[sub_resource type="FontVariation" id="FontVariation_s5b02"]
+base_font = SubResource("SystemFont_i0d2t")
+spacing_glyph = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_f10xg"]
+font = SubResource("FontVariation_s5b02")
+font_size = 28
+font_color = Color(0.0901961, 0.882353, 1, 1)
+outline_size = 2
+outline_color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+
+[node name="TextureButton4" type="TextureButton"]
+offset_right = 155.0
+offset_bottom = 156.0
+disabled = true
+texture_normal = ExtResource("1_jr4it")
+texture_disabled = ExtResource("2_rtfox")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("3_sdgjf")
+
+[node name="timer" parent="." instance=ExtResource("4_2vq2m")]
+texture_filter = 6
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.49
+anchor_right = 0.49
+anchor_bottom = 0.0
+offset_left = -57.95
+offset_top = 76.0
+offset_right = 46.05
+offset_bottom = 108.0
+grow_horizontal = 1
+grow_vertical = 1
+text = "12:00:32"
+label_settings = SubResource("LabelSettings_f10xg")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 16
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(25, 39, 77, 7, 135, 39, 79, 70)
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(75, 43)
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
+[connection signal="timeout" from="timer" to="." method="_on_timer_timeout"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

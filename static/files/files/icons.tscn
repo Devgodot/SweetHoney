@@ -1,0 +1,423 @@
+[gd_scene load_steps=33 format=3]
+
+[ext_resource type="Script" path="res://script/icons.gd" id="1_hwria"]
+[ext_resource type="Texture2D" uid="uid://4goavpvpka03" path="res://sprite/122932.png" id="2_hcmt7"]
+[ext_resource type="FontFile" uid="uid://doy1oy3h7uje" path="res://fonts/BZarBd.ttf" id="3_nsq3s"]
+[ext_resource type="FontFile" uid="uid://m51h310jhiit" path="res://fonts/BRoyaBd.ttf" id="4_pj2bt"]
+[ext_resource type="Texture2D" uid="uid://crip4nfsqx5un" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="5_586vj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yfm7r"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ecjbc"]
+viewport_path = NodePath("SubViewport2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_31lao"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_ecjbc")
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_53tk2"]
+bg_color = Color(0.174372, 0.576062, 0.130088, 1)
+border_width_bottom = 10
+border_color = Color(0.8, 0.8, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3nx47"]
+bg_color = Color(1, 0.351694, 0.181731, 1)
+border_width_bottom = 10
+border_color = Color(0.8, 0.8, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_smc5s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4iguq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_swo23"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_plu5n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yeuo0"]
+
+[sub_resource type="Theme" id="Theme_vwmm3"]
+default_font = ExtResource("3_nsq3s")
+Button/styles/disabled = SubResource("StyleBoxEmpty_smc5s")
+Button/styles/focus = SubResource("StyleBoxEmpty_4iguq")
+Button/styles/hover = SubResource("StyleBoxEmpty_swo23")
+Button/styles/normal = SubResource("StyleBoxEmpty_plu5n")
+Button/styles/pressed = SubResource("StyleBoxEmpty_yeuo0")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xwrwt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_18gld"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_61cyp"]
+bg_color = Color(1, 1, 1, 0.180392)
+border_width_left = 30
+border_width_top = 30
+border_width_right = 30
+border_width_bottom = 30
+border_blend = true
+
+[sub_resource type="Gradient" id="Gradient_pimk4"]
+offsets = PackedFloat32Array(0.48125, 0.4875, 0.6, 0.61875)
+colors = PackedColorArray(0.67451, 0.67451, 0.67451, 0, 0.67451, 0.67451, 0.67451, 1, 0.67451, 0.67451, 0.67451, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_o38ic"]
+gradient = SubResource("Gradient_pimk4")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[sub_resource type="Gradient" id="Gradient_j36i0"]
+interpolation_mode = 2
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dk3b3"]
+gradient = SubResource("Gradient_j36i0")
+width = 256
+height = 256
+fill_from = Vector2(0, 0.5)
+fill_to = Vector2(1, 0.495536)
+metadata/_snap_enabled = true
+
+[sub_resource type="Animation" id="Animation_6vmgg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_k8ypa"]
+resource_name = "rotate"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s4h28"]
+_data = {
+"RESET": SubResource("Animation_6vmgg"),
+"rotate": SubResource("Animation_k8ypa")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_verff"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="Animation" id="Animation_t1uo4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_c34md"]
+resource_name = "rotate"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_shinw"]
+_data = {
+"RESET": SubResource("Animation_t1uo4"),
+"rotate": SubResource("Animation_c34md")
+}
+
+[sub_resource type="Gradient" id="Gradient_4vtkf"]
+offsets = PackedFloat32Array(0.95625, 1)
+colors = PackedColorArray(0, 0, 0, 0, 1, 0.596078, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_220t7"]
+gradient = SubResource("Gradient_4vtkf")
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[node name="PopupPanel" type="PopupPanel"]
+transparent_bg = true
+initial_position = 3
+size = Vector2i(740, 800)
+current_screen = 0
+visible = true
+max_size = Vector2i(740, 800)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
+script = ExtResource("1_hwria")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_right = 740.0
+offset_bottom = 800.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_31lao")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(80, 50)
+layout_mode = 2
+texture = ExtResource("2_hcmt7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LineEdit" type="LineEdit" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxFlat_53tk2")
+theme_override_styles/normal = SubResource("StyleBoxFlat_3nx47")
+
+[node name="icons" type="GridContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 0
+columns = 5
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme = SubResource("Theme_vwmm3")
+alignment = 1
+
+[node name="Button3" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xwrwt")
+text = "اول"
+
+[node name="Button" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xwrwt")
+text = "<"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_18gld")
+text = ">"
+
+[node name="Button4" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_18gld")
+text = "آخر"
+
+[node name="SubViewport" type="SubViewport" parent="."]
+disable_3d = true
+transparent_bg = true
+size = Vector2i(300, 300)
+
+[node name="Panel" type="Panel" parent="SubViewport"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_61cyp")
+
+[node name="Sprite2D" type="Sprite2D" parent="SubViewport"]
+clip_children = 2
+position = Vector2(150, 150)
+scale = Vector2(0.7, 0.7)
+texture = SubResource("GradientTexture2D_o38ic")
+
+[node name="Sprite2D" type="Sprite2D" parent="SubViewport/Sprite2D"]
+texture = SubResource("GradientTexture2D_dk3b3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
+libraries = {
+"": SubResource("AnimationLibrary_s4h28")
+}
+autoplay = "rotate"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(256, 300)
+
+[node name="TextureButton" type="TextureRect" parent="." groups=["wait"]]
+visible = false
+custom_minimum_size = Vector2(140, 140)
+offset_right = 740.0
+offset_bottom = 800.0
+texture = SubResource("ViewportTexture_verff")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_shinw")
+}
+autoplay = "rotate"
+
+[node name="Button" type="Button" parent="."]
+visible = false
+offset_right = 740.0
+offset_bottom = 800.0
+theme_override_colors/font_disabled_color = Color(1, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.780392, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.886275, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(1, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 36
+text = "1"
+flat = true
+
+[node name="Label" type="RichTextLabel" parent="."]
+visible = false
+clip_contents = false
+custom_minimum_size = Vector2(80, 45)
+offset_right = 740.0
+offset_bottom = 800.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("4_pj2bt")
+theme_override_font_sizes/normal_font_size = 35
+bbcode_enabled = true
+text = "قاسم سلیمانی"
+fit_content = true
+scroll_active = false
+
+[node name="SubViewport2" type="SubViewport" parent="."]
+transparent_bg = true
+size = Vector2i(740, 800)
+
+[node name="TextureRect" type="Sprite2D" parent="SubViewport2"]
+texture_repeat = 2
+position = Vector2(81.5, 42.5)
+scale = Vector2(1.415, 1.415)
+texture = ExtResource("5_586vj")
+region_rect = Rect2(418, 405, 163, 85)
+
+[node name="TextureRect2" type="TextureRect" parent="SubViewport2"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_220t7")
+expand_mode = 1
+
+[connection signal="text_changed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/LineEdit" to="." method="_on_line_edit_text_changed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button4" to="." method="_on_button_4_pressed"]

@@ -1,0 +1,171 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="1_rd2a5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmlht"]
+bg_color = Color(0.407843, 0.694118, 0.588235, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.811765, 0.839216, 0.282353, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j7o53"]
+bg_color = Color(0.137255, 0.619608, 0.203922, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0784314, 0.462745, 0.00784314, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y2vm8"]
+bg_color = Color(0.14902, 0.682353, 0.223529, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0784314, 0.462745, 0.00784314, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ej2rh"]
+bg_color = Color(0.0745098, 0.376471, 0.113725, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.0784314, 0.462745, 0.00784314, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ralb3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ograa"]
+bg_color = Color(0.964706, 0, 0.141176, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.643137, 0.00392157, 0.105882, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lta5j"]
+bg_color = Color(1, 0.341176, 0.321569, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.643137, 0.00392157, 0.105882, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mgq2n"]
+bg_color = Color(0.631373, 0, 0.0784314, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.643137, 0.00392157, 0.105882, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_alevr"]
+font = ExtResource("1_rd2a5")
+font_size = 40
+font_color = Color(0, 0, 0, 1)
+
+[node name="PopupPanel" type="PopupPanel"]
+transparent_bg = true
+initial_position = 3
+size = Vector2i(400, 250)
+current_screen = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dmlht")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="yes" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -167.0
+offset_top = -104.0
+offset_right = -47.0
+offset_bottom = -21.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_rd2a5")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_j7o53")
+theme_override_styles/hover = SubResource("StyleBoxFlat_y2vm8")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ej2rh")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ralb3")
+text = "        بله       "
+
+[node name="no" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -342.0
+offset_top = -104.0
+offset_right = -222.0
+offset_bottom = -21.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_rd2a5")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_ograa")
+theme_override_styles/hover = SubResource("StyleBoxFlat_lta5j")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_mgq2n")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ralb3")
+text = "        نه      "
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "آیا برای این خرید مطمئن هستید؟"
+label_settings = SubResource("LabelSettings_alevr")

@@ -1,0 +1,746 @@
+[gd_scene load_steps=46 format=3]
+
+[ext_resource type="Script" path="res://script/shop.gd" id="1_vieus"]
+[ext_resource type="Texture2D" uid="uid://b5kylnw8qaerx" path="res://sprite/Layer 36.jpg" id="2_yec2c"]
+[ext_resource type="FontFile" uid="uid://b4pwk2xsrdeh4" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="3_lipnk"]
+[ext_resource type="Texture2D" uid="uid://pxkcd4jvag2v" path="res://sprite/Layer 38.png" id="4_1tgvr"]
+[ext_resource type="FontFile" uid="uid://bpsnumqo55k02" path="res://fonts/Mj_Unique Bold_0.ttf" id="5_14wi6"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="6_vwu6j"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="7_4vhu6"]
+[ext_resource type="Script" path="res://script/light.gd" id="8_8ak0w"]
+[ext_resource type="Texture2D" uid="uid://c6xskr180xjut" path="res://sprite/Untitled_۲۰۲۴۱۱۲۹_۱۰۲۱۱۰ (1).png" id="9_gp5xs"]
+[ext_resource type="Texture2D" uid="uid://drsb1gxr64to" path="res://sprite/Untitled_۲۰۲۴۱۱۲۹_۱۰۲۱۱۰ (1)_d.png" id="10_k2mpk"]
+[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="11_wnl32"]
+[ext_resource type="Texture2D" uid="uid://bfg727r7e4vfl" path="res://sprite/honey4.png" id="12_fdayd"]
+[ext_resource type="Texture2D" uid="uid://b4su2mkc7d3wq" path="res://sprite/honey3.png" id="13_t6fcw"]
+[ext_resource type="PackedScene" uid="uid://cdfreyppromea" path="res://scenes/buy_purchases.tscn" id="14_5j1kt"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="15_vh545"]
+[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="16_0msmu"]
+[ext_resource type="Texture2D" uid="uid://h3ot5t4ktfgk" path="res://sprite/Layer 38 copy 2.png" id="17_vhdcq"]
+[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="18_65gvy"]
+
+[sub_resource type="Theme" id="Theme_an8m6"]
+Label/styles/normal = null
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_m3utc"]
+viewport_path = NodePath("SubViewport4")
+
+[sub_resource type="LabelSettings" id="LabelSettings_cv8ma"]
+font = ExtResource("3_lipnk")
+font_size = 79
+font_color = Color(0, 0, 0, 1)
+outline_size = 27
+outline_color = Color(1, 0.909804, 0.0509804, 1)
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_ceehe"]
+script = ExtResource("7_4vhu6")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_8us61"]
+script = ExtResource("8_8ak0w")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8xe2s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rlt8r"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_uexk3"]
+viewport_path = NodePath("SubViewport4")
+
+[sub_resource type="LabelSettings" id="LabelSettings_vasxk"]
+font = ExtResource("3_lipnk")
+font_size = 54
+font_color = Color(0, 0, 0, 1)
+outline_size = 27
+outline_color = Color(1, 0.909804, 0.0509804, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_f75d2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sw5bd"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jtjhw"]
+
+[sub_resource type="Theme" id="Theme_rj74u"]
+Button/styles/normal = SubResource("StyleBoxTexture_jtjhw")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_xa6sg"]
+script = ExtResource("8_8ak0w")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_vn2r6"]
+script = ExtResource("7_4vhu6")
+
+[sub_resource type="GDScript" id="GDScript_efur0"]
+script/source = "extends RichTextLabel
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	visible = !get_parent().disabled
+"
+
+[sub_resource type="FontVariation" id="FontVariation_xxm4o"]
+base_font = ExtResource("11_wnl32")
+spacing_top = 18
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
+script = ExtResource("7_4vhu6")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
+script = ExtResource("8_8ak0w")
+
+[sub_resource type="SystemFont" id="SystemFont_ek86r"]
+font_names = PackedStringArray("2  Sina")
+
+[sub_resource type="LabelSettings" id="LabelSettings_b87lh"]
+font = SubResource("SystemFont_ek86r")
+font_size = 54
+font_color = Color(1, 0, 0, 1)
+outline_size = 8
+shadow_size = 9
+shadow_color = Color(1, 0, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eby1s"]
+atlas = ExtResource("16_0msmu")
+region = Rect2(268.983, 41.8624, 133.672, 193.261)
+
+[sub_resource type="Curve" id="Curve_4ns5j"]
+_data = [Vector2(0, 0.362637), 0.0, 0.0, 0, 0, Vector2(0.342697, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.263736), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_ixywq"]
+offsets = PackedFloat32Array(0.0133333, 0.7, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="Animation" id="Animation_3mlsc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_njc30"]
+resource_name = "rot"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_i8nqq"]
+_data = {
+"RESET": SubResource("Animation_3mlsc"),
+"rot": SubResource("Animation_njc30")
+}
+
+[node name="Shop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_vieus")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_yec2c")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.346
+anchor_top = 0.0555
+anchor_right = 1.0
+anchor_bottom = 0.9595
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource("Theme_an8m6")
+theme_override_constants/separation = -5
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(2.785, 270)
+layout_mode = 2
+texture = SubResource("ViewportTexture_m3utc")
+stretch_mode = 5
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.0
+offset_top = -86.5
+offset_right = 96.0
+offset_bottom = 86.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 1
+text = "لیگ"
+label_settings = SubResource("LabelSettings_cv8ma")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="ScrollContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="ScrollContainer/VBoxContainer/HBoxContainer/Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -291.0
+offset_right = 321.0
+offset_bottom = 354.0
+grow_horizontal = 2
+texture_normal = ExtResource("4_1tgvr")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Label" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer/Control/TextureButton"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -113.0
+offset_right = 248.0
+offset_bottom = 118.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.422882, 0.00217031, 0.888955, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/line_separation = -15
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 65
+theme_override_font_sizes/bold_font_size = 55
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]بلیط ورودی به لیگ[/center][/scaler][/light]
+"
+custom_effects = [SubResource("RichTextEffect_ceehe"), SubResource("RichTextEffect_8us61")]
+
+[node name="Label2" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer/Control/TextureButton"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = 38.0
+offset_right = 248.0
+offset_bottom = 118.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.422882, 0.00217031, 0.888955, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/line_separation = -15
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 65
+theme_override_font_sizes/bold_font_size = 55
+bbcode_enabled = true
+text = "[light freq=20 len=50 color=white num=2][scaler min=1 max=1.2 freq=2][center][color=red][b]20 هزار تومان
+"
+custom_effects = [SubResource("RichTextEffect_ceehe"), SubResource("RichTextEffect_8us61")]
+
+[node name="HSeparator" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 420
+theme_override_styles/separator = SubResource("StyleBoxEmpty_8xe2s")
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="VSeparator" type="VSeparator" parent="ScrollContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/separation = 260
+theme_override_styles/separator = SubResource("StyleBoxEmpty_rlt8r")
+
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(270, 270)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = SubResource("ViewportTexture_uexk3")
+stretch_mode = 5
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer3/TextureRect2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -104.5
+offset_top = -86.5
+offset_right = 104.5
+offset_bottom = 86.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 1
+text = "کندوها"
+label_settings = SubResource("LabelSettings_vasxk")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 35
+theme_override_styles/separator = SubResource("StyleBoxEmpty_f75d2")
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="VSeparator" type="VSeparator" parent="ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+theme_override_constants/separation = 175
+theme_override_styles/separator = SubResource("StyleBoxEmpty_sw5bd")
+
+[node name="HBoxContainer2" type="VBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_rj74u")
+theme_override_constants/separation = 5
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Control" type="Control" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer" groups=["hive_shop"]]
+custom_minimum_size = Vector2(200, 300)
+layout_mode = 2
+
+[node name="Button" type="TextureButton" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("9_gp5xs")
+texture_pressed = ExtResource("9_gp5xs")
+texture_hover = ExtResource("9_gp5xs")
+texture_disabled = ExtResource("10_k2mpk")
+ignore_texture_size = true
+stretch_mode = 5
+metadata/cost = 750
+
+[node name="Label" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control/Button"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.2
+anchor_top = 0.486667
+anchor_right = 0.8
+anchor_bottom = 0.683333
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 0, 0.207843, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/text_highlight_v_padding = 0
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 37
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2 color=white][scaler min=1 max=1.2 freq=2][center][b]750"
+custom_effects = [SubResource("RichTextEffect_xa6sg"), SubResource("RichTextEffect_vn2r6")]
+script = SubResource("GDScript_efur0")
+metadata/cost = 2500
+
+[node name="Label2" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.0
+offset_top = 34.0
+offset_right = 113.0
+offset_bottom = 118.0
+grow_horizontal = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_xxm4o")
+theme_override_font_sizes/normal_font_size = 42
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]کندوی 1"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+script = SubResource("GDScript_efur0")
+
+[node name="Control3" type="Control" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer" groups=["hive_shop"]]
+custom_minimum_size = Vector2(200, 300)
+layout_mode = 2
+
+[node name="Button" type="TextureButton" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("9_gp5xs")
+texture_pressed = ExtResource("9_gp5xs")
+texture_hover = ExtResource("9_gp5xs")
+texture_disabled = ExtResource("10_k2mpk")
+ignore_texture_size = true
+stretch_mode = 3
+metadata/cost = 1250
+
+[node name="Label" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control3/Button"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.2
+anchor_top = 0.486667
+anchor_right = 0.8
+anchor_bottom = 0.683333
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 0, 0.207843, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/text_highlight_v_padding = 0
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 37
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2 color=white][scaler min=1 max=1.2 freq=2][center][b]1250"
+custom_effects = [SubResource("RichTextEffect_xa6sg"), SubResource("RichTextEffect_vn2r6")]
+script = SubResource("GDScript_efur0")
+metadata/cost = 2500
+
+[node name="Label2" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer/Control3/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.0
+offset_top = 34.0
+offset_right = 113.0
+offset_bottom = 118.0
+grow_horizontal = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_xxm4o")
+theme_override_font_sizes/normal_font_size = 42
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]کندوی 2"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+script = SubResource("GDScript_efur0")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="Control4" type="Control" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2" groups=["hive_shop"]]
+custom_minimum_size = Vector2(200, 300)
+layout_mode = 2
+
+[node name="Button" type="TextureButton" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("9_gp5xs")
+texture_pressed = ExtResource("9_gp5xs")
+texture_hover = ExtResource("9_gp5xs")
+texture_disabled = ExtResource("10_k2mpk")
+ignore_texture_size = true
+stretch_mode = 3
+metadata/cost = 1750
+
+[node name="Label" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control4/Button"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.2
+anchor_top = 0.486667
+anchor_right = 0.8
+anchor_bottom = 0.683333
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 0, 0.207843, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/text_highlight_v_padding = 0
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 37
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2 color=white][scaler min=1 max=1.2 freq=2][center][b]1750"
+custom_effects = [SubResource("RichTextEffect_xa6sg"), SubResource("RichTextEffect_vn2r6")]
+script = SubResource("GDScript_efur0")
+metadata/cost = 2500
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control4/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.0
+offset_top = 34.0
+offset_right = 113.0
+offset_bottom = 118.0
+grow_horizontal = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_xxm4o")
+theme_override_font_sizes/normal_font_size = 42
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]کندوی 3"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+script = SubResource("GDScript_efur0")
+
+[node name="Control2" type="Control" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2" groups=["hive_shop"]]
+custom_minimum_size = Vector2(200, 300)
+layout_mode = 2
+
+[node name="Button" type="TextureButton" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("9_gp5xs")
+texture_pressed = ExtResource("9_gp5xs")
+texture_hover = ExtResource("9_gp5xs")
+texture_disabled = ExtResource("10_k2mpk")
+ignore_texture_size = true
+stretch_mode = 3
+metadata/cost = 2500
+
+[node name="Label" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control2/Button"]
+clip_contents = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.2
+anchor_top = 0.486667
+anchor_right = 0.8
+anchor_bottom = 0.683333
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 0, 0.207843, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/text_highlight_v_padding = 0
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("5_14wi6")
+theme_override_fonts/bold_font = ExtResource("6_vwu6j")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_font_size = 37
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2 color=white][scaler min=1 max=1.2 freq=2][center][b]2500"
+custom_effects = [SubResource("RichTextEffect_xa6sg"), SubResource("RichTextEffect_vn2r6")]
+script = SubResource("GDScript_efur0")
+metadata/cost = 2500
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="RichTextLabel" parent="ScrollContainer/VBoxContainer/HBoxContainer4/HBoxContainer2/HBoxContainer2/Control2/Button"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -96.0
+offset_top = 34.0
+offset_right = 113.0
+offset_bottom = 118.0
+grow_horizontal = 2
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_xxm4o")
+theme_override_font_sizes/normal_font_size = 42
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]کندوی 4"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+script = SubResource("GDScript_efur0")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.742
+anchor_top = 0.056
+anchor_right = 0.923
+anchor_bottom = 0.204
+offset_left = -662.0
+offset_top = -1.0
+offset_right = -615.008
+offset_bottom = 46.832
+value = 50.0
+fill_mode = 3
+nine_patch_stretch = true
+texture_under = ExtResource("12_fdayd")
+texture_progress = ExtResource("13_t6fcw")
+
+[node name="Label" type="Label" parent="TextureProgressBar"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.171053
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "12345"
+label_settings = SubResource("LabelSettings_b87lh")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PopupPanel" parent="." instance=ExtResource("14_5j1kt")]
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.0
+offset_bottom = 111.0
+grow_horizontal = 0
+texture_normal = ExtResource("15_vh545")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+position = Vector2(866, 17)
+amount = 25
+lifetime = 5.95
+texture = SubResource("AtlasTexture_eby1s")
+emission_shape = 3
+emission_rect_extents = Vector2(57.695, 1)
+direction = Vector2(0, 1)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 111.11
+initial_velocity_max = 272.73
+scale_amount_min = 0.2
+scale_amount_max = 0.3
+scale_amount_curve = SubResource("Curve_4ns5j")
+color_ramp = SubResource("Gradient_ixywq")
+
+[node name="CPUParticles2D3" type="CPUParticles2D" parent="."]
+position = Vector2(198, 431)
+amount = 25
+lifetime = 5.95
+texture = SubResource("AtlasTexture_eby1s")
+emission_shape = 3
+emission_rect_extents = Vector2(57.695, 1)
+direction = Vector2(0, 1)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 111.11
+initial_velocity_max = 272.73
+scale_amount_min = 0.2
+scale_amount_max = 0.3
+scale_amount_curve = SubResource("Curve_4ns5j")
+color_ramp = SubResource("Gradient_ixywq")
+
+[node name="SubViewport4" type="SubViewport" parent="."]
+transparent_bg = true
+size = Vector2i(220, 220)
+
+[node name="TextureRect" type="TextureRect" parent="SubViewport4"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17_vhdcq")
+expand_mode = 1
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport4"]
+position = Vector2(100, 100)
+color = Color(1, 1, 0, 1)
+energy = 16.0
+texture = ExtResource("18_65gvy")
+texture_scale = 1.2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport4"]
+libraries = {
+"": SubResource("AnimationLibrary_i8nqq")
+}
+autoplay = "rot"
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

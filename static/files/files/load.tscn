@@ -1,0 +1,496 @@
+[gd_scene load_steps=26 format=3]
+
+[ext_resource type="Script" path="res://script/load.gd" id="1_gp26c"]
+[ext_resource type="Texture2D" uid="uid://cobib2buc4l1u" path="res://sprite/شیرین عسل1.jpg" id="2_iiat8"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="3_efk2k"]
+[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="4_ib152"]
+[ext_resource type="Script" path="res://script/update.gd" id="5_nxh2e"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="6_jnqsb"]
+[ext_resource type="PackedScene" uid="uid://pqhprp47chb2" path="res://scenes/weak_internet.tscn" id="7_nfphd"]
+[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="8_nmes2"]
+[ext_resource type="Texture2D" uid="uid://d2b4fu8bqhqlj" path="res://sprite/jar-png-jar-of-honey-full.png" id="9_pe8de"]
+[ext_resource type="Shader" path="res://shaders/honey.gdshader" id="10_mmdqa"]
+[ext_resource type="Texture2D" uid="uid://chfwj4pnbojfm" path="res://sprite/honey2.png" id="11_j5l1b"]
+[ext_resource type="PackedScene" uid="uid://7s7lcjkvekne" path="res://scenes/login.tscn" id="12_3yun2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pfquf"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_j7u2d"]
+font = ExtResource("3_efk2k")
+font_size = 40
+font_color = Color(0.0117647, 0.337255, 0.792157, 1)
+outline_size = 9
+
+[sub_resource type="Animation" id="Animation_he51j"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:label_settings:font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [40]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:label_settings:font_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.0117647, 0.337255, 0.792157, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Node2D/Honey2:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.046, 1e-05)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Node2D/Honey2:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(371, 847)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Node2D:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Node2D/TextureProgressBar:value")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Node2D/TextureProgressBar2:value")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Node2D:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_3fl6e"]
+resource_name = "effect"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:label_settings:font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [40, 35]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:label_settings:font_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0.0117647, 0.337255, 0.792157, 1), Color(0.0196078, 0.192157, 0.498039, 0.196078)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Node2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_3udjm"]
+resource_name = "waite"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Node2D/Honey2:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.046, 1e-05), Vector2(0.0469241, 0.405237), Vector2(0.0469241, 0.405237), Vector2(0.046, 1e-05)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Node2D/Honey2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, -160), Vector2(-1, -1.75), Vector2(-1, -1.75), Vector2(0, 165)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Node2D:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 3.14159]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Node2D/TextureProgressBar:value")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [100.0, 0.0, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Node2D/TextureProgressBar2:value")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.5, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 100.0, 100.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1chfd"]
+_data = {
+"RESET": SubResource("Animation_he51j"),
+"effect": SubResource("Animation_3fl6e"),
+"waite": SubResource("Animation_3udjm")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6y8mv"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.619608, 0.298039, 0.0627451, 1)
+border_blend = true
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t5vrc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7jqlm"]
+bg_color = Color(0.0352941, 0.627451, 0.0980392, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.301961, 0.901961, 0.894118, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c3y0j"]
+bg_color = Color(0.0117647, 0.352941, 0.0392157, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.301961, 0.901961, 0.894118, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cmfcb"]
+bg_color = Color(0.0313726, 0.6, 0.0941176, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.301961, 0.901961, 0.894118, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_i8ad1"]
+font = ExtResource("6_jnqsb")
+font_size = 28
+outline_size = 2
+outline_color = Color(0.247059, 0.721569, 0.584314, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ea7nx"]
+shader = ExtResource("10_mmdqa")
+shader_parameter/speed = 1.0
+
+[node name="load" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_gp26c")
+
+[node name="Panel3" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pfquf")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_iiat8")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.736
+anchor_right = 0.5
+anchor_bottom = 0.741
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "برای ورود ضربه بزنید"
+label_settings = SubResource("LabelSettings_j7u2d")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_1chfd")
+}
+autoplay = "waite"
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="Panel" parent="." instance=ExtResource("4_ib152")]
+visible = false
+layout_mode = 1
+offset_left = -313.0
+offset_top = -167.5
+offset_right = 313.0
+offset_bottom = 167.5
+
+[node name="Panel2" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -315.0
+offset_top = -157.0
+offset_right = 315.0
+offset_bottom = 157.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6y8mv")
+script = ExtResource("5_nxh2e")
+
+[node name="Button" type="Button" parent="Panel2"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -127.0
+offset_top = -108.0
+offset_right = 121.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_t5vrc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7jqlm")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_c3y0j")
+theme_override_styles/normal = SubResource("StyleBoxFlat_cmfcb")
+text = "بروزرسانی"
+
+[node name="Label" type="Label" parent="Panel2"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 111.0
+grow_horizontal = 2
+text = "یک بروزرسانی جدید از بازی موجود است لطفاً بازی را بروزرسانی کنید"
+label_settings = SubResource("LabelSettings_i8ad1")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 20.0
+autostart = true
+
+[node name="Weak_internet" parent="." instance=ExtResource("7_nfphd")]
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(535, 1688)
+scale = Vector2(0.574173, 0.574173)
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="Node2D"]
+anchors_preset = -1
+anchor_left = 0.423177
+anchor_top = 0.398243
+anchor_right = 0.55599
+anchor_bottom = 0.495608
+offset_left = -50.0
+offset_top = -280.0
+offset_right = 50.0
+offset_bottom = -150.0
+rotation = 3.14159
+pivot_offset = Vector2(50, 65)
+fill_mode = 3
+nine_patch_stretch = true
+texture_under = ExtResource("8_nmes2")
+texture_progress = ExtResource("9_pe8de")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureProgressBar2" type="TextureProgressBar" parent="Node2D"]
+anchors_preset = -1
+anchor_left = 0.441406
+anchor_top = 0.722548
+anchor_right = 0.574219
+anchor_bottom = 0.819912
+offset_left = -50.0
+offset_top = 150.0
+offset_right = 50.0
+offset_bottom = 280.0
+pivot_offset = Vector2(50, 65)
+fill_mode = 3
+nine_patch_stretch = true
+texture_under = ExtResource("8_nmes2")
+texture_progress = ExtResource("9_pe8de")
+metadata/_edit_use_anchors_ = true
+
+[node name="Honey2" type="Sprite2D" parent="Node2D"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_ea7nx")
+position = Vector2(371, 847)
+scale = Vector2(0.046, 1e-05)
+texture = ExtResource("11_j5l1b")
+
+[node name="login" parent="." instance=ExtResource("12_3yun2")]
+visible = false
+layout_mode = 1
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
+[connection signal="pressed" from="Panel2/Button" to="Panel2" method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="entered_code" from="login" to="." method="signup"]
+[connection signal="entered_phone" from="login" to="." method="verify"]

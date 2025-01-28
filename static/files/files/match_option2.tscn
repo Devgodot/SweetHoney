@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="StyleBox" uid="uid://b06ugnyk0w8gt" path="res://styles/match_option2.tres" id="1_bvyh3"]
+[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="2_5vtog"]
+[ext_resource type="Script" path="res://script/match_option2.gd" id="3_drtnw"]
+[ext_resource type="Shader" path="res://styles/line_match.gdshader" id="4_rvf7u"]
+[ext_resource type="Gradient" uid="uid://ceq368jd4yvhg" path="res://styles/match_option.tres" id="5_bv6cn"]
+[ext_resource type="PackedScene" uid="uid://diga82iiuiv8t" path="res://scenes/check_btn.tscn" id="6_6joue"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fmovf"]
+font = ExtResource("2_5vtog")
+font_size = 35
+font_color = Color(0, 0.216383, 0.544436, 1)
+outline_size = 5
+shadow_size = 10
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(0, 0)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1b736"]
+shader = ExtResource("4_rvf7u")
+shader_parameter/speed = 2.0
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_fvkk2"]
+noise_type = 5
+seed = 2
+fractal_type = 3
+fractal_octaves = 7
+fractal_gain = 0.415
+fractal_weighted_strength = 0.45
+domain_warp_enabled = true
+domain_warp_type = 2
+domain_warp_fractal_type = 2
+domain_warp_fractal_octaves = 1
+domain_warp_fractal_lacunarity = 5.375
+domain_warp_fractal_gain = 3.685
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_4kww1"]
+in_3d_space = true
+color_ramp = ExtResource("5_bv6cn")
+noise = SubResource("FastNoiseLite_fvkk2")
+
+[node name="Label" type="Label" groups=["match_option"]]
+offset_right = 227.0
+offset_bottom = 240.0
+size_flags_horizontal = 3
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = ExtResource("1_bvyh3")
+label_settings = SubResource("LabelSettings_fmovf")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+script = ExtResource("3_drtnw")
+
+[node name="Line2D" type="Line2D" parent="."]
+show_behind_parent = true
+texture_repeat = 2
+material = SubResource("ShaderMaterial_1b736")
+width = 15.0
+texture = SubResource("NoiseTexture2D_4kww1")
+texture_mode = 1
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="TextureButton" parent="." instance=ExtResource("6_6joue")]
+layout_mode = 0
+offset_left = -57.0
+offset_top = 82.0
+offset_right = 0.0
+offset_bottom = 139.0
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

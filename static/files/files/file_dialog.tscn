@@ -1,0 +1,132 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://script/file_dialog.gd" id="1_w6687"]
+[ext_resource type="Texture2D" uid="uid://ccb24lm26ppuo" path="res://sprite/back_btn.png" id="2_etsva"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_njv5a"]
+bg_color = Color(0.317647, 0.317647, 0.317647, 1)
+expand_margin_left = 20.0
+expand_margin_top = 20.0
+expand_margin_right = 20.0
+expand_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r2s8y"]
+texture = ExtResource("2_etsva")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tur44"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iue4n"]
+bg_color = Color(0.0392157, 0.0392157, 0.0392157, 1)
+border_width_left = 20
+border_width_top = 20
+border_width_right = 20
+border_width_bottom = 20
+border_color = Color(0.180392, 0.180392, 0.180392, 1)
+
+[node name="file_dialog" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_w6687")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_njv5a")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/VBoxContainer"]
+layout_direction = 2
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_r2s8y")
+theme_override_styles/hover = SubResource("StyleBoxTexture_r2s8y")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_r2s8y")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_tur44")
+text = "      "
+
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "path:"
+
+[node name="LineEdit" type="LineEdit" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "res://"
+placeholder_text = "مسیر فایل مورد نظر"
+
+[node name="Label2" type="Label" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="HSlider" type="HSlider" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+min_value = 10.0
+max_value = 250.0
+value = 64.0
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="PanelContainer/VBoxContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "پوشه ها و فایل ها:"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_iue4n")
+
+[node name="GridContainer" type="GridContainer" parent="PanelContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+columns = 5
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="PanelContainer/VBoxContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+text = "نام فایل:"
+
+[node name="LineEdit" type="LineEdit" parent="PanelContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="PanelContainer/VBoxContainer"]
+layout_direction = 2
+layout_mode = 2
+theme_override_constants/separation = 100
+alignment = 1
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+text = "انتخاب"
+
+[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+text = "لغو"
+
+[connection signal="pressed" from="PanelContainer/VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="text_submitted" from="PanelContainer/VBoxContainer/HBoxContainer/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="drag_ended" from="PanelContainer/VBoxContainer/HBoxContainer/HSlider" to="." method="_on_h_slider_drag_ended"]
+[connection signal="value_changed" from="PanelContainer/VBoxContainer/HBoxContainer/HSlider" to="." method="_on_h_slider_value_changed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/HBoxContainer4/Button" to="." method="_on_sellect_button_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/HBoxContainer4/Button2" to="." method="_on_button_2_pressed"]

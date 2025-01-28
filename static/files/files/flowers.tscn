@@ -1,0 +1,244 @@
+[gd_scene load_steps=14 format=3]
+
+[ext_resource type="Script" path="res://script/flowers.gd" id="1_6cmiy"]
+[ext_resource type="Shader" path="res://shaders/flower.gdshader" id="2_dcn10"]
+[ext_resource type="Texture2D" uid="uid://halxflir0jq3" path="res://sprite/flower4.png" id="3_tegk2"]
+[ext_resource type="Texture2D" uid="uid://ct4vuowsqvx7e" path="res://sprite/yellow_flower.png" id="4_fuu54"]
+[ext_resource type="Texture2D" uid="uid://cgdsdlt2d4jm5" path="res://sprite/vintage_lily.png" id="5_yd6eh"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mgbb1"]
+shader = ExtResource("2_dcn10")
+shader_parameter/range = 50.0
+shader_parameter/speed = 2.0
+shader_parameter/dir = -1.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ib37a"]
+radius = 12.0
+
+[sub_resource type="Animation" id="Animation_ohtnt"]
+resource_name = "1"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_tegk2")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../CollisionShape2D:shape")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("CircleShape2D_ib37a")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CollisionShape2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-3, 11)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.03, 0.03)]
+}
+
+[sub_resource type="Animation" id="Animation_vbwt1"]
+resource_name = "2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("4_fuu54")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.1, 0.1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CollisionShape2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(9, -11)]
+}
+
+[sub_resource type="Animation" id="Animation_yofv0"]
+resource_name = "3"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("5_yd6eh")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../CollisionShape2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(6, -3)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.1, 0.1)]
+}
+
+[sub_resource type="Animation" id="Animation_su0ah"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_tegk2")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../CollisionShape2D:shape")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("CircleShape2D_ib37a")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../CollisionShape2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-3, 11)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.03, 0.03)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gfnps"]
+_data = {
+"1": SubResource("Animation_ohtnt"),
+"2": SubResource("Animation_vbwt1"),
+"3": SubResource("Animation_yofv0"),
+"RESET": SubResource("Animation_su0ah")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r06fq"]
+radius = 87.367
+
+[node name="flowers" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_6cmiy")
+range2 = 200
+
+[node name="Flower4" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_mgbb1")
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("3_tegk2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-3, 11)
+shape = SubResource("CircleShape2D_ib37a")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Flower4")
+libraries = {
+"": SubResource("AnimationLibrary_gfnps")
+}
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visible = false
+shape = SubResource("CircleShape2D_r06fq")
+
+[connection signal="area_entered" from="." to="." method="_on_body_entered"]
+[connection signal="area_exited" from="." to="." method="_on_body_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

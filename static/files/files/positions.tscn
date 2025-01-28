@@ -1,0 +1,1410 @@
+[gd_scene load_steps=64 format=3]
+
+[ext_resource type="Script" path="res://script/positions.gd" id="1_8b6qw"]
+[ext_resource type="Texture2D" uid="uid://bmpg1c1cm6uub" path="res://sprite/Firefly Honeycomb hexagon 3D golden background with honey cells going into perspective, lighten 8562.jpg" id="2_5jye6"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_nuh33"]
+[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="4_ooyqp"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="5_187ev"]
+[ext_resource type="Script" path="res://script/light.gd" id="6_kb0w7"]
+[ext_resource type="Shader" path="res://shaders/fade.gdshader" id="7_ewouh"]
+[ext_resource type="Texture2D" uid="uid://ogbt880c6cv0" path="res://sprite/Untitled_۲۰۲۴۱۱۰۸_۱۰۲۷۴۲.jpg" id="8_srhx5"]
+[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="9_rch1h"]
+[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="10_7jgxr"]
+[ext_resource type="Texture2D" uid="uid://seftho8iql7k" path="res://sprite/Layer 37.png" id="11_thbb6"]
+[ext_resource type="Texture2D" uid="uid://cgxqob7fvufr0" path="res://sprite/Layer 39 copy 7.png" id="12_d4ys8"]
+[ext_resource type="Texture2D" uid="uid://b3ysu4hv6iyrm" path="res://sprite/Layer 41.png" id="13_rd5dh"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="14_5huah"]
+[ext_resource type="Texture2D" uid="uid://7jqsw24mdg0r" path="res://sprite/Layer 40.png" id="15_g0dkb"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="16_loq04"]
+[ext_resource type="Texture2D" uid="uid://bf8kpwtlirbk4" path="res://sprite/Layer 41 copy 5.png" id="17_byghy"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="18_qdlxp"]
+[ext_resource type="PackedScene" uid="uid://5l827jhuyqn6" path="res://scenes/bee2.tscn" id="19_cnu1q"]
+[ext_resource type="Texture2D" uid="uid://yg3td8n56pxg" path="res://icon.svg" id="20_piday"]
+[ext_resource type="Texture2D" uid="uid://d2ord8re4iloh" path="res://sprite/positions.png" id="21_kmfrt"]
+[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="22_h3hnr"]
+[ext_resource type="Texture2D" uid="uid://b7vg8eacx0c64" path="res://sprite/Layer 44.png" id="23_8ltp4"]
+[ext_resource type="Texture2D" uid="uid://feex56tg4fj0" path="res://sprite/Layer 39 copy 12.png" id="24_qsmd2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4v53g"]
+texture = ExtResource("2_5jye6")
+modulate_color = Color(0.712129, 0.712129, 0.712129, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_wod68"]
+base_font = ExtResource("3_nuh33")
+spacing_top = 24
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3knpp"]
+texture = ExtResource("4_ooyqp")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
+script = ExtResource("5_187ev")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
+script = ExtResource("6_kb0w7")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kap35"]
+shader = ExtResource("7_ewouh")
+shader_parameter/lod = 2.282
+shader_parameter/mix_percentage = 0.354
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2086w"]
+texture = ExtResource("8_srhx5")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_otx6t"]
+draw_center = false
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.8, 0.0156863, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_icxpr"]
+
+[sub_resource type="Theme" id="Theme_6hd61"]
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(0.0798888, 0.14726, 0.395101, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 1)
+Label/constants/outline_size = 10
+Label/constants/shadow_outline_size = 13
+Label/font_sizes/font_size = 35
+Label/fonts/font = ExtResource("9_rch1h")
+PanelContainer/styles/panel = SubResource("StyleBoxEmpty_icxpr")
+RichTextLabel/colors/default_color = Color(0.00415197, 0.268183, 0.0238109, 1)
+RichTextLabel/colors/font_outline_color = Color(1, 1, 1, 1)
+RichTextLabel/colors/font_shadow_color = Color(0, 0, 0, 1)
+RichTextLabel/constants/outline_size = 10
+RichTextLabel/constants/shadow_outline_size = 13
+RichTextLabel/font_sizes/normal_font_size = 40
+RichTextLabel/fonts/normal_font = ExtResource("9_rch1h")
+
+[sub_resource type="FontVariation" id="FontVariation_wk0o1"]
+base_font = ExtResource("10_7jgxr")
+spacing_top = 40
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_gntkd"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f2sh2"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_gntkd")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uejmt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d204e"]
+texture = ExtResource("12_d4ys8")
+expand_margin_left = 20.0
+expand_margin_top = 25.0
+expand_margin_right = 20.0
+expand_margin_bottom = 30.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_8soi4"]
+font = ExtResource("14_5huah")
+font_size = 50
+font_color = Color(0.0108068, 0.372627, 0.0234193, 1)
+outline_size = 9
+shadow_size = 6
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ltjbg"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_fuw5d"]
+viewport_path = NodePath("SubViewport2")
+
+[sub_resource type="LabelSettings" id="LabelSettings_hvvi2"]
+font = ExtResource("14_5huah")
+font_size = 44
+font_color = Color(0.0108068, 0.372627, 0.0234193, 1)
+outline_size = 9
+shadow_size = 6
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wtih1"]
+viewport_path = NodePath("SubViewport3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ijp56"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_wtih1")
+expand_margin_top = 20.0
+expand_margin_right = 16.0
+expand_margin_bottom = 30.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_rtvy4"]
+font = ExtResource("16_loq04")
+font_size = 40
+outline_size = 13
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_2ottb"]
+base_font = ExtResource("3_nuh33")
+spacing_top = 18
+
+[sub_resource type="Animation" id="Animation_vyt11"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel/Label2:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Panel/Panel:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Panel/VBoxContainer2/Label2:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Panel/VBoxContainer2/TextureRect3:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Panel/VBoxContainer2/TextureRect:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Panel/VBoxContainer2/Label:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Panel/VBoxContainer2/TextureRect4:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05)]
+}
+
+[sub_resource type="Animation" id="Animation_u1xb7"]
+resource_name = "start"
+length = 2.0
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Panel/Label2:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1), Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Panel/Panel:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1e-05, 1e-05), Vector2(1.08, 1.08), Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Panel/VBoxContainer2/Label2:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1), Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Panel/VBoxContainer2/TextureRect3:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.8, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Panel/VBoxContainer2/TextureRect:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(1, 1.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Panel/VBoxContainer2/Label:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(1.2, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1), Vector2(1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Panel/VBoxContainer2/TextureRect4:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(1.4, 1.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_14hlp"]
+_data = {
+"RESET": SubResource("Animation_vyt11"),
+"start": SubResource("Animation_u1xb7")
+}
+
+[sub_resource type="Animation" id="Animation_ey5l1"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_unkds"]
+resource_name = "rot"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gabuc"]
+_data = {
+"RESET": SubResource("Animation_ey5l1"),
+"rot": SubResource("Animation_unkds")
+}
+
+[sub_resource type="Gradient" id="Gradient_cy1if"]
+offsets = PackedFloat32Array(0.698413, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xd8ac"]
+gradient = SubResource("Gradient_cy1if")
+width = 214
+height = 62
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[sub_resource type="Animation" id="Animation_jqgvw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D2:texture_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.3]
+}
+
+[sub_resource type="Animation" id="Animation_odqob"]
+resource_name = "scale"
+length = 1.5
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D2:texture_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.3, 1.6]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_62mig"]
+_data = {
+"RESET": SubResource("Animation_jqgvw"),
+"scale": SubResource("Animation_odqob")
+}
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_bo6ys"]
+noise_type = 4
+frequency = 0.0066
+fractal_type = 3
+fractal_octaves = 3
+fractal_gain = 0.25
+fractal_weighted_strength = 1.0
+fractal_ping_pong_strength = 1.345
+cellular_return_type = 6
+domain_warp_enabled = true
+domain_warp_type = 2
+domain_warp_fractal_lacunarity = 9.05
+domain_warp_fractal_gain = 0.945
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_cwncs"]
+seamless = true
+seamless_blend_skirt = 0.797
+noise = SubResource("FastNoiseLite_bo6ys")
+
+[sub_resource type="Animation" id="Animation_qb2d8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:texture:noise:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_mikvi"]
+resource_name = "light"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:texture:noise:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(200, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vv3j8"]
+_data = {
+"RESET": SubResource("Animation_qb2d8"),
+"light": SubResource("Animation_mikvi")
+}
+
+[node name="positions" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8b6qw")
+
+[node name="Panel" type="Panel" parent="."]
+light_mask = 65
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_4v53g")
+
+[node name="Label2" type="RichTextLabel" parent="Panel"]
+layout_mode = 2
+anchor_left = 0.298
+anchor_top = 0.07
+anchor_right = 0.698
+anchor_bottom = 0.145
+scale = Vector2(1e-05, 1)
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_wod68")
+theme_override_font_sizes/normal_font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxTexture_3knpp")
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]رتبه‌های برتر   "
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="Panel" parent="Panel"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_kap35")
+clip_contents = true
+layout_mode = 0
+offset_left = 56.0
+offset_top = 295.0
+offset_right = 940.0
+offset_bottom = 1028.0
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(442, 335)
+theme_override_styles/panel = SubResource("StyleBoxTexture_2086w")
+
+[node name="Panel" type="Panel" parent="Panel/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_otx6t")
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="Panel/Panel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = -20
+alignment = 2
+
+[node name="obj" type="PanelContainer" parent="Panel/Panel/VBoxContainer3"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme = SubResource("Theme_6hd61")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Panel/VBoxContainer3/obj"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontVariation_wk0o1")
+theme_override_font_sizes/normal_font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxTexture_f2sh2")
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("11_thbb6")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(339, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_d204e")
+text = "محمدحسین حق شناس"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator3" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 100)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("13_rd5dh")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer/TextureRect2"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -25.5
+offset_right = 35.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="obj2" type="PanelContainer" parent="Panel/Panel/VBoxContainer3"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme = SubResource("Theme_6hd61")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Panel/VBoxContainer3/obj2"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontVariation_wk0o1")
+theme_override_font_sizes/normal_font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxTexture_f2sh2")
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("11_thbb6")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(339, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_d204e")
+text = "محمدحسین حق شناس"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator3" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 100)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("13_rd5dh")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer/TextureRect2"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -25.5
+offset_right = 35.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="obj3" type="PanelContainer" parent="Panel/Panel/VBoxContainer3"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme = SubResource("Theme_6hd61")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Panel/VBoxContainer3/obj3"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontVariation_wk0o1")
+theme_override_font_sizes/normal_font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxTexture_f2sh2")
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("11_thbb6")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(339, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_d204e")
+text = "محمدحسین حق شناس"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator3" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 100)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("13_rd5dh")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer/TextureRect2"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -25.5
+offset_right = 35.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="obj4" type="PanelContainer" parent="Panel/Panel/VBoxContainer3"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme = SubResource("Theme_6hd61")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Panel/VBoxContainer3/obj4"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontVariation_wk0o1")
+theme_override_font_sizes/normal_font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxTexture_f2sh2")
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("11_thbb6")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(339, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_d204e")
+text = "محمدحسین حق شناس"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator3" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 100)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("13_rd5dh")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer/TextureRect2"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -25.5
+offset_right = 35.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="obj5" type="PanelContainer" parent="Panel/Panel/VBoxContainer3"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme = SubResource("Theme_6hd61")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/Panel/VBoxContainer3/obj5"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer"]
+layout_direction = 3
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontVariation_wk0o1")
+theme_override_font_sizes/normal_font_size = 68
+theme_override_styles/normal = SubResource("StyleBoxTexture_f2sh2")
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("11_thbb6")
+expand_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(339, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_d204e")
+text = "محمدحسین حق شناس"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSeparator3" type="VSeparator" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 100)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("13_rd5dh")
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer/TextureRect2"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -25.5
+offset_right = 35.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]5"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="Label" type="Label" parent="Panel/Panel"]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 8.0
+offset_right = 173.0
+offset_bottom = 88.0
+text = "امتیاز"
+label_settings = SubResource("LabelSettings_8soi4")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Panel/Panel"]
+layout_mode = 0
+offset_left = 704.0
+offset_top = -5.0
+offset_right = 812.0
+offset_bottom = 75.0
+text = "رتبه"
+label_settings = SubResource("LabelSettings_8soi4")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="Panel" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.056
+anchor_top = 0.508
+anchor_right = 0.871
+anchor_bottom = 0.682
+offset_top = 47.0
+offset_bottom = -19.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_ltjbg")
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect3" type="TextureRect" parent="Panel/VBoxContainer2"]
+layout_mode = 0
+offset_left = 623.0
+offset_top = 89.0
+offset_right = 847.0
+offset_bottom = 289.0
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(112, 100)
+texture = SubResource("ViewportTexture_fuw5d")
+expand_mode = 1
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel/VBoxContainer2/TextureRect3"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -45.0
+offset_top = -28.0
+offset_right = 45.0
+offset_bottom = 28.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 11
+theme_override_fonts/normal_font = ExtResource("9_rch1h")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "[center]-"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="Label4" type="Label" parent="Panel/VBoxContainer2/TextureRect3"]
+layout_mode = 0
+offset_left = 61.0
+offset_top = -17.0
+offset_right = 169.0
+offset_bottom = 63.0
+text = "رتبه"
+label_settings = SubResource("LabelSettings_hvvi2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer2"]
+custom_minimum_size = Vector2(80, 110)
+layout_mode = 2
+offset_left = 551.0
+offset_top = 221.0
+offset_right = 731.0
+offset_bottom = 401.0
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(90, 90)
+size_flags_horizontal = 3
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.2
+texture = ExtResource("15_g0dkb")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer2/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.15
+anchor_top = 0.15
+anchor_right = 0.85
+anchor_bottom = 0.85
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VSeparator2" type="VSeparator" parent="Panel/VBoxContainer2"]
+layout_mode = 2
+offset_top = 225.0
+offset_right = 815.0
+offset_bottom = 228.0
+theme_override_constants/separation = 90
+theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer2"]
+layout_mode = 2
+anchor_left = 0.190184
+anchor_top = 0.957447
+anchor_right = 0.676074
+anchor_bottom = 1.24823
+offset_right = 3.99963
+offset_bottom = 0.000213623
+scale = Vector2(1e-05, 1)
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 6
+theme_override_styles/normal = SubResource("StyleBoxTexture_ijp56")
+text = "محمدحسین حق شناس"
+label_settings = SubResource("LabelSettings_rtvy4")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect4" type="TextureRect" parent="Panel/VBoxContainer2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.193865
+anchor_top = 1.37943
+anchor_right = 0.381595
+anchor_bottom = 1.7234
+offset_right = 7.00003
+offset_bottom = 0.000427246
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(80, 0)
+texture = ExtResource("17_byghy")
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/VBoxContainer2/TextureRect4"]
+clip_contents = false
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = -11.5
+offset_right = 35.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 13
+theme_override_fonts/normal_font = ExtResource("9_rch1h")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "[center]1"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+text_direction = 2
+
+[node name="Label3" type="Label" parent="Panel/VBoxContainer2/TextureRect4"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = -37.0
+offset_right = 135.0
+offset_bottom = 43.0
+text = "امتیاز"
+label_settings = SubResource("LabelSettings_hvvi2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="RichTextLabel" parent="Panel/VBoxContainer2"]
+custom_minimum_size = Vector2(400, 150)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_horizontal = 2
+scale = Vector2(1e-05, 1)
+pivot_offset = Vector2(200, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = SubResource("FontVariation_2ottb")
+theme_override_font_sizes/normal_font_size = 62
+theme_override_styles/normal = SubResource("StyleBoxTexture_3knpp")
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]رتبه‌ی شما "
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.0
+offset_bottom = 111.0
+grow_horizontal = 0
+texture_normal = ExtResource("18_qdlxp")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="bee" parent="." instance=ExtResource("19_cnu1q")]
+position = Vector2(385, 1608)
+scale = Vector2(1.575, 1.575)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_14hlp")
+}
+autoplay = "start"
+
+[node name="SubViewport" type="SubViewport" parent="."]
+transparent_bg = true
+vrs_update_mode = 2
+vrs_texture = ExtResource("20_piday")
+size = Vector2i(680, 680)
+size_2d_override_stretch = true
+
+[node name="TextureRect" type="TextureRect" parent="SubViewport"]
+light_mask = 33
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("21_kmfrt")
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport"]
+position = Vector2(340, 340)
+energy = 5.94
+range_item_cull_mask = 32
+texture = ExtResource("22_h3hnr")
+texture_scale = 2.45
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
+libraries = {
+"": SubResource("AnimationLibrary_gabuc")
+}
+autoplay = "rot"
+
+[node name="SubViewport2" type="SubViewport" parent="."]
+transparent_bg = true
+vrs_update_mode = 2
+vrs_texture = ExtResource("20_piday")
+size = Vector2i(680, 680)
+size_2d_override_stretch = true
+
+[node name="TextureRect" type="TextureRect" parent="SubViewport2"]
+light_mask = 33
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("23_8ltp4")
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport2"]
+position = Vector2(340, 340)
+energy = 5.94
+range_item_cull_mask = 32
+texture = ExtResource("22_h3hnr")
+texture_scale = 2.45
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport2"]
+libraries = {
+"": SubResource("AnimationLibrary_gabuc")
+}
+autoplay = "rot"
+
+[node name="SubViewport3" type="SubViewport" parent="."]
+transparent_bg = true
+vrs_update_mode = 2
+vrs_texture = ExtResource("20_piday")
+size = Vector2i(214, 62)
+size_2d_override_stretch = true
+
+[node name="TextureRect" type="TextureRect" parent="SubViewport3"]
+light_mask = 33
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("24_qsmd2")
+
+[node name="PointLight2D2" type="PointLight2D" parent="SubViewport3"]
+position = Vector2(105.646, 29.1459)
+scale = Vector2(0.933, 0.892)
+energy = 4.93
+range_item_cull_mask = 32
+texture = SubResource("GradientTexture2D_xd8ac")
+texture_scale = 1.3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport3"]
+libraries = {
+"": SubResource("AnimationLibrary_62mig")
+}
+autoplay = "scale"
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(500, 1405)
+rotation = -3.14159
+scale = Vector2(1.95312, 2.32422)
+energy = 0.65
+range_item_cull_mask = 64
+texture = SubResource("NoiseTexture2D_cwncs")
+metadata/_edit_lock_ = true
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vv3j8")
+}
+autoplay = "light"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

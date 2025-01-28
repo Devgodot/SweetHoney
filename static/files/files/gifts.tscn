@@ -1,0 +1,1212 @@
+[gd_scene load_steps=36 format=3]
+
+[ext_resource type="Script" path="res://script/gifts.gd" id="1_pdi1x"]
+[ext_resource type="Texture2D" uid="uid://yncy2pinuka1" path="res://sprite/Firefly Iran ranked first in the honey beehive competition 11608.png" id="2_5rphm"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="3_4wr4e"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="4_g2qwa"]
+[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="5_dfpng"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="6_4nca1"]
+[ext_resource type="Script" path="res://script/light.gd" id="7_6v16h"]
+[ext_resource type="Texture2D" uid="uid://bn6166cvhahiy" path="res://sprite/www.Tarh.ir.png" id="8_07wxf"]
+[ext_resource type="Texture2D" uid="uid://344kbydvxi5n" path="res://sprite/www.Tarh.ir2.png" id="9_ofyvu"]
+[ext_resource type="Texture2D" uid="uid://b7mppcumg2lj1" path="res://sprite/Layer 7.png" id="10_yif2j"]
+[ext_resource type="Texture2D" uid="uid://dikmntde14b7g" path="res://sprite/Layer 8 copy.png" id="11_ucq7t"]
+[ext_resource type="FontFile" uid="uid://b4pwk2xsrdeh4" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="12_cgkix"]
+[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="13_3nroa"]
+
+[sub_resource type="Curve" id="Curve_1pjfy"]
+_data = [Vector2(0.0180995, 0.0210526), 0.0, 0.0, 0, 0, Vector2(0.0769231, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_goflj"]
+offsets = PackedFloat32Array(0, 0.352632, 0.468421, 0.721053, 0.794737)
+colors = PackedColorArray(1, 1, 0, 1, 1, 0.569729, 0.216523, 1, 1, 0.392157, 0.305882, 1, 0, 0, 0, 1, 1, 1, 1, 0)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8j3f0"]
+texture = ExtResource("5_dfpng")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
+script = ExtResource("6_4nca1")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
+script = ExtResource("7_6v16h")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cd5ed"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_2lfc0"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_55q25"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_2lfc0")
+modulate_color = Color(0.821789, 0.821789, 0.821789, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_e187f"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_aknwe"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_e187f")
+modulate_color = Color(0.601223, 0.601223, 0.601223, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_a4s8e"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pbdhh"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_a4s8e")
+
+[sub_resource type="Gradient" id="Gradient_jhjmw"]
+offsets = PackedFloat32Array(0, 0.613757, 0.671958)
+colors = PackedColorArray(0, 0.360784, 0, 1, 0, 0.392157, 0, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_y3xkp"]
+gradient = SubResource("Gradient_jhjmw")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[sub_resource type="Animation" id="Animation_jq4ww"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Button4:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Button5:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Button6:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Button:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Button2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Button3:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Button4:size")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(287, 287)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Button4:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(31, 306)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Button4/TextureRect/TextureRect2:size")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(287, 287)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Button4/TextureRect/TextureRect2:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Button4/TextureRect/Label:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Button5:size")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(287, 287)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Button5:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(351, 306)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Button5/TextureRect/TextureRect2:size")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(288, 288)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Button5/TextureRect/TextureRect2:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Button5/TextureRect/Label:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Button6:size")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(287, 287)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Button6:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(679, 304)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Button6/TextureRect/TextureRect2:size")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(288, 288)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Button6/TextureRect/TextureRect2:position")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Button6/TextureRect/Label:visible")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_vds72"]
+resource_name = "gift1"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Button4:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Button5:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Button6:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Button:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Button2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Button3:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Button4:size")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(287, 287), Vector2(955, 953)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Button4:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(31, 306), Vector2(31, 306)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Button4/TextureRect/TextureRect2:size")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(278, 278), Vector2(400, 400)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Button4/TextureRect/TextureRect2:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(282, 35)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Button4/TextureRect/Label:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.466667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
+
+[sub_resource type="Animation" id="Animation_qppy1"]
+resource_name = "gift2"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Button4:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Button5:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Button6:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Button:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Button2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Button3:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Button5:size")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(287, 287), Vector2(955, 955)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Button5:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(351, 306), Vector2(23, 259)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Button5/TextureRect/TextureRect2:size")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(288, 288), Vector2(400, 400)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Button5/TextureRect/TextureRect2:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(263, 7)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Button5/TextureRect/Label:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.466667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
+
+[sub_resource type="Animation" id="Animation_sub5x"]
+resource_name = "gift3"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Button4:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Button5:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Button6:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Button:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Button2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Button3:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Button6:size")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(287, 287), Vector2(955, 955)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Button6:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(679, 304), Vector2(19, 296)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Button6/TextureRect/TextureRect2:size")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(288, 288), Vector2(400, 400)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Button6/TextureRect/TextureRect2:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(274, 60)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Button6/TextureRect/Label:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.466667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ff5hi"]
+_data = {
+"RESET": SubResource("Animation_jq4ww"),
+"gift1": SubResource("Animation_vds72"),
+"gift2": SubResource("Animation_qppy1"),
+"gift3": SubResource("Animation_sub5x")
+}
+
+[sub_resource type="Animation" id="Animation_leecf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_h7qju"]
+resource_name = "rot"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jtcyc"]
+_data = {
+"RESET": SubResource("Animation_leecf"),
+"rot": SubResource("Animation_h7qju")
+}
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pdi1x")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_5rphm")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 884.0
+offset_right = 1000.0
+offset_bottom = 111.0
+texture_normal = ExtResource("3_4wr4e")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(625, 1371)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+position = Vector2(748, 1707)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D6" type="CPUParticles2D" parent="."]
+position = Vector2(261, 1681)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D7" type="CPUParticles2D" parent="."]
+position = Vector2(519, 1213)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D3" type="CPUParticles2D" parent="."]
+position = Vector2(521, 1450)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D4" type="CPUParticles2D" parent="."]
+position = Vector2(405, 1370)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="CPUParticles2D5" type="CPUParticles2D" parent="."]
+position = Vector2(523, 1735)
+amount = 100
+lifetime_randomness = 1.0
+emission_shape = 2
+emission_sphere_radius = 10.76
+direction = Vector2(0, -1)
+spread = 41.95
+gravity = Vector2(0, -200)
+initial_velocity_min = 186.45
+initial_velocity_max = 271.2
+angle_min = 42.0
+angle_max = 57.5
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_1pjfy")
+color_ramp = SubResource("Gradient_goflj")
+
+[node name="Label" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 195.0
+offset_top = 106.0
+offset_right = 773.0
+offset_bottom = 297.0
+theme_override_colors/default_color = Color(0, 0.508417, 2.88785e-07, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
+theme_override_constants/outline_size = 11
+theme_override_constants/shadow_outline_size = 18
+theme_override_fonts/normal_font = ExtResource("4_g2qwa")
+theme_override_font_sizes/normal_font_size = 100
+theme_override_styles/normal = SubResource("StyleBoxTexture_8j3f0")
+bbcode_enabled = true
+text = "[light freq=20 len=50 num=2][scaler min=1 max=1.2 freq=2][center]جوایز"
+custom_effects = [SubResource("RichTextEffect_cwnw7"), SubResource("RichTextEffect_0a4oa")]
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 306.0
+offset_right = 318.0
+offset_bottom = 593.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cd5ed")
+theme_override_styles/hover = SubResource("StyleBoxTexture_55q25")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_aknwe")
+theme_override_styles/normal = SubResource("StyleBoxTexture_pbdhh")
+
+[node name="TextureRect" type="TextureRect" parent="Button"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button/TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_07wxf")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 351.0
+offset_top = 306.0
+offset_right = 638.0
+offset_bottom = 593.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cd5ed")
+theme_override_styles/hover = SubResource("StyleBoxTexture_55q25")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_aknwe")
+theme_override_styles/normal = SubResource("StyleBoxTexture_pbdhh")
+
+[node name="TextureRect" type="TextureRect" parent="Button2"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button2/TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_ofyvu")
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 679.0
+offset_top = 304.0
+offset_right = 966.0
+offset_bottom = 591.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cd5ed")
+theme_override_styles/hover = SubResource("StyleBoxTexture_55q25")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_aknwe")
+theme_override_styles/normal = SubResource("StyleBoxTexture_pbdhh")
+
+[node name="TextureRect" type="TextureRect" parent="Button3"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button3/TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("10_yif2j")
+
+[node name="Button4" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 31.0
+offset_top = 306.0
+offset_right = 318.0
+offset_bottom = 593.0
+texture = ExtResource("11_ucq7t")
+
+[node name="TextureRect" type="TextureRect" parent="Button4"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button4/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.5
+offset_top = -143.5
+offset_right = 143.5
+offset_bottom = 143.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_07wxf")
+
+[node name="Label" type="RichTextLabel" parent="Button4/TextureRect"]
+visible = false
+layout_mode = 0
+offset_left = 233.0
+offset_top = 458.0
+offset_right = 727.0
+offset_bottom = 727.0
+theme_override_fonts/normal_font = ExtResource("12_cgkix")
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]جایزه نفر سوم"
+
+[node name="Button5" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 351.0
+offset_top = 306.0
+offset_right = 638.0
+offset_bottom = 593.0
+texture = ExtResource("11_ucq7t")
+
+[node name="TextureRect" type="TextureRect" parent="Button5"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button5/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.5
+offset_top = -143.5
+offset_right = 144.5
+offset_bottom = 144.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_ofyvu")
+
+[node name="Label" type="RichTextLabel" parent="Button5/TextureRect"]
+visible = false
+layout_mode = 0
+offset_left = 233.0
+offset_top = 458.0
+offset_right = 727.0
+offset_bottom = 727.0
+theme_override_fonts/normal_font = ExtResource("12_cgkix")
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]جایزه نفر دوم"
+
+[node name="Button6" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 679.0
+offset_top = 304.0
+offset_right = 966.0
+offset_bottom = 591.0
+texture = ExtResource("11_ucq7t")
+
+[node name="TextureRect" type="TextureRect" parent="Button6"]
+show_behind_parent = true
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_y3xkp")
+
+[node name="TextureRect2" type="TextureRect" parent="Button6/TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.5
+offset_top = -143.5
+offset_right = 144.5
+offset_bottom = 144.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("10_yif2j")
+
+[node name="Label" type="RichTextLabel" parent="Button6/TextureRect"]
+visible = false
+layout_mode = 0
+offset_left = 233.0
+offset_top = 458.0
+offset_right = 727.0
+offset_bottom = 727.0
+theme_override_fonts/normal_font = ExtResource("12_cgkix")
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]جایزه نفر اول"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ff5hi")
+}
+
+[node name="SubViewport" type="SubViewport" parent="."]
+transparent_bg = true
+size = Vector2i(288, 288)
+
+[node name="TextureRect2" type="TextureRect" parent="SubViewport"]
+light_mask = 513
+offset_right = 288.0
+offset_bottom = 288.0
+texture = ExtResource("11_ucq7t")
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport/TextureRect2"]
+position = Vector2(144.5, 145)
+scale = Vector2(1.19583, 1.6)
+range_item_cull_mask = 512
+texture = ExtResource("13_3nroa")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport/TextureRect2"]
+libraries = {
+"": SubResource("AnimationLibrary_jtcyc")
+}
+autoplay = "rot"
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed" binds= [1]]
+[connection signal="pressed" from="Button2" to="." method="_on_button_pressed" binds= [2]]
+[connection signal="pressed" from="Button3" to="." method="_on_button_pressed" binds= [3]]

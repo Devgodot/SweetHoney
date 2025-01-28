@@ -1,0 +1,141 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://script/intro.gd" id="1_y65tn"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="2_yh4kh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6xltr"]
+font = ExtResource("2_yh4kh")
+font_size = 200
+font_color = Color(1, 1, 0, 1)
+outline_size = 20
+outline_color = Color(1, 0.47451, 0, 1)
+shadow_size = 7
+shadow_color = Color(1, 0, 0, 1)
+shadow_offset = Vector2(-20, 1)
+
+[sub_resource type="Curve" id="Curve_0xky0"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.494737), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_phcns"]
+offsets = PackedFloat32Array(0.815789, 1)
+colors = PackedColorArray(1, 1, 0, 1, 0, 0, 0, 0)
+
+[sub_resource type="Animation" id="Animation_6rbbi"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.1, 0.1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ob5cf"]
+resource_name = "start"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.1, 0.1), Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_r8t3c"]
+_data = {
+"RESET": SubResource("Animation_6rbbi"),
+"start": SubResource("Animation_ob5cf")
+}
+
+[node name="intro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y65tn")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0950521
+anchor_top = 0.385798
+anchor_right = 0.904948
+anchor_bottom = 0.614202
+offset_bottom = 6.10352e-05
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+pivot_offset = Vector2(357, 158)
+text = "شیرین عسل"
+label_settings = SubResource("LabelSettings_6xltr")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="Label"]
+show_behind_parent = true
+position = Vector2(339.5, 196.5)
+amount = 50
+lifetime = 0.7
+emission_shape = 3
+emission_rect_extents = Vector2(384, 1)
+gravity = Vector2(0, -500)
+initial_velocity_max = 211.86
+scale_amount_max = 5.0
+scale_amount_curve = SubResource("Curve_0xky0")
+color_ramp = SubResource("Gradient_phcns")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_r8t3c")
+}
+autoplay = "start"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

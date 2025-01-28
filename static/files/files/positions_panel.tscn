@@ -1,0 +1,137 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Shader" path="res://shaders/scaler.gdshader" id="1_wor5s"]
+[ext_resource type="Texture2D" uid="uid://bqx42x2dok8du" path="res://sprite/bg_panel_words.png" id="2_i6v5q"]
+[ext_resource type="FontFile" uid="uid://bpsnumqo55k02" path="res://fonts/Mj_Unique Bold_0.ttf" id="3_3l1b5"]
+[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="4_4mbpx"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s7o8s"]
+shader = ExtResource("1_wor5s")
+shader_parameter/scale = 0.995
+shader_parameter/modulate = Color(1, 1, 1, 1)
+shader_parameter/ratio = 0.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wtamg"]
+texture = ExtResource("2_i6v5q")
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(58.5, 0, 23, 143)
+
+[sub_resource type="FontVariation" id="FontVariation_87081"]
+base_font = ExtResource("3_3l1b5")
+spacing_top = 10
+spacing_bottom = -23
+
+[sub_resource type="LabelSettings" id="LabelSettings_oyvof"]
+font = SubResource("FontVariation_87081")
+font_size = 50
+font_color = Color(0, 0.260467, 0, 1)
+outline_size = 12
+
+[sub_resource type="Gradient" id="Gradient_uxtmb"]
+offsets = PackedFloat32Array(0.7, 0.7875)
+colors = PackedColorArray(1, 0.643137, 0, 1, 1, 1, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_qf6iv"]
+gradient = SubResource("Gradient_uxtmb")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0, 0)
+metadata/_snap_enabled = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5pdfu"]
+draw_center = false
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 0.046
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="PanelContainer" parent="."]
+texture_repeat = 3
+material = SubResource("ShaderMaterial_s7o8s")
+custom_minimum_size = Vector2(0, 90)
+layout_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_wtamg")
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 80
+alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Panel/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="Label" type="Label" parent="Panel/HBoxContainer/HBoxContainer2"]
+layout_mode = 2
+text = "500"
+label_settings = SubResource("LabelSettings_oyvof")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Panel/HBoxContainer/HBoxContainer2"]
+layout_mode = 2
+text = "امتیاز : "
+label_settings = SubResource("LabelSettings_oyvof")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_stretch_ratio = 1.1
+
+[node name="Label2" type="Label" parent="Panel/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "محمدحسین"
+label_settings = SubResource("LabelSettings_oyvof")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="Panel/HBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "-221"
+label_settings = SubResource("LabelSettings_oyvof")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Panel/HBoxContainer/HBoxContainer"]
+clip_children = 2
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+texture = SubResource("GradientTexture2D_qf6iv")
+
+[node name="TextureRect" type="TextureRect" parent="Panel/HBoxContainer/HBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_4mbpx")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Panel" type="Panel" parent="Panel"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5pdfu")
