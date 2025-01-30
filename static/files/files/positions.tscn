@@ -1,54 +1,54 @@
 [gd_scene load_steps=64 format=3]
 
-[ext_resource type="Script" path="res://script/positions.gd" id="1_jo2hk"]
-[ext_resource type="Texture2D" uid="uid://bmpg1c1cm6uub" path="res://sprite/Firefly Honeycomb hexagon 3D golden background with honey cells going into perspective, lighten 8562.jpg" id="2_wqord"]
-[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_5wxig"]
-[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="4_x7b8x"]
-[ext_resource type="Script" path="res://script/scaler.gd" id="5_6d8dd"]
-[ext_resource type="Script" path="res://script/light.gd" id="6_f2rv1"]
-[ext_resource type="Shader" path="res://shaders/fade.gdshader" id="7_u42hs"]
-[ext_resource type="Texture2D" uid="uid://ogbt880c6cv0" path="res://sprite/Untitled_۲۰۲۴۱۱۰۸_۱۰۲۷۴۲.jpg" id="8_4625t"]
-[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="9_cpqkt"]
-[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="10_l07u7"]
-[ext_resource type="Texture2D" uid="uid://seftho8iql7k" path="res://sprite/Layer 37.png" id="11_1aj8w"]
-[ext_resource type="Texture2D" uid="uid://cgxqob7fvufr0" path="res://sprite/Layer 39 copy 7.png" id="12_uarxt"]
-[ext_resource type="Texture2D" uid="uid://b3ysu4hv6iyrm" path="res://sprite/Layer 41.png" id="13_hwd7r"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="14_mcs54"]
-[ext_resource type="Texture2D" uid="uid://7jqsw24mdg0r" path="res://sprite/Layer 40.png" id="15_ajax1"]
-[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="16_ms201"]
-[ext_resource type="Texture2D" uid="uid://bf8kpwtlirbk4" path="res://sprite/Layer 41 copy 5.png" id="17_o7pea"]
-[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="18_0ju80"]
-[ext_resource type="PackedScene" uid="uid://5l827jhuyqn6" path="res://scenes/bee2.tscn" id="19_3ispc"]
-[ext_resource type="Texture2D" uid="uid://yg3td8n56pxg" path="res://icon.svg" id="20_guxh2"]
-[ext_resource type="Texture2D" uid="uid://d2ord8re4iloh" path="res://sprite/positions.png" id="21_tkxi4"]
-[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="22_sfe71"]
-[ext_resource type="Texture2D" uid="uid://b7vg8eacx0c64" path="res://sprite/Layer 44.png" id="23_tfv7s"]
-[ext_resource type="Texture2D" uid="uid://feex56tg4fj0" path="res://sprite/Layer 39 copy 12.png" id="24_8mh18"]
+[ext_resource type="Script" path="res://script/positions.gd" id="1_u1e0p"]
+[ext_resource type="Texture2D" uid="uid://bmpg1c1cm6uub" path="res://sprite/Firefly Honeycomb hexagon 3D golden background with honey cells going into perspective, lighten 8562.jpg" id="2_m5vo7"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_igj7d"]
+[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="4_0ifv2"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="5_11o6s"]
+[ext_resource type="Script" path="res://script/light.gd" id="6_xnlg7"]
+[ext_resource type="Shader" path="res://shaders/fade.gdshader" id="7_tgaxh"]
+[ext_resource type="Texture2D" uid="uid://ogbt880c6cv0" path="res://sprite/Untitled_۲۰۲۴۱۱۰۸_۱۰۲۷۴۲.jpg" id="8_tkdvc"]
+[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="9_da1g6"]
+[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="10_5m7rb"]
+[ext_resource type="Texture2D" uid="uid://seftho8iql7k" path="res://sprite/Layer 37.png" id="11_pjq0g"]
+[ext_resource type="Texture2D" uid="uid://cgxqob7fvufr0" path="res://sprite/Layer 39 copy 7.png" id="12_r1n2u"]
+[ext_resource type="Texture2D" uid="uid://b3ysu4hv6iyrm" path="res://sprite/Layer 41.png" id="13_kupks"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="14_v31pb"]
+[ext_resource type="Texture2D" uid="uid://7jqsw24mdg0r" path="res://sprite/Layer 40.png" id="15_5ts2v"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="16_h485r"]
+[ext_resource type="Texture2D" uid="uid://bf8kpwtlirbk4" path="res://sprite/Layer 41 copy 5.png" id="17_hl007"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="18_0rjuy"]
+[ext_resource type="PackedScene" uid="uid://5l827jhuyqn6" path="res://scenes/bee2.tscn" id="19_loixl"]
+[ext_resource type="Texture2D" uid="uid://yg3td8n56pxg" path="res://icon.svg" id="20_3kyr8"]
+[ext_resource type="Texture2D" uid="uid://d2ord8re4iloh" path="res://sprite/positions.png" id="21_htb1d"]
+[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="22_vqr52"]
+[ext_resource type="Texture2D" uid="uid://b7vg8eacx0c64" path="res://sprite/Layer 44.png" id="23_si3qb"]
+[ext_resource type="Texture2D" uid="uid://feex56tg4fj0" path="res://sprite/Layer 39 copy 12.png" id="24_f4xwa"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4v53g"]
-texture = ExtResource("2_wqord")
+texture = ExtResource("2_m5vo7")
 modulate_color = Color(0.712129, 0.712129, 0.712129, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_wod68"]
-base_font = ExtResource("3_5wxig")
+base_font = ExtResource("3_igj7d")
 spacing_top = 24
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3knpp"]
-texture = ExtResource("4_x7b8x")
+texture = ExtResource("4_0ifv2")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
-script = ExtResource("5_6d8dd")
+script = ExtResource("5_11o6s")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
-script = ExtResource("6_f2rv1")
+script = ExtResource("6_xnlg7")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kap35"]
-shader = ExtResource("7_u42hs")
+shader = ExtResource("7_tgaxh")
 shader_parameter/lod = 2.282
 shader_parameter/mix_percentage = 0.354
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2086w"]
-texture = ExtResource("8_4625t")
+texture = ExtResource("8_tkdvc")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_otx6t"]
 draw_center = false
@@ -68,7 +68,7 @@ Label/colors/font_shadow_color = Color(0, 0, 0, 1)
 Label/constants/outline_size = 10
 Label/constants/shadow_outline_size = 13
 Label/font_sizes/font_size = 35
-Label/fonts/font = ExtResource("9_cpqkt")
+Label/fonts/font = ExtResource("9_da1g6")
 PanelContainer/styles/panel = SubResource("StyleBoxEmpty_icxpr")
 RichTextLabel/colors/default_color = Color(0.00415197, 0.268183, 0.0238109, 1)
 RichTextLabel/colors/font_outline_color = Color(1, 1, 1, 1)
@@ -76,10 +76,10 @@ RichTextLabel/colors/font_shadow_color = Color(0, 0, 0, 1)
 RichTextLabel/constants/outline_size = 10
 RichTextLabel/constants/shadow_outline_size = 13
 RichTextLabel/font_sizes/normal_font_size = 40
-RichTextLabel/fonts/normal_font = ExtResource("9_cpqkt")
+RichTextLabel/fonts/normal_font = ExtResource("9_da1g6")
 
 [sub_resource type="FontVariation" id="FontVariation_wk0o1"]
-base_font = ExtResource("10_l07u7")
+base_font = ExtResource("10_5m7rb")
 spacing_top = 40
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_gntkd"]
@@ -92,14 +92,14 @@ texture = SubResource("ViewportTexture_gntkd")
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uejmt"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d204e"]
-texture = ExtResource("12_uarxt")
+texture = ExtResource("12_r1n2u")
 expand_margin_left = 20.0
 expand_margin_top = 25.0
 expand_margin_right = 20.0
 expand_margin_bottom = 30.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_8soi4"]
-font = ExtResource("14_mcs54")
+font = ExtResource("14_v31pb")
 font_size = 50
 font_color = Color(0.0108068, 0.372627, 0.0234193, 1)
 outline_size = 9
@@ -112,7 +112,7 @@ shadow_color = Color(0, 0, 0, 1)
 viewport_path = NodePath("SubViewport2")
 
 [sub_resource type="LabelSettings" id="LabelSettings_hvvi2"]
-font = ExtResource("14_mcs54")
+font = ExtResource("14_v31pb")
 font_size = 44
 font_color = Color(0.0108068, 0.372627, 0.0234193, 1)
 outline_size = 9
@@ -130,13 +130,13 @@ expand_margin_right = 16.0
 expand_margin_bottom = 30.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_rtvy4"]
-font = ExtResource("16_ms201")
+font = ExtResource("16_h485r")
 font_size = 40
 outline_size = 13
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_2ottb"]
-base_font = ExtResource("3_5wxig")
+base_font = ExtResource("3_igj7d")
 spacing_top = 18
 
 [sub_resource type="Animation" id="Animation_vyt11"]
@@ -472,7 +472,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_jo2hk")
+script = ExtResource("1_u1e0p")
 
 [node name="Panel" type="Panel" parent="."]
 light_mask = 65
@@ -577,7 +577,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("11_1aj8w")
+texture = ExtResource("11_pjq0g")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer/TextureRect"]
@@ -615,7 +615,7 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
 custom_minimum_size = Vector2(160, 100)
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("13_hwd7r")
+texture = ExtResource("13_kupks")
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj/MarginContainer/HBoxContainer/TextureRect2"]
 clip_contents = false
@@ -681,7 +681,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("11_1aj8w")
+texture = ExtResource("11_pjq0g")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer/TextureRect"]
@@ -719,7 +719,7 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
 custom_minimum_size = Vector2(160, 100)
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("13_hwd7r")
+texture = ExtResource("13_kupks")
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj2/MarginContainer/HBoxContainer/TextureRect2"]
 clip_contents = false
@@ -785,7 +785,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("11_1aj8w")
+texture = ExtResource("11_pjq0g")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer/TextureRect"]
@@ -823,7 +823,7 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
 custom_minimum_size = Vector2(160, 100)
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("13_hwd7r")
+texture = ExtResource("13_kupks")
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj3/MarginContainer/HBoxContainer/TextureRect2"]
 clip_contents = false
@@ -889,7 +889,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("11_1aj8w")
+texture = ExtResource("11_pjq0g")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer/TextureRect"]
@@ -927,7 +927,7 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
 custom_minimum_size = Vector2(160, 100)
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("13_hwd7r")
+texture = ExtResource("13_kupks")
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj4/MarginContainer/HBoxContainer/TextureRect2"]
 clip_contents = false
@@ -993,7 +993,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("11_1aj8w")
+texture = ExtResource("11_pjq0g")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer/TextureRect"]
@@ -1031,7 +1031,7 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_uejmt")
 custom_minimum_size = Vector2(160, 100)
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("13_hwd7r")
+texture = ExtResource("13_kupks")
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel/Panel/VBoxContainer3/obj5/MarginContainer/HBoxContainer/TextureRect2"]
 clip_contents = false
@@ -1128,7 +1128,7 @@ size_flags_vertical = 4
 theme_override_colors/default_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 11
-theme_override_fonts/normal_font = ExtResource("9_cpqkt")
+theme_override_fonts/normal_font = ExtResource("9_da1g6")
 theme_override_font_sizes/normal_font_size = 40
 bbcode_enabled = true
 text = "[center]-"
@@ -1160,7 +1160,7 @@ pivot_offset = Vector2(90, 90)
 size_flags_horizontal = 3
 size_flags_vertical = 4
 size_flags_stretch_ratio = 0.2
-texture = ExtResource("15_ajax1")
+texture = ExtResource("15_5ts2v")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1213,7 +1213,7 @@ offset_right = 7.00003
 offset_bottom = 0.000427246
 scale = Vector2(1e-05, 1e-05)
 pivot_offset = Vector2(80, 0)
-texture = ExtResource("17_o7pea")
+texture = ExtResource("17_hl007")
 metadata/_edit_use_anchors_ = true
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Panel/VBoxContainer2/TextureRect4"]
@@ -1236,7 +1236,7 @@ size_flags_vertical = 4
 theme_override_colors/default_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 13
-theme_override_fonts/normal_font = ExtResource("9_cpqkt")
+theme_override_fonts/normal_font = ExtResource("9_da1g6")
 theme_override_font_sizes/normal_font_size = 40
 bbcode_enabled = true
 text = "[center]1"
@@ -1290,11 +1290,11 @@ anchor_right = 1.0
 offset_left = -116.0
 offset_bottom = 111.0
 grow_horizontal = 0
-texture_normal = ExtResource("18_0ju80")
+texture_normal = ExtResource("18_0rjuy")
 ignore_texture_size = true
 stretch_mode = 5
 
-[node name="bee" parent="." instance=ExtResource("19_3ispc")]
+[node name="bee" parent="." instance=ExtResource("19_loixl")]
 position = Vector2(385, 1608)
 scale = Vector2(1.575, 1.575)
 
@@ -1307,7 +1307,7 @@ autoplay = "start"
 [node name="SubViewport" type="SubViewport" parent="."]
 transparent_bg = true
 vrs_update_mode = 2
-vrs_texture = ExtResource("20_guxh2")
+vrs_texture = ExtResource("20_3kyr8")
 size = Vector2i(680, 680)
 size_2d_override_stretch = true
 
@@ -1318,13 +1318,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("21_tkxi4")
+texture = ExtResource("21_htb1d")
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport"]
 position = Vector2(340, 340)
 energy = 5.94
 range_item_cull_mask = 32
-texture = ExtResource("22_sfe71")
+texture = ExtResource("22_vqr52")
 texture_scale = 2.45
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
@@ -1336,7 +1336,7 @@ autoplay = "rot"
 [node name="SubViewport2" type="SubViewport" parent="."]
 transparent_bg = true
 vrs_update_mode = 2
-vrs_texture = ExtResource("20_guxh2")
+vrs_texture = ExtResource("20_3kyr8")
 size = Vector2i(680, 680)
 size_2d_override_stretch = true
 
@@ -1347,13 +1347,13 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("23_tfv7s")
+texture = ExtResource("23_si3qb")
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport2"]
 position = Vector2(340, 340)
 energy = 5.94
 range_item_cull_mask = 32
-texture = ExtResource("22_sfe71")
+texture = ExtResource("22_vqr52")
 texture_scale = 2.45
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport2"]
@@ -1365,7 +1365,7 @@ autoplay = "rot"
 [node name="SubViewport3" type="SubViewport" parent="."]
 transparent_bg = true
 vrs_update_mode = 2
-vrs_texture = ExtResource("20_guxh2")
+vrs_texture = ExtResource("20_3kyr8")
 size = Vector2i(214, 62)
 size_2d_override_stretch = true
 
@@ -1376,7 +1376,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("24_8mh18")
+texture = ExtResource("24_f4xwa")
 
 [node name="PointLight2D2" type="PointLight2D" parent="SubViewport3"]
 position = Vector2(105.646, 29.1459)

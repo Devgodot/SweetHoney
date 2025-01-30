@@ -95,17 +95,18 @@ func _process(delta):
 		var t3 = ":"
 		match mode:
 			MODE.Day:
-				var result = int(open_time) - current_time
-				if int(result / 60) % 60 <= 9:
-					t2 = ":0"
-				if result % 60 <= 9:
-					t3 = ":0"
-				if result / 3600 <= 9:
-					t = "0"
-				if result > 0:
-					time_left = t + str(result / 3600) + t2 + str(int(result / 60) % 60) + t3 + str(result % 60)
-				elif result <= 0:
-					emit_signal("timeout")
+				if open_time:
+					var result = int(open_time) - current_time
+					if int(result / 60) % 60 <= 9:
+						t2 = ":0"
+					if result % 60 <= 9:
+						t3 = ":0"
+					if result / 3600 <= 9:
+						t = "0"
+					if result > 0:
+						time_left = t + str(result / 3600) + t2 + str(int(result / 60) % 60) + t3 + str(result % 60)
+					elif result <= 0:
+						emit_signal("timeout")
 			MODE.Hour:
 				var result = 86400 - current_time
 				if result > 0:

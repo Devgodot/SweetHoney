@@ -4,7 +4,7 @@ var token = ""
 var id = ""
 var appid = "E3BFB00D-B49B-4535-A30B-7C7A9477A185"
 var appkey = "90C055CB-C1D9-4A01-857C-B0BE83B441E1"
-var protocol = "https://"
+var protocol = "http://"
 var subdomin = "sweethoneygame.ir"
 func get_header() -> Array:
 	return [

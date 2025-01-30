@@ -1,18 +1,18 @@
 [gd_scene load_steps=36 format=3]
 
-[ext_resource type="Script" path="res://script/gifts.gd" id="1_lpwyd"]
-[ext_resource type="Texture2D" uid="uid://yncy2pinuka1" path="res://sprite/Firefly Iran ranked first in the honey beehive competition 11608.png" id="2_lt1m8"]
-[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="3_3cxye"]
-[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="4_0al1a"]
-[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="5_d6idj"]
-[ext_resource type="Script" path="res://script/scaler.gd" id="6_1k2ns"]
-[ext_resource type="Script" path="res://script/light.gd" id="7_7d648"]
-[ext_resource type="Texture2D" uid="uid://bn6166cvhahiy" path="res://sprite/www.Tarh.ir.png" id="8_py6wg"]
-[ext_resource type="Texture2D" uid="uid://344kbydvxi5n" path="res://sprite/www.Tarh.ir2.png" id="9_hnfwv"]
-[ext_resource type="Texture2D" uid="uid://b7mppcumg2lj1" path="res://sprite/Layer 7.png" id="10_ygjdj"]
-[ext_resource type="Texture2D" uid="uid://dikmntde14b7g" path="res://sprite/Layer 8 copy.png" id="11_kp112"]
-[ext_resource type="FontFile" uid="uid://b4pwk2xsrdeh4" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="12_swb0n"]
-[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="13_jk3rc"]
+[ext_resource type="Script" path="res://script/gifts.gd" id="1_gf3kj"]
+[ext_resource type="Texture2D" uid="uid://yncy2pinuka1" path="res://sprite/Firefly Iran ranked first in the honey beehive competition 11608.png" id="2_756w8"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="3_sxp27"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="4_yole4"]
+[ext_resource type="Texture2D" uid="uid://b7yy15it0uo37" path="res://sprite/icon2_ranking.png" id="5_1l0lp"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="6_o8tm2"]
+[ext_resource type="Script" path="res://script/light.gd" id="7_77qh2"]
+[ext_resource type="Texture2D" uid="uid://bn6166cvhahiy" path="res://sprite/www.Tarh.ir.png" id="8_8rtjd"]
+[ext_resource type="Texture2D" uid="uid://344kbydvxi5n" path="res://sprite/www.Tarh.ir2.png" id="9_as1wv"]
+[ext_resource type="Texture2D" uid="uid://b7mppcumg2lj1" path="res://sprite/Layer 7.png" id="10_b2u2h"]
+[ext_resource type="Texture2D" uid="uid://dikmntde14b7g" path="res://sprite/Layer 8 copy.png" id="11_vw3tt"]
+[ext_resource type="FontFile" uid="uid://b4pwk2xsrdeh4" path="res://fonts/AbdoMaster-Heavy_p30download.com.otf" id="12_ewscu"]
+[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="13_lsikx"]
 
 [sub_resource type="Curve" id="Curve_1pjfy"]
 _data = [Vector2(0.0180995, 0.0210526), 0.0, 0.0, 0, 0, Vector2(0.0769231, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
@@ -23,13 +23,13 @@ offsets = PackedFloat32Array(0, 0.352632, 0.468421, 0.721053, 0.794737)
 colors = PackedColorArray(1, 1, 0, 1, 1, 0.569729, 0.216523, 1, 1, 0.392157, 0.305882, 1, 0, 0, 0, 1, 1, 1, 1, 0)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8j3f0"]
-texture = ExtResource("5_d6idj")
+texture = ExtResource("5_1l0lp")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
-script = ExtResource("6_1k2ns")
+script = ExtResource("6_o8tm2")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
-script = ExtResource("7_7d648")
+script = ExtResource("7_77qh2")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cd5ed"]
 
@@ -781,7 +781,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_lpwyd")
+script = ExtResource("1_gf3kj")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -790,14 +790,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_lt1m8")
+texture = ExtResource("2_756w8")
 
 [node name="TextureButton" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 884.0
 offset_right = 1000.0
 offset_bottom = 111.0
-texture_normal = ExtResource("3_3cxye")
+texture_normal = ExtResource("3_sxp27")
 ignore_texture_size = true
 stretch_mode = 5
 
@@ -938,7 +938,7 @@ theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.458405, 0.458405, 0.458405, 1)
 theme_override_constants/outline_size = 11
 theme_override_constants/shadow_outline_size = 18
-theme_override_fonts/normal_font = ExtResource("4_0al1a")
+theme_override_fonts/normal_font = ExtResource("4_yole4")
 theme_override_font_sizes/normal_font_size = 100
 theme_override_styles/normal = SubResource("StyleBoxTexture_8j3f0")
 bbcode_enabled = true
@@ -974,7 +974,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("8_py6wg")
+texture = ExtResource("8_8rtjd")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1007,7 +1007,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("9_hnfwv")
+texture = ExtResource("9_as1wv")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1040,7 +1040,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("10_ygjdj")
+texture = ExtResource("10_b2u2h")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1051,7 +1051,7 @@ offset_left = 31.0
 offset_top = 306.0
 offset_right = 318.0
 offset_bottom = 593.0
-texture = ExtResource("11_kp112")
+texture = ExtResource("11_vw3tt")
 
 [node name="TextureRect" type="TextureRect" parent="Button4"]
 show_behind_parent = true
@@ -1077,7 +1077,7 @@ offset_right = 143.5
 offset_bottom = 143.5
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("8_py6wg")
+texture = ExtResource("8_8rtjd")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1088,7 +1088,7 @@ offset_left = 233.0
 offset_top = 458.0
 offset_right = 727.0
 offset_bottom = 727.0
-theme_override_fonts/normal_font = ExtResource("12_swb0n")
+theme_override_fonts/normal_font = ExtResource("12_ewscu")
 theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center]جایزه نفر سوم"
@@ -1100,7 +1100,7 @@ offset_left = 351.0
 offset_top = 306.0
 offset_right = 638.0
 offset_bottom = 593.0
-texture = ExtResource("11_kp112")
+texture = ExtResource("11_vw3tt")
 
 [node name="TextureRect" type="TextureRect" parent="Button5"]
 show_behind_parent = true
@@ -1126,7 +1126,7 @@ offset_right = 144.5
 offset_bottom = 144.5
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("9_hnfwv")
+texture = ExtResource("9_as1wv")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1137,7 +1137,7 @@ offset_left = 233.0
 offset_top = 458.0
 offset_right = 727.0
 offset_bottom = 727.0
-theme_override_fonts/normal_font = ExtResource("12_swb0n")
+theme_override_fonts/normal_font = ExtResource("12_ewscu")
 theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center]جایزه نفر دوم"
@@ -1149,7 +1149,7 @@ offset_left = 679.0
 offset_top = 304.0
 offset_right = 966.0
 offset_bottom = 591.0
-texture = ExtResource("11_kp112")
+texture = ExtResource("11_vw3tt")
 
 [node name="TextureRect" type="TextureRect" parent="Button6"]
 show_behind_parent = true
@@ -1175,7 +1175,7 @@ offset_right = 144.5
 offset_bottom = 144.5
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("10_ygjdj")
+texture = ExtResource("10_b2u2h")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1186,7 +1186,7 @@ offset_left = 233.0
 offset_top = 458.0
 offset_right = 727.0
 offset_bottom = 727.0
-theme_override_fonts/normal_font = ExtResource("12_swb0n")
+theme_override_fonts/normal_font = ExtResource("12_ewscu")
 theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = true
 text = "[center]جایزه نفر اول"
@@ -1204,13 +1204,13 @@ size = Vector2i(288, 288)
 light_mask = 513
 offset_right = 288.0
 offset_bottom = 288.0
-texture = ExtResource("11_kp112")
+texture = ExtResource("11_vw3tt")
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport/TextureRect2"]
 position = Vector2(144.5, 145)
 scale = Vector2(1.19583, 1.6)
 range_item_cull_mask = 512
-texture = ExtResource("13_jk3rc")
+texture = ExtResource("13_lsikx")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport/TextureRect2"]
 libraries = {

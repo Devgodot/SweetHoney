@@ -20,14 +20,15 @@ func get_scene(path, anime=true, mode=0):
 				ChaneSene.get_node("HBoxContainer/TextureRect").texture = load("res://sprite/Untitled_۲۰۲۴۱۱۱۸_۱۴۳۳۵۶.jpg")
 				ChaneSene.get_node("HBoxContainer/TextureRect2").texture = load("res://sprite/Untitled_۲۰۲۴۱۱۱۸_۱۴۳۳۵۶.jpg")
 
-		if !DirAccess.dir_exists_absolute("user://resources"):
-			DirAccess.make_dir_absolute("user://resources")
+	if !DirAccess.dir_exists_absolute("user://resources"):
+		DirAccess.make_dir_absolute("user://resources")
 	await get_tree().create_timer(0.5).timeout
 	var requst = HTTPRequest.new()
 	add_child(requst)
 	
 	requst.request(UpdateData.protocol+UpdateData.subdomin+"/download?filename="+path.get_file(), UpdateData.get_header())
 	var d = await requst.request_completed
+	
 	var file = FileAccess.open("user://resources/"+path.get_file(), FileAccess.WRITE)
 	file.store_buffer(d[3])
 	file.close()

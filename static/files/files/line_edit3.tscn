@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="PackedScene" uid="uid://xq2f2mv3r3q2" path="res://scenes/LineEdit.tscn" id="1_mmwfd"]
+[ext_resource type="PackedScene" uid="uid://xq2f2mv3r3q2" path="res://scenes/LineEdit.tscn" id="1_6lf3f"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ls1kw"]
 bg_color = Color(0.839216, 0.054902, 0.054902, 1)
@@ -26,7 +26,7 @@ corner_radius_bottom_right = 5
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4hsow"]
 
-[node name="LineEdit" instance=ExtResource("1_mmwfd")]
+[node name="LineEdit" instance=ExtResource("1_6lf3f")]
 clear_button_enabled = false
 
 [node name="CheckBox" type="CheckBox" parent="." index="0"]
