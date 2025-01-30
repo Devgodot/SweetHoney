@@ -2,7 +2,8 @@ extends Node
 
 
 var save_path = "user://data.cfg"
-
+func reload():
+	get_scene("res://scenes/intro.tscn")
 func save(_name, num):
 	var confige = ConfigFile.new()
 	confige.load(save_path)

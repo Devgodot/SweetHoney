@@ -50,6 +50,7 @@ func _ready():
 			load_data = true
 		else:
 			$login.show()
+		UpdateData.get_files()
 	if load_game("begin", save_img_path, []).size() != 0:
 		var image = Image.load_from_file("user://begin/" + load_game("begin", save_img_path, [])[0])
 		if image != null:

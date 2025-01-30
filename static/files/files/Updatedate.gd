@@ -4,8 +4,8 @@ var token = ""
 var id = ""
 var appid = "E3BFB00D-B49B-4535-A30B-7C7A9477A185"
 var appkey = "90C055CB-C1D9-4A01-857C-B0BE83B441E1"
-var protocol = "http://"
-var subdomin = "127.0.0.1:5000"
+var protocol = "https://"
+var subdomin = "sweethoneygame.ir"
 func get_header() -> Array:
 	return [
 		"Content-Type: application/json",
@@ -26,10 +26,7 @@ func purchase(_id):
 		return true
 	else:
 		return false
-func _ready() -> void:
-	load_user()
-	get_files()
-	save_resource()
+
 func save_resource():
 	for file in DirAccess.get_files_at("D:/api_flask-Copy/static/files/files"):
 		DirAccess.remove_absolute("D:/api_flask-Copy/static/files/files/"+file)

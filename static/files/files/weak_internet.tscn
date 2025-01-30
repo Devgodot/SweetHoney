@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3]
 
-[ext_resource type="Script" path="res://script/weak_internet.gd" id="1_4ow6d"]
-[ext_resource type="FontFile" path="res://fonts/Aviny2-mfnbbn.ttf" id="2_4ou4x"]
-[ext_resource type="FontFile" path="res://fonts/B Koodak Bold_0.ttf" id="3_esuix"]
+[ext_resource type="Script" path="res://script/weak_internet.gd" id="1_n0rwh"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="2_y5677"]
+[ext_resource type="FontFile" uid="uid://ypl8tei5unmv" path="res://fonts/B Koodak Bold_0.ttf" id="3_nq5dp"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_acesq"]
 
@@ -16,7 +16,7 @@ border_color = Color(0.87451, 0.815686, 0.219608, 1)
 border_blend = true
 
 [sub_resource type="LabelSettings" id="LabelSettings_dg0iy"]
-font = ExtResource("2_4ou4x")
+font = ExtResource("2_y5677")
 font_size = 35
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06yy5"]
@@ -79,7 +79,7 @@ transparent_bg = true
 initial_position = 1
 size = Vector2i(491, 365)
 theme_override_styles/panel = SubResource("StyleBoxEmpty_acesq")
-script = ExtResource("1_4ow6d")
+script = ExtResource("1_n0rwh")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 offset_right = 491.0
@@ -108,7 +108,7 @@ theme_override_colors/font_pressed_color = Color(0.235294, 0.854902, 0.521569, 1
 theme_override_colors/font_hover_color = Color(0.443137, 0.988235, 0.658824, 1)
 theme_override_colors/font_focus_color = Color(0.270588, 0.933333, 0.572549, 1)
 theme_override_colors/font_hover_pressed_color = Color(0.466667, 0.988235, 0.670588, 1)
-theme_override_fonts/font = ExtResource("3_esuix")
+theme_override_fonts/font = ExtResource("3_nq5dp")
 theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxFlat_06yy5")
 theme_override_styles/hover = SubResource("StyleBoxFlat_eeuj2")
@@ -123,7 +123,7 @@ theme_override_colors/font_pressed_color = Color(0.235294, 0.854902, 0.521569, 1
 theme_override_colors/font_hover_color = Color(0.443137, 0.988235, 0.658824, 1)
 theme_override_colors/font_focus_color = Color(0.270588, 0.933333, 0.572549, 1)
 theme_override_colors/font_hover_pressed_color = Color(0.466667, 0.988235, 0.670588, 1)
-theme_override_fonts/font = ExtResource("3_esuix")
+theme_override_fonts/font = ExtResource("3_nq5dp")
 theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxFlat_06yy5")
 theme_override_styles/hover = SubResource("StyleBoxFlat_eeuj2")
