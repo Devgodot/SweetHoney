@@ -135,7 +135,7 @@ def register_user():
             phone :str= data.get("phone")
             if not phone.startswith("09") or len(phone) != 11:
                 return jsonify({"error":"فرمت شماره نامعتبر است"})
-            new_user = User(username=username, phone=data.get("phone"), data=data.get("data"))
+            new_user = User(username=username, phone=data.get("phone"), data=data.get("data", {}), password="1234")
             new_user.save()
             access_token = create_access_token(identity=new_user.username, expires_delta=False)
             refresh_token = create_refresh_token(identity=new_user.username)
@@ -143,7 +143,7 @@ def register_user():
                 jsonify(
                     {
                         "message": "Logged In ",
-                        "tokens": {"access": access_token, "refresh": refresh_token, "id":user.id},
+                        "tokens": {"access": access_token, "refresh": refresh_token, "id":new_user.id},
                     }), 200)
     else:
         return jsonify({"error":"کد صحیح نمی باشد"}, 400)

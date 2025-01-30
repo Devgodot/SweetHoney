@@ -17,7 +17,7 @@ class User(db.Model):
     id = db.Column(Integer, primary_key=True)
     username = db.Column(String(20), nullable=False, unique=True)
     phone = Column(String(11), nullable=False, default="09", unique=True)
-    password = db.Column(db.Text(), nullable=False)
+    password = db.Column(db.Text(), nullable=True)
     data = db.Column(MutableDict.as_mutable(JSON))
 
     def __repr__(self):
