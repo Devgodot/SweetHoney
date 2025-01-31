@@ -339,8 +339,7 @@ func _ready():
 	update_score()
 	part = load_game("part_league", 0)
 	level = load_game("league_level", 0)
-	part = 3
-	level = 34
+	
 	data = await UpdateData.load_level_by_id(level, part)
 	if data.state == 0:
 		var ans = data.answers
