@@ -8,10 +8,11 @@ func _ready():
 	#var scores = await UpdateData.request(UpdateData.protocol+UpdateData.subdomin+"/users/all?filter=iconANDlvlANDname&sort=lvl&per_page=50")
 	var request = HTTPRequest.new()
 	add_child(request)
-	request.timeout = 3
+	
 	request.request(UpdateData.protocol+UpdateData.subdomin+"/users/all?filter=lvlANDiconANDname&sort=lvl&per_page=5", UpdateData.get_header())
 	var d = await request.request_completed
 	var scores = UpdateData.get_json(d[3])
+	print(d[3].get_string_from_utf8())
 	for score in scores.users:
 		var count = scores.users.count(score)
 		if count > 1:

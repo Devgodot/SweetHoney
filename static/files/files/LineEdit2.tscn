@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="StyleBox" path="res://styles/LineEdit_n.tres" id="1_rgj2a"]
+[ext_resource type="StyleBox" path="res://styles/LineEdit_n.tres" id="1_s62j7"]
 
 [node name="LineEdit" type="LineEdit"]
 anchors_preset = 5
@@ -11,7 +11,7 @@ offset_right = 190.5
 offset_bottom = 40.0
 grow_horizontal = 2
 theme_override_font_sizes/font_size = 20
-theme_override_styles/normal = ExtResource("1_rgj2a")
+theme_override_styles/normal = ExtResource("1_s62j7")
 placeholder_text = "گزینه را وارد کنید"
 alignment = 1
 clear_button_enabled = true

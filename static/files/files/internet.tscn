@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=3]
 
-[ext_resource type="Script" path="res://script/internet.gd" id="1_ooim4"]
-[ext_resource type="FontFile" uid="uid://ypl8tei5unmv" path="res://fonts/B Koodak Bold_0.ttf" id="2_tkm34"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_vmrrq"]
+[ext_resource type="Script" path="res://script/internet.gd" id="1_34rw4"]
+[ext_resource type="FontFile" uid="uid://ypl8tei5unmv" path="res://fonts/B Koodak Bold_0.ttf" id="2_5bg1f"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_t8t4i"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6y8mv"]
 bg_color = Color(0, 0, 0, 1)
@@ -59,7 +59,7 @@ corner_radius_bottom_left = 10
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dhq7f"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i8ad1"]
-font = ExtResource("3_vmrrq")
+font = ExtResource("3_t8t4i")
 font_size = 36
 outline_size = 2
 outline_color = Color(0.247059, 0.721569, 0.584314, 1)
@@ -77,7 +77,7 @@ offset_bottom = 173.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_6y8mv")
-script = ExtResource("1_ooim4")
+script = ExtResource("1_34rw4")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 1
@@ -94,7 +94,7 @@ grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0, 0.443137, 0.721569, 0.513726)
 theme_override_constants/outline_size = 3
-theme_override_fonts/font = ExtResource("2_tkm34")
+theme_override_fonts/font = ExtResource("2_5bg1f")
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxFlat_1lqy8")
 theme_override_styles/hover = SubResource("StyleBoxFlat_1at1n")

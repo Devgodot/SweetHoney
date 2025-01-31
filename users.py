@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt, current_user
 from models import User, UserInterface
 from schemas import UserSchema
-from sqlalchemy import desc, text
+from sqlalchemy.sql import desc, text
 
 
 user_bp = Blueprint("users", __name__)
@@ -16,7 +16,7 @@ def get_me():
         if sort == "l":
             sort = f"league_score{season}"
         if sort and sort != "":
-            users = User.query.order_by(desc(text(f"data->>'{sort}'"))).all()
+            users = User.query.order_by(desc( text(f"JSON_UNQUOTE(data->'$.{sort}')"))).all()
         else:
             users = User.query.all()
         previous_score = None

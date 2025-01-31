@@ -1,14 +1,14 @@
 [gd_scene load_steps=11 format=3]
 
-[ext_resource type="StyleBox" uid="uid://b06ugnyk0w8gt" path="res://styles/match_option2.tres" id="1_wylrh"]
-[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="2_vxwg3"]
-[ext_resource type="Script" path="res://script/match_option2.gd" id="3_vnxy1"]
-[ext_resource type="Shader" path="res://styles/line_match.gdshader" id="4_85o1h"]
-[ext_resource type="Gradient" uid="uid://ceq368jd4yvhg" path="res://styles/match_option.tres" id="5_e8q8e"]
-[ext_resource type="PackedScene" uid="uid://diga82iiuiv8t" path="res://scenes/check_btn.tscn" id="6_hpp3n"]
+[ext_resource type="StyleBox" uid="uid://b06ugnyk0w8gt" path="res://styles/match_option2.tres" id="1_abe1p"]
+[ext_resource type="FontFile" uid="uid://lqjanxf8frwg" path="res://fonts/BNarm.ttf" id="2_4wbr8"]
+[ext_resource type="Script" path="res://script/match_option2.gd" id="3_2vd85"]
+[ext_resource type="Shader" path="res://styles/line_match.gdshader" id="4_u80y3"]
+[ext_resource type="Gradient" uid="uid://ceq368jd4yvhg" path="res://styles/match_option.tres" id="5_pivge"]
+[ext_resource type="PackedScene" uid="uid://diga82iiuiv8t" path="res://scenes/check_btn.tscn" id="6_v4fxs"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_fmovf"]
-font = ExtResource("2_vxwg3")
+font = ExtResource("2_4wbr8")
 font_size = 35
 font_color = Color(0, 0.216383, 0.544436, 1)
 outline_size = 5
@@ -17,7 +17,7 @@ shadow_color = Color(0, 0, 0, 1)
 shadow_offset = Vector2(0, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1b736"]
-shader = ExtResource("4_85o1h")
+shader = ExtResource("4_u80y3")
 shader_parameter/speed = 2.0
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_fvkk2"]
@@ -36,7 +36,7 @@ domain_warp_fractal_gain = 3.685
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_4kww1"]
 in_3d_space = true
-color_ramp = ExtResource("5_e8q8e")
+color_ramp = ExtResource("5_pivge")
 noise = SubResource("FastNoiseLite_fvkk2")
 
 [node name="Label" type="Label" groups=["match_option"]]
@@ -45,12 +45,12 @@ offset_bottom = 240.0
 size_flags_horizontal = 3
 mouse_filter = 0
 mouse_default_cursor_shape = 2
-theme_override_styles/normal = ExtResource("1_wylrh")
+theme_override_styles/normal = ExtResource("1_abe1p")
 label_settings = SubResource("LabelSettings_fmovf")
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
-script = ExtResource("3_vnxy1")
+script = ExtResource("3_2vd85")
 
 [node name="Line2D" type="Line2D" parent="."]
 show_behind_parent = true
@@ -63,7 +63,7 @@ joint_mode = 2
 begin_cap_mode = 2
 end_cap_mode = 2
 
-[node name="TextureButton" parent="." instance=ExtResource("6_hpp3n")]
+[node name="TextureButton" parent="." instance=ExtResource("6_v4fxs")]
 layout_mode = 0
 offset_left = -57.0
 offset_top = 82.0
