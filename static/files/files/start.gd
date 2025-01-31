@@ -1,6 +1,6 @@
 extends Control
 
-
+signal start
 var level = 1
 var max_level = 1
 var unlock_level = 1
@@ -45,15 +45,19 @@ func _ready():
 		#$VBoxContainer/HBoxContainer4/Control/Panel/Label.editable = false
 		part = load_game("part", 0)
 
-	if load_game("begin_league", false):
+	if (await UpdateData.request(UpdateData.protocol+UpdateData.subdomin+"/CheckTime?time="+str(load_game("league_open_time")))).resulte:
 		$timer.queue_free()
 		$timer2.show()
 		$timer2.start("close_league", load_game("league_close_time"), 0)
+		$VBoxContainer/PersianButton2.disabled = false
+		$VBoxContainer/PersianButton2/Lock.hide()
 	else:
 		$timer.start("begin_league", load_game('league_open_time'), 0)
-	if load_game("close_league", false):
+	if (await UpdateData.request(UpdateData.protocol+UpdateData.subdomin+"/CheckTime?time="+str(load_game("league_close_time")))).resulte:
 		$timer.queue_free()
 		$timer2.queue_free()
+		$VBoxContainer/PersianButton2.disabled = true
+		$VBoxContainer/PersianButton2/Lock.show()
 	match part:
 		0:
 			max_level = load_game("max_level_h", 1)
@@ -87,7 +91,7 @@ func _ready():
 #		$VBoxContainer/HBoxContainer4/Control/Panel/TextureRect/TextureRect2.texture = load("res://sprite/user_img.png")
 	#$VBoxContainer/HBoxContainer4/Control/Panel/Label2.text = "امتیاز : "+ str(load_game("score", 0))
 	#$VBoxContainer/HBoxContainer4/Control/Panel/TextureRect2.value = load_game("score", 0) * 100 / 5000
-	
+	start.emit()
 func _on_PersianButton_pressed():
 #	add_child(preload("res://scenes/particles.tscn").instantiate())
 	if !guid:
@@ -204,13 +208,7 @@ func _process(delta):
 	if load_game("gift", false):
 		if $gift/AnimationPlayer.current_animation != "gift":
 			$gift/AnimationPlayer.play("rotate_door")
-	if load_game("begin_league"):
-		$VBoxContainer/PersianButton2.disabled = false
-		$VBoxContainer/PersianButton2/Lock.hide()
-	if load_game("close_league"):
-		$VBoxContainer/PersianButton2.disabled = true
-		$VBoxContainer/PersianButton2/Lock.show()
-		
+
 
 func _on_timer_timeout():
 	if !load_game("gift", false):

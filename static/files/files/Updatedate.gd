@@ -185,7 +185,7 @@ func get_data(_name, default=0):
 func get_image(img:String):
 	var http:HTTPRequest = HTTPRequest.new()
 	add_child(http)
-	http.request(protocol+subdomin+"/static/files/"+img.get_file().uri_encode())
+	http.request(protocol+subdomin+"/static/files/icons/"+img.get_file().uri_encode())
 	var d = await http.request_completed
 	http.queue_free()
 	return d[3]
@@ -210,12 +210,14 @@ func load_from_server():
 	return self
 func get_files():
 	var images = await request(protocol+subdomin+"/ListFiles?path=icons")
+	print(images)
 	if !DirAccess.dir_exists_absolute("user://icons"):
 		DirAccess.make_dir_absolute("user://icons")
 	var savesd_images = DirAccess.get_files_at("user://icons")
 	for image in images.files_name:
 		if !savesd_images.has(image):
 			var new_image = Image.new()
+			
 			var buffer = await get_image(image)
 			new_image.load_jpg_from_buffer(buffer)
 			new_image.load_png_from_buffer(buffer)

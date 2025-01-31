@@ -1,14 +1,14 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="1_t01i2"]
-[ext_resource type="StyleBox" path="res://styles/LineEdit2_n.tres" id="2_mh3c5"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="1_iei7b"]
+[ext_resource type="StyleBox" path="res://styles/LineEdit2_n.tres" id="2_3fekn"]
 
 [node name="LineEdit" type="LineEdit" groups=["box"]]
 offset_right = 100.0
 offset_bottom = 100.0
-theme_override_fonts/font = ExtResource("1_t01i2")
+theme_override_fonts/font = ExtResource("1_iei7b")
 theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = ExtResource("2_mh3c5")
+theme_override_styles/normal = ExtResource("2_3fekn")
 text = "ب"
 alignment = 1
 max_length = 1

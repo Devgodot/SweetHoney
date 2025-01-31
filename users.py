@@ -53,7 +53,7 @@ def get_all_users():
 
         per_page = request.args.get("per_page", default=3, type=int)
         if sort and sort != "":
-            users = User.query.order_by(desc(text(f"data->>'{sort}'"))).all()
+            users = User.query.order_by(desc(text(f"JSON_UNQUOTE(data->'$.{sort}')"))).all()
         else:
             users = User.query.all()
         u = []

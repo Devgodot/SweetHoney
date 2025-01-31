@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="Script" path="res://script/jar.gd" id="1_4pd42"]
-[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="2_3fn47"]
+[ext_resource type="Script" path="res://script/jar.gd" id="1_78fow"]
+[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="2_8d1b3"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_edrji"]
 radius = 117.0
@@ -9,7 +9,7 @@ height = 316.0
 
 [node name="Area2D" type="Area2D"]
 collision_mask = 2
-script = ExtResource("1_4pd42")
+script = ExtResource("1_78fow")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_edrji")
@@ -17,7 +17,7 @@ shape = SubResource("CapsuleShape2D_edrji")
 [node name="Jar-of-honey-empty" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0.752941)
 scale = Vector2(0.301136, 0.301136)
-texture = ExtResource("2_3fn47")
+texture = ExtResource("2_8d1b3")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(0, -169)

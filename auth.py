@@ -439,7 +439,10 @@ def get_time():
         name = request.get_json().get("name", "gift")
         mode = request.get_json().get("mode", 0)
         if mode == 1:
-            last_time =  current_user.data.get("last_time_"+name, int(time.time()))
+            if current_user.data.get("last_time_"+name, 0) == 0:
+                current_user.update(data ={"last_time_"+name : int(time.time())}, overwrite=False)
+                db.session.commit()
+            last_time =  current_user.data.get("last_time_"+name)
             if int(time.time()) - last_time >= 86400:
                 return jsonify({"gift":True})
             else:

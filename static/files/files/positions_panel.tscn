@@ -1,24 +1,24 @@
 [gd_scene load_steps=12 format=3]
 
-[ext_resource type="Shader" path="res://shaders/scaler.gdshader" id="1_8atv4"]
-[ext_resource type="Texture2D" uid="uid://bqx42x2dok8du" path="res://sprite/bg_panel_words.png" id="2_tqmhx"]
-[ext_resource type="FontFile" uid="uid://bpsnumqo55k02" path="res://fonts/Mj_Unique Bold_0.ttf" id="3_a3345"]
-[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="4_1kbsu"]
+[ext_resource type="Shader" path="res://shaders/scaler.gdshader" id="1_i0t16"]
+[ext_resource type="Texture2D" uid="uid://bqx42x2dok8du" path="res://sprite/bg_panel_words.png" id="2_1d7qm"]
+[ext_resource type="FontFile" uid="uid://bpsnumqo55k02" path="res://fonts/Mj_Unique Bold_0.ttf" id="3_cfdaj"]
+[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="4_0hp32"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_s7o8s"]
-shader = ExtResource("1_8atv4")
+shader = ExtResource("1_i0t16")
 shader_parameter/scale = 0.995
 shader_parameter/modulate = Color(1, 1, 1, 1)
 shader_parameter/ratio = 0.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wtamg"]
-texture = ExtResource("2_tqmhx")
+texture = ExtResource("2_1d7qm")
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 region_rect = Rect2(58.5, 0, 23, 143)
 
 [sub_resource type="FontVariation" id="FontVariation_87081"]
-base_font = ExtResource("3_a3345")
+base_font = ExtResource("3_cfdaj")
 spacing_top = 10
 spacing_bottom = -23
 
@@ -127,7 +127,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_1kbsu")
+texture = ExtResource("4_0hp32")
 expand_mode = 1
 stretch_mode = 5
 

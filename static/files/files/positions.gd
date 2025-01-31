@@ -12,20 +12,21 @@ func _ready():
 	request.request(UpdateData.protocol+UpdateData.subdomin+"/users/all?filter=lvlANDiconANDname&sort=lvl&per_page=5", UpdateData.get_header())
 	var d = await request.request_completed
 	var scores = UpdateData.get_json(d[3])
-	print(d[3].get_string_from_utf8())
 	for score in scores.users:
 		var count = scores.users.count(score)
 		if count > 1:
 			for x in range(count - 1):
 				scores.users.erase(score)
+	
 	for x in range(scores.users.size()):
 		var data = scores.users[x]
-		var score = data.data.lvl
+		
+		var score = data.data.lvl if data.data.has('lvl') else 0
 		var _name:String= data.data.name if data.data.has('name') else ""
 		if _name == "":
 			_name = data.phone.left(4)+"****"+data.phone.right(3)
-		var icon = data.data.icon
-		add_item(data.data.position + 1, _name, score, icon, %VBoxContainer3.get_child(x))
+		var icon = data.data.icon if data.data.has('icon') else ""
+		add_item(data.data.position + 1, _name, score, icon, %VBoxContainer3.get_child(x+1))
 	var request3 = HTTPRequest.new()
 	add_child(request3)
 	request3.timeout = 3

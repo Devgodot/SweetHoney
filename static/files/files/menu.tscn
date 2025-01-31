@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="Script" path="res://script/menu.gd" id="1_uoh7k"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="2_lh05e"]
+[ext_resource type="Script" path="res://script/menu.gd" id="1_d4tj8"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="2_puu6a"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ykvjc"]
-font = ExtResource("2_lh05e")
+font = ExtResource("2_puu6a")
 font_size = 30
 font_color = Color(1, 0.0431373, 0.0901961, 1)
 outline_size = 2
@@ -14,7 +14,7 @@ outline_color = Color(0.0392157, 0.0392157, 0.0392157, 1)
 offset_right = 228.0
 offset_bottom = 163.0
 mouse_force_pass_scroll_events = false
-script = ExtResource("1_uoh7k")
+script = ExtResource("1_d4tj8")
 btn_text = PackedStringArray("آیکون ها", "انتخاب فایل")
 font = SubResource("LabelSettings_ykvjc")
 

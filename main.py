@@ -12,7 +12,7 @@ from flask_jwt_extended import jwt_required, current_user
 import random
 import requests
 from urllib.parse import quote
-
+import time
 def post_request(url, payload={}, custom_header={}):
     headers = {
     'content-type': 'application/json'
@@ -70,7 +70,15 @@ def download_file():
         else:
             return jsonify({"message": "File not found"}), 404
     return "شما اجازه دسترسی ندارید", 400
-
+@app.route("/CheckTime", methods=["GET"])
+def check_time():
+    try:
+        request_time = int(request.args.get("time", 0))
+    except (ValueError, TypeError):
+        return jsonify({"resulte": False, "error": "Invalid time parameter"}), 400
+    if request_time <= int(time.time()):
+        return jsonify({"resulte":True})
+    return jsonify({"resulte":False})
 @app.route('/ListFiles', methods=['GET'])
 def get_files():
     if "GodotEngine" in request.headers.get("User-Agent"):

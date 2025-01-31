@@ -51,7 +51,7 @@ func _ready():
 		var s = 0
 		if user.data.has("l"):
 			s = user.data.l
-		var _icon = user.data.icon
+		var _icon = user.data.icon if user.data.has('icon') else ""
 		var pos = user.data.position + 1
 		add_item(_name, s, pos, _icon)
 	var request3 = HTTPRequest.new()

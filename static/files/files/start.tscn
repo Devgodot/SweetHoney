@@ -1,50 +1,50 @@
 [gd_scene load_steps=126 format=3]
 
-[ext_resource type="Shader" path="res://shaders/fade.gdshader" id="1_802i7"]
-[ext_resource type="Theme" uid="uid://dipts678cwhk6" path="res://start.tres" id="2_aamlg"]
-[ext_resource type="Script" path="res://script/start.gd" id="3_r5r7q"]
-[ext_resource type="Texture2D" uid="uid://pspa6g6xrnql" path="res://sprite/Firefly Vector background for game with theme inside honey beehive 60917.jpg" id="4_g0l6g"]
-[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="5_ejwvb"]
-[ext_resource type="Texture2D" uid="uid://c2w13p744v1h3" path="res://sprite/Firefly Vector icon button rectangular for game with theme honey beehive 38251 copy2.png" id="6_hk2ng"]
-[ext_resource type="Texture2D" uid="uid://380isc3ske2i" path="res://sprite/lock.png" id="7_te61w"]
-[ext_resource type="FontFile" uid="uid://uelotwjiwcl0" path="res://fonts/Dalal_MRT.ttf" id="8_gsqe2"]
-[ext_resource type="Script" path="res://script/light.gd" id="9_scif3"]
-[ext_resource type="Script" path="res://script/scaler.gd" id="10_xh6xf"]
-[ext_resource type="PackedScene" uid="uid://di6raeb4a5fbe" path="res://scenes/file_dialog.tscn" id="11_todtt"]
-[ext_resource type="Texture2D" uid="uid://bomhto3gfkdy0" path="res://sprite/flower3.png" id="12_i0765"]
-[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="13_l0rn3"]
-[ext_resource type="Texture2D" uid="uid://cqlreaoaw38pb" path="res://sprite/س.png" id="14_bjf4h"]
-[ext_resource type="Texture2D" uid="uid://duo4rnovwg65l" path="res://sprite/Firefly Vector icon button hexagon for game with theme honey beehive 86194.png" id="15_bdfe8"]
-[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="16_o55fa"]
-[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="17_ms4t4"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="18_famua"]
-[ext_resource type="Texture2D" uid="uid://cd2fbe3vl1qb" path="res://sprite/pngimg.com - question_mark_PNG126.png" id="19_77uqo"]
-[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="20_4y1iw"]
-[ext_resource type="Texture2D" uid="uid://xiyod2ph08oc" path="res://sprite/flower.png" id="21_3tulx"]
-[ext_resource type="PackedScene" uid="uid://wjcq1xqc82j5" path="res://scenes/quit.tscn" id="22_dqh61"]
-[ext_resource type="Texture2D" uid="uid://7okfxlpxt103" path="res://sprite/panel_q.png" id="23_pto3v"]
-[ext_resource type="FontFile" uid="uid://52coka50g8od" path="res://fonts/B Traffic_0.ttf" id="24_4c56p"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="25_g80xo"]
-[ext_resource type="Texture2D" uid="uid://kuo45b1xskeg" path="res://sprite/realistic-gold-gift-box_body.png" id="26_q6dj1"]
-[ext_resource type="Texture2D" uid="uid://tm3lmqs7jqii" path="res://sprite/realistic-gold-gift-box_door.png" id="27_664tb"]
-[ext_resource type="Texture2D" uid="uid://bmdm3yuaf4qxb" path="res://sprite/setting.png" id="28_p5vy6"]
-[ext_resource type="Texture2D" uid="uid://cp4m1x0t41581" path="res://sprite/Untitled-9.jpg" id="29_l2nv7"]
-[ext_resource type="Texture2D" uid="uid://ci3bi70vakqy1" path="res://sprite/music.png" id="30_1j5gv"]
-[ext_resource type="Texture2D" uid="uid://5ycmwdyvk48u" path="res://sprite/music_d.png" id="31_s0lu8"]
-[ext_resource type="Texture2D" uid="uid://dl40u326colda" path="res://sprite/speaker.png" id="32_k2631"]
-[ext_resource type="Texture2D" uid="uid://bflcb1y8m2mfa" path="res://sprite/speaker_d.png" id="33_1pln3"]
-[ext_resource type="Texture2D" uid="uid://kvy37rcplmrq" path="res://sprite/signout.png" id="34_p4img"]
-[ext_resource type="Texture2D" uid="uid://chncf4wk3y5pp" path="res://sprite/Firefly Vector icon button rectangular for game with theme honey beehive 38251 copy 3.png" id="35_wfdwu"]
-[ext_resource type="Texture2D" uid="uid://yg3td8n56pxg" path="res://icon.svg" id="36_teqsv"]
-[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="37_747vi"]
+[ext_resource type="Shader" path="res://shaders/fade.gdshader" id="1_irwat"]
+[ext_resource type="Theme" uid="uid://dipts678cwhk6" path="res://start.tres" id="2_ycacs"]
+[ext_resource type="Script" path="res://script/start.gd" id="3_dajaa"]
+[ext_resource type="Texture2D" uid="uid://pspa6g6xrnql" path="res://sprite/Firefly Vector background for game with theme inside honey beehive 60917.jpg" id="4_27n84"]
+[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="5_cqg63"]
+[ext_resource type="Texture2D" uid="uid://c2w13p744v1h3" path="res://sprite/Firefly Vector icon button rectangular for game with theme honey beehive 38251 copy2.png" id="6_3oh2f"]
+[ext_resource type="Texture2D" uid="uid://380isc3ske2i" path="res://sprite/lock.png" id="7_pw35c"]
+[ext_resource type="FontFile" uid="uid://uelotwjiwcl0" path="res://fonts/Dalal_MRT.ttf" id="8_8jmnw"]
+[ext_resource type="Script" path="res://script/light.gd" id="9_1w3ki"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="10_fxxew"]
+[ext_resource type="PackedScene" uid="uid://di6raeb4a5fbe" path="res://scenes/file_dialog.tscn" id="11_85b6r"]
+[ext_resource type="Texture2D" uid="uid://bomhto3gfkdy0" path="res://sprite/flower3.png" id="12_0sfjf"]
+[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="13_qhf4q"]
+[ext_resource type="Texture2D" uid="uid://cqlreaoaw38pb" path="res://sprite/س.png" id="14_y8frw"]
+[ext_resource type="Texture2D" uid="uid://duo4rnovwg65l" path="res://sprite/Firefly Vector icon button hexagon for game with theme honey beehive 86194.png" id="15_nrwl3"]
+[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="16_ieor0"]
+[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="17_esqck"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="18_sowpd"]
+[ext_resource type="Texture2D" uid="uid://cd2fbe3vl1qb" path="res://sprite/pngimg.com - question_mark_PNG126.png" id="19_megfh"]
+[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="20_5pxju"]
+[ext_resource type="Texture2D" uid="uid://xiyod2ph08oc" path="res://sprite/flower.png" id="21_211h5"]
+[ext_resource type="PackedScene" uid="uid://wjcq1xqc82j5" path="res://scenes/quit.tscn" id="22_gmvgt"]
+[ext_resource type="Texture2D" uid="uid://7okfxlpxt103" path="res://sprite/panel_q.png" id="23_2378h"]
+[ext_resource type="FontFile" uid="uid://52coka50g8od" path="res://fonts/B Traffic_0.ttf" id="24_xf4on"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="25_cb37u"]
+[ext_resource type="Texture2D" uid="uid://kuo45b1xskeg" path="res://sprite/realistic-gold-gift-box_body.png" id="26_ip285"]
+[ext_resource type="Texture2D" uid="uid://tm3lmqs7jqii" path="res://sprite/realistic-gold-gift-box_door.png" id="27_78kvn"]
+[ext_resource type="Texture2D" uid="uid://bmdm3yuaf4qxb" path="res://sprite/setting.png" id="28_lbh80"]
+[ext_resource type="Texture2D" uid="uid://cp4m1x0t41581" path="res://sprite/Untitled-9.jpg" id="29_1k3ta"]
+[ext_resource type="Texture2D" uid="uid://ci3bi70vakqy1" path="res://sprite/music.png" id="30_qics3"]
+[ext_resource type="Texture2D" uid="uid://5ycmwdyvk48u" path="res://sprite/music_d.png" id="31_082qx"]
+[ext_resource type="Texture2D" uid="uid://dl40u326colda" path="res://sprite/speaker.png" id="32_vsixx"]
+[ext_resource type="Texture2D" uid="uid://bflcb1y8m2mfa" path="res://sprite/speaker_d.png" id="33_p0f6e"]
+[ext_resource type="Texture2D" uid="uid://kvy37rcplmrq" path="res://sprite/signout.png" id="34_5jx84"]
+[ext_resource type="Texture2D" uid="uid://chncf4wk3y5pp" path="res://sprite/Firefly Vector icon button rectangular for game with theme honey beehive 38251 copy 3.png" id="35_1tsft"]
+[ext_resource type="Texture2D" uid="uid://yg3td8n56pxg" path="res://icon.svg" id="36_xcq7c"]
+[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="37_bnwhj"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_txi6e"]
-shader = ExtResource("1_802i7")
+shader = ExtResource("1_irwat")
 shader_parameter/lod = 1.413
 shader_parameter/mix_percentage = 0.594
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_esjlx"]
-atlas = ExtResource("5_ejwvb")
+atlas = ExtResource("5_cqg63")
 region = Rect2(259, 38, 152, 207)
 
 [sub_resource type="Curve" id="Curve_4exrf"]
@@ -56,7 +56,7 @@ offsets = PackedFloat32Array(0, 0.684211, 1)
 colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.705882, 1, 1, 1, 0)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_krqil"]
-texture = ExtResource("6_hk2ng")
+texture = ExtResource("6_3oh2f")
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_d1v1c"]
 viewport_path = NodePath("SubViewport2")
@@ -66,10 +66,10 @@ resource_local_to_scene = true
 texture = SubResource("ViewportTexture_d1v1c")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_uf8g8"]
-script = ExtResource("9_scif3")
+script = ExtResource("9_1w3ki")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_re6e6"]
-script = ExtResource("10_xh6xf")
+script = ExtResource("10_fxxew")
 
 [sub_resource type="Animation" id="Animation_byyux"]
 length = 0.001
@@ -1353,27 +1353,27 @@ _data = {
 }
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_athrc"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jcj6q"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_76kk0"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gn5p4"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(70, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0mk7k"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(140, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24lmi"]
-atlas = ExtResource("17_ms4t4")
+atlas = ExtResource("17_esqck")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h2anp"]
@@ -4402,7 +4402,7 @@ _data = {
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_6jtql"]
-font = ExtResource("18_famua")
+font = ExtResource("18_sowpd")
 font_size = 35
 font_color = Color(0.00392157, 0.380392, 0.0980392, 1)
 outline_size = 5
@@ -4784,7 +4784,7 @@ _data = {
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_qu40j"]
-font = ExtResource("18_famua")
+font = ExtResource("18_sowpd")
 font_size = 25
 font_color = Color(0.0117647, 0.180392, 0.776471, 1)
 outline_size = 4
@@ -4810,7 +4810,7 @@ scale_curve = SubResource("CurveTexture_sx14a")
 color = Color(0.105882, 0.87451, 0.654902, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_tghqh"]
-font = ExtResource("18_famua")
+font = ExtResource("18_sowpd")
 font_size = 30
 font_color = Color(0, 1, 1, 1)
 outline_size = 2
@@ -5060,8 +5060,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = ExtResource("2_aamlg")
-script = ExtResource("3_r5r7q")
+theme = ExtResource("2_ycacs")
+script = ExtResource("3_dajaa")
 gift_score = 35
 guid_league = "در این قسمت شما با سایر بازیکن ها به رقابت می‌پردازید تا با جمع کردن امتیاز بیشتر جوایز واقعی بهتری
 
@@ -5103,7 +5103,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_g0l6g")
+texture = ExtResource("4_27n84")
 expand_mode = 1
 metadata/_edit_lock_ = true
 
@@ -5167,7 +5167,7 @@ metadata/_edit_group_ = true
 [node name="Lock" type="Sprite2D" parent="VBoxContainer/PersianButton2"]
 position = Vector2(82.1351, 76.5)
 scale = Vector2(1.07207, 1.07207)
-texture = ExtResource("7_te61w")
+texture = ExtResource("7_pw35c")
 
 [node name="PersianButton3" type="Button" parent="VBoxContainer"]
 visible = false
@@ -5216,13 +5216,13 @@ theme_override_constants/outline_size = 20
 theme_override_constants/shadow_offset_y = 7
 theme_override_constants/shadow_offset_x = 10
 theme_override_constants/shadow_outline_size = 30
-theme_override_fonts/normal_font = ExtResource("8_gsqe2")
+theme_override_fonts/normal_font = ExtResource("8_8jmnw")
 theme_override_font_sizes/normal_font_size = 135
 bbcode_enabled = true
 text = "[light freq=20 len=50 num=2 color=red][scaler min=1 max=1.2 freq=2]خوش آمدید"
 custom_effects = [SubResource("RichTextEffect_uf8g8"), SubResource("RichTextEffect_re6e6")]
 
-[node name="file_dialog" parent="." instance=ExtResource("11_todtt")]
+[node name="file_dialog" parent="." instance=ExtResource("11_85b6r")]
 visible = false
 layout_mode = 1
 anchors_preset = -1
@@ -5240,11 +5240,11 @@ libraries = {
 position = Vector2(517, 17)
 amount = 2
 process_material = SubResource("ParticleProcessMaterial_djdw3")
-texture = ExtResource("12_i0765")
+texture = ExtResource("12_0sfjf")
 lifetime = 9.0
 visibility_rect = Rect2(-384, -100, 768, 200)
 
-[node name="Panel" parent="." instance=ExtResource("13_l0rn3")]
+[node name="Panel" parent="." instance=ExtResource("13_qhf4q")]
 visible = false
 layout_mode = 0
 anchors_preset = 0
@@ -5270,14 +5270,14 @@ visible = false
 position = Vector2(498, 576)
 scale = Vector2(1.23134, 0.678763)
 energy = 0.0
-texture = ExtResource("14_bjf4h")
+texture = ExtResource("14_y8frw")
 
 [node name="PointLight2D2" type="PointLight2D" parent="."]
 visible = false
 position = Vector2(504, 791)
 scale = Vector2(1.26066, 0.66801)
 energy = 0.0
-texture = ExtResource("14_bjf4h")
+texture = ExtResource("14_y8frw")
 texture_scale = 0.8
 
 [node name="PointLight2D3" type="PointLight2D" parent="."]
@@ -5285,33 +5285,33 @@ visible = false
 position = Vector2(509, 1027)
 scale = Vector2(1.21802, 0.698924)
 energy = 0.0
-texture = ExtResource("14_bjf4h")
+texture = ExtResource("14_y8frw")
 
 [node name="PointLight2D5" type="PointLight2D" parent="."]
 visible = false
 position = Vector2(406, 1882)
 energy = 0.0
-texture = ExtResource("15_bdfe8")
+texture = ExtResource("15_nrwl3")
 
 [node name="PointLight2D6" type="PointLight2D" parent="."]
 visible = false
 position = Vector2(677, 1884)
 energy = 0.992271
-texture = ExtResource("15_bdfe8")
+texture = ExtResource("15_nrwl3")
 texture_scale = 0.806956
 
 [node name="PointLight2D7" type="PointLight2D" parent="."]
 visible = false
 position = Vector2(540, 1721)
 energy = 0.992271
-texture = ExtResource("15_bdfe8")
+texture = ExtResource("15_nrwl3")
 texture_scale = 0.806956
 
 [node name="PointLight2D8" type="PointLight2D" parent="."]
 visible = false
 position = Vector2(815, 1713)
 energy = 0.992271
-texture = ExtResource("15_bdfe8")
+texture = ExtResource("15_nrwl3")
 texture_scale = 0.806956
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -5343,7 +5343,7 @@ scale = Vector2(0.1, 0.1)
 use_parent_material = true
 position = Vector2(950, 1360)
 offset = Vector2(-2058, -1857)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
 uv = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
@@ -5356,7 +5356,7 @@ texture_repeat = 2
 use_parent_material = true
 position = Vector2(210, 1850)
 offset = Vector2(-537, -2596)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
 uv = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
@@ -5368,7 +5368,7 @@ internal_vertex_count = 1
 use_parent_material = true
 position = Vector2(570, 1420)
 offset = Vector2(-1371, -2226)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
 uv = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
@@ -5381,7 +5381,7 @@ use_parent_material = true
 position = Vector2(700, 430)
 scale = Vector2(1.00828, 1.03242)
 offset = Vector2(-575.237, -1404.47)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
 uv = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
@@ -5392,7 +5392,7 @@ use_parent_material = true
 position = Vector2(-119.014, 77.488)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1375.81, -1166.16)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
 uv = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
@@ -5403,7 +5403,7 @@ use_parent_material = true
 position = Vector2(267.783, -38.7438)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1885.8, -988.161)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
 uv = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
@@ -5414,7 +5414,7 @@ texture_repeat = 2
 use_parent_material = true
 position = Vector2(640, 580)
 offset = Vector2(-640, -580)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
 uv = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
@@ -5426,7 +5426,7 @@ texture_repeat = 2
 use_parent_material = true
 position = Vector2(780, 1800)
 offset = Vector2(-2161, -2546)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
 uv = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
@@ -5438,7 +5438,7 @@ internal_vertex_count = 4
 use_parent_material = true
 position = Vector2(390, 210)
 offset = Vector2(-1820, -670)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
 uv = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
@@ -5448,7 +5448,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 use_parent_material = true
 position = Vector2(770, 130)
 offset = Vector2(-2150, -610)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
 uv = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
@@ -5458,7 +5458,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 use_parent_material = true
 position = Vector2(890, -70)
 offset = Vector2(-2070, -330)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
 uv = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
@@ -5469,7 +5469,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 use_parent_material = true
 position = Vector2(520, -120)
 offset = Vector2(-1700, -270)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
 uv = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
@@ -5481,7 +5481,7 @@ texture_repeat = 2
 use_parent_material = true
 position = Vector2(110, 1410)
 offset = Vector2(-530, -1931)
-texture = ExtResource("16_o55fa")
+texture = ExtResource("16_ieor0")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
 uv = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
@@ -5505,7 +5505,7 @@ editor_settings/show_bone_gizmo = false
 
 [node name="head" type="Bone2D" parent="bee/Skeleton2D/body"]
 position = Vector2(19, -48)
-scale = Vector2(0.99997, 0.99997)
+scale = Vector2(0.999969, 0.999969)
 rest = Transform2D(1, 0, 0, 1, 19, -48)
 editor_settings/show_bone_gizmo = false
 
@@ -5532,7 +5532,7 @@ editor_settings/show_bone_gizmo = false
 [node name="Bone2D4" type="Bone2D" parent="bee/Skeleton2D/body/head/Bone2D4"]
 position = Vector2(16.792, -15.4282)
 rotation = -0.180625
-scale = Vector2(0.999977, 0.999977)
+scale = Vector2(0.999976, 0.999976)
 rest = Transform2D(0.983732, -0.179645, 0.179645, 0.983732, 17.0103, -17.6536)
 auto_calculate_length_and_angle = false
 length = 16.0
@@ -5669,14 +5669,14 @@ theme_override_colors/font_focus_color = Color(0.67451, 0, 0.0980392, 1)
 theme_override_colors/font_color = Color(0.67451, 0, 0.0980392, 1)
 theme_override_colors/font_outline_color = Color(0.996078, 0.996078, 0.996078, 1)
 theme_override_constants/outline_size = 15
-theme_override_fonts/font = ExtResource("18_famua")
+theme_override_fonts/font = ExtResource("18_sowpd")
 theme_override_font_sizes/font_size = 70
 theme_override_styles/focus = SubResource("StyleBoxEmpty_rkd5h")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_kubtc")
 theme_override_styles/hover = SubResource("StyleBoxEmpty_nauy7")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_yohdj")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_x7wnv")
-icon = ExtResource("19_77uqo")
+icon = ExtResource("19_megfh")
 alignment = 0
 expand_icon = true
 language = "fa_IR"
@@ -5687,7 +5687,7 @@ libraries = {
 }
 autoplay = "rotate"
 
-[node name="timer" parent="." instance=ExtResource("20_4y1iw")]
+[node name="timer" parent="." instance=ExtResource("20_5pxju")]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.401032
@@ -5711,7 +5711,7 @@ open_time = {
 }
 metadata/_edit_use_anchors_ = true
 
-[node name="timer2" parent="." instance=ExtResource("20_4y1iw")]
+[node name="timer2" parent="." instance=ExtResource("20_5pxju")]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.401344
@@ -5750,11 +5750,11 @@ grow_vertical = 2
 rotation = 6.28319
 scale = Vector2(1e-05, 1e-05)
 pivot_offset = Vector2(500, 500)
-texture = ExtResource("21_3tulx")
+texture = ExtResource("21_211h5")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="PopupPanel2" parent="." instance=ExtResource("22_dqh61")]
+[node name="PopupPanel2" parent="." instance=ExtResource("22_gmvgt")]
 visible = false
 
 [node name="MarginContainer" parent="PopupPanel2" index="1"]
@@ -5826,7 +5826,7 @@ offset_right = 558.0
 offset_bottom = 1727.0
 scale = Vector2(1e-05, 1e-05)
 pivot_offset = Vector2(98, 356)
-texture = ExtResource("23_pto3v")
+texture = ExtResource("23_2378h")
 flip_h = true
 
 [node name="RichTextLabel" type="RichTextLabel" parent="PanelQ"]
@@ -5840,8 +5840,8 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_fonts/normal_font = ExtResource("24_4c56p")
-theme_override_fonts/bold_italics_font = ExtResource("25_g80xo")
+theme_override_fonts/normal_font = ExtResource("24_xf4on")
+theme_override_fonts/bold_italics_font = ExtResource("25_cb37u")
 theme_override_font_sizes/bold_italics_font_size = 20
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
@@ -5863,7 +5863,7 @@ offset_top = 1231.0
 offset_right = 925.0
 offset_bottom = 1544.0
 scale = Vector2(0.416667, 0.416667)
-texture_normal = ExtResource("26_q6dj1")
+texture_normal = ExtResource("26_ip285")
 
 [node name="CPUParticles2D" type="GPUParticles2D" parent="gift/Realistic-gold-gift-boxBody"]
 position = Vector2(151.2, 108)
@@ -5875,14 +5875,14 @@ lifetime = 0.55
 modulate = Color(0.580392, 0.0431373, 1, 1)
 position = Vector2(688, 1270)
 scale = Vector2(0.417, 0.417)
-texture = ExtResource("27_664tb")
+texture = ExtResource("27_78kvn")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="gift"]
 libraries = {
 "": SubResource("AnimationLibrary_337yr")
 }
 
-[node name="timer" parent="gift" instance=ExtResource("20_4y1iw")]
+[node name="timer" parent="gift" instance=ExtResource("20_5pxju")]
 offset_left = 518.838
 offset_top = 1232.77
 offset_right = 874.838
@@ -5920,7 +5920,7 @@ anchor_right = 0.16
 anchor_bottom = 0.0825
 offset_right = 4.0
 toggle_mode = true
-texture_normal = ExtResource("28_p5vy6")
+texture_normal = ExtResource("28_lbh80")
 texture_pressed = SubResource("ViewportTexture_t22p6")
 ignore_texture_size = true
 stretch_mode = 0
@@ -5950,7 +5950,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("29_l2nv7")
+texture = ExtResource("29_1k3ta")
 expand_mode = 1
 stretch_mode = 1
 
@@ -5977,8 +5977,8 @@ custom_minimum_size = Vector2(130, 130)
 layout_mode = 2
 size_flags_horizontal = 4
 toggle_mode = true
-texture_normal = ExtResource("30_1j5gv")
-texture_pressed = ExtResource("31_s0lu8")
+texture_normal = ExtResource("30_qics3")
+texture_pressed = ExtResource("31_082qx")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -5987,8 +5987,8 @@ custom_minimum_size = Vector2(130, 130)
 layout_mode = 2
 size_flags_horizontal = 4
 toggle_mode = true
-texture_normal = ExtResource("32_k2631")
-texture_pressed = ExtResource("33_1pln3")
+texture_normal = ExtResource("32_vsixx")
+texture_pressed = ExtResource("33_p0f6e")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -5996,7 +5996,7 @@ stretch_mode = 0
 custom_minimum_size = Vector2(130, 130)
 layout_mode = 2
 size_flags_horizontal = 4
-texture_normal = ExtResource("34_p4img")
+texture_normal = ExtResource("34_5jx84")
 ignore_texture_size = true
 stretch_mode = 6
 
@@ -6018,7 +6018,7 @@ offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(78, 78)
-texture = ExtResource("28_p5vy6")
+texture = ExtResource("28_lbh80")
 expand_mode = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
@@ -6039,7 +6039,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("35_wfdwu")
+texture = ExtResource("35_1tsft")
 expand_mode = 1
 
 [node name="PointLight2D2" type="PointLight2D" parent="SubViewport2"]
@@ -6057,7 +6057,7 @@ autoplay = "scale"
 [node name="SubViewport3" type="SubViewport" parent="."]
 transparent_bg = true
 vrs_update_mode = 2
-vrs_texture = ExtResource("36_teqsv")
+vrs_texture = ExtResource("36_xcq7c")
 size = Vector2i(295, 211)
 size_2d_override_stretch = true
 
@@ -6070,14 +6070,14 @@ offset_top = -5.0
 offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("15_bdfe8")
+texture = ExtResource("15_nrwl3")
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport3"]
 position = Vector2(145, 104)
 scale = Vector2(0.234906, 0.320599)
 energy = 5.94
 range_item_cull_mask = 32
-texture = ExtResource("37_747vi")
+texture = ExtResource("37_bnwhj")
 offset = Vector2(57.4697, 4.67874)
 texture_scale = 2.45
 
