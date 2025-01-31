@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3]
 
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="1_tt1x6"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="1_ukopr"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dmlht"]
 bg_color = Color(0.407843, 0.694118, 0.588235, 1)
@@ -96,7 +96,7 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="LabelSettings" id="LabelSettings_alevr"]
-font = ExtResource("1_tt1x6")
+font = ExtResource("1_ukopr")
 font_size = 40
 font_color = Color(0, 0, 0, 1)
 
@@ -132,7 +132,7 @@ offset_right = -47.0
 offset_bottom = -21.0
 grow_horizontal = 0
 grow_vertical = 0
-theme_override_fonts/font = ExtResource("1_tt1x6")
+theme_override_fonts/font = ExtResource("1_ukopr")
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_j7o53")
 theme_override_styles/hover = SubResource("StyleBoxFlat_y2vm8")
@@ -153,7 +153,7 @@ offset_right = -222.0
 offset_bottom = -21.0
 grow_horizontal = 0
 grow_vertical = 0
-theme_override_fonts/font = ExtResource("1_tt1x6")
+theme_override_fonts/font = ExtResource("1_ukopr")
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_ograa")
 theme_override_styles/hover = SubResource("StyleBoxFlat_lta5j")

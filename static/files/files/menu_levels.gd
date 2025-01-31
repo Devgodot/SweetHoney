@@ -78,20 +78,22 @@ func _ready():
 		match unlock_part:
 			0:
 				unlock_level = load_game("unlock_level_m", 1)
-				max_level = await UpdateData.get_max_level("کاوش در منطقه", "mosque")
+				max_level = await UpdateData.get_max_level("", "mosque")
 			1:
 				unlock_level = load_game("unlock_level_h", 1)
-				max_level = await UpdateData.get_max_level("کاوش در منطقه", "home")
+				max_level = await UpdateData.get_max_level("", "home")
 			2:
 				unlock_level = load_game("unlock_level_s", 1)
-				max_level = await UpdateData.get_max_level("کاوش در منطقه", "school")
+				max_level = await UpdateData.get_max_level("", "school")
 			3:
 				unlock_level = load_game("unlock_level_v", 1)
-				max_level = await UpdateData.get_max_level("کاوش در منطقه", "village")
+				max_level = await UpdateData.get_max_level("", "village")
 			4:
 				unlock_level = load_game("unlock_level_ve", 1)
-				max_level = await UpdateData.get_max_level("کاوش در منطقه", "VE")
-		add_move = ((p.max() - p.min()) / max_level) * (unlock_level -1)
+				max_level = await UpdateData.get_max_level("", "VE")
+		if max_level != 0:
+	
+			add_move = ((p.max() - p.min()) / max_level) * (unlock_level -1)
 	$bee.position = get_tree().get_nodes_in_group("part")[int(load_game("part", 0))].get_parent().position - Vector2(-90, 200)
 func _on_button_pressed(count):
 	if anime_finish and !zoom:

@@ -29,15 +29,15 @@ func _ready():
 	part = int(load_game("part", 0))
 	match part:
 		0:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "mosque")
+			max_level = await UpdateData.get_max_level("", "mosque")
 		1:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "home")
+			max_level = await UpdateData.get_max_level("", "home")
 		2:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "school")
+			max_level = await UpdateData.get_max_level("", "school")
 		3:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "village")
+			max_level = await UpdateData.get_max_level("", "village")
 		4:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "VE")
+			max_level = await UpdateData.get_max_level("", "VE")
 	if level + 1 > max_level:
 		$VBoxContainer/HBoxContainer/GridContainer/PersianButton3.hide()
 		if part < load_game("max_part", 5) - 1:

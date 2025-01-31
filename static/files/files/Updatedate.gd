@@ -53,7 +53,7 @@ func random_level(pa, _data={}):
 		_data = d.data
 	return _data
 func load_level(ty, pa, lv, _data={}):
-	var q = "part=%s"%pa.uri_encode() + "&type=%s"%ty.uri_encode() + "&level=%s"%lv
+	var q = "part=%s"%pa.uri_encode() + ("&type=%s"%ty.uri_encode() if ty != "" else "") + "&level=%s"%lv
 	var u =protocol+subdomin+"/levels/get?"+q
 	var d = await request(u)
 	if d and d.has("data"):
@@ -83,7 +83,8 @@ func request(url, method=HTTPClient.METHOD_GET,_data={}):
 		return
 	return get_json(d[3])
 func get_max_level(ty, pa) -> int:
-	var q = "part=%s"%pa.uri_encode() + "&type=%s"%ty.uri_encode()
+	
+	var q = "part=%s"%pa.uri_encode() + ("&type=%s"%ty.uri_encode() if ty != "" else "")
 	var u =protocol+subdomin+"/levels/max?"+q
 	var count = await request(u)
 	if count and count.has("max_level"):

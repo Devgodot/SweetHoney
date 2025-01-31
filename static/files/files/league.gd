@@ -333,12 +333,14 @@ func load_game2(_name, defaulte = null):
 	confige.load("user://files.cfg")
 	return confige.get_value("user", _name, defaulte)
 func _ready():
-	
+	UpdateData.load_user()
 	set_process(false)
 	$bee/AnimationPlayer.get_animation("true_answer").set_loop_mode(1)
 	update_score()
 	part = load_game("part_league", 0)
 	level = load_game("league_level", 0)
+	part = 3
+	level = 34
 	data = await UpdateData.load_level_by_id(level, part)
 	if data.state == 0:
 		var ans = data.answers
@@ -390,7 +392,7 @@ func _ready():
 		3:
 			$AnimationPlayer3.play("state4")
 			$AnimationPlayer2.play("question")
-			$TileMap.show()
+			
 		4:
 			$TextureRect2.texture = preload("res://sprite/vasl.png")
 			$AnimationPlayer3.play("state3")

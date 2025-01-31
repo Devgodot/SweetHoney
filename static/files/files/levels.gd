@@ -38,7 +38,7 @@ func _ready():
 	match mode:
 		Mode.Home:
 			$TextureRect.texture = preload("res://sprite/Untitled-1.jpg")
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "home")
+			max_level = await UpdateData.get_max_level("", "home")
 			unlock_level = await UpdateData.get_data("uh", 1)
 			$ScrollContainer/GridContainer.add_theme_constant_override("h_separation", 110)
 			$ScrollContainer2/VBoxContainer.add_theme_constant_override("separation", 110)
@@ -46,7 +46,7 @@ func _ready():
 			$AnimationPlayer2.play("home")
 		Mode.Village:
 			$TextureRect.texture = preload("res://sprite/mahale5.jpg")
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "village")
+			max_level = await UpdateData.get_max_level("", "village")
 			unlock_level = await UpdateData.get_data("uv", 1)
 			$ScrollContainer2/VBoxContainer.add_theme_constant_override("separation", 110)
 			$ScrollContainer/GridContainer.add_theme_constant_override("v_separation", 110)
@@ -55,7 +55,7 @@ func _ready():
 		Mode.school:
 			col = 7
 			$AnimationPlayer2.play("school")
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "school")
+			max_level = await UpdateData.get_max_level("", "school")
 			unlock_level = await UpdateData.get_data("us", 1)
 			$TextureRect.texture = preload("res://sprite/madrase2.jpg")
 			$ScrollContainer/GridContainer.columns = col
@@ -65,7 +65,7 @@ func _ready():
 		Mode.mosque:
 			col = 5
 			$ScrollContainer2/VBoxContainer.add_theme_constant_override("separation", 110)
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "mosque")
+			max_level = await UpdateData.get_max_level("", "mosque")
 			$ScrollContainer/GridContainer.columns = col
 			unlock_level = await UpdateData.get_data("um", 1)
 			$TextureRect.texture = preload("res://sprite/masjed9.jpg")
@@ -75,7 +75,7 @@ func _ready():
 		Mode.VE:
 			col = 6
 			$ScrollContainer2/VBoxContainer.add_theme_constant_override("separation", 110)
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "VE")
+			max_level = await UpdateData.get_max_level("", "VE")
 			$ScrollContainer/GridContainer.columns = col
 			unlock_level = await UpdateData.get_data("uve", 1)
 			$TextureRect.texture = preload("res://sprite/فضای مجازی4.png")

@@ -305,18 +305,18 @@ func _ready():
 		4:
 			unlock_level = await UpdateData.get_data("uve", 1)
 	var p = ["mosque", "home", "school", "village", "VE"]
-	data = await UpdateData.load_level("کاوش در منطقه", p[part], level)
+	data = await UpdateData.load_level("", p[part], level)
 	match part:
 		0:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "mosque")
+			max_level = await UpdateData.get_max_level("", "mosque")
 		1:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "home")
+			max_level = await UpdateData.get_max_level("", "home")
 		2:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "school")
+			max_level = await UpdateData.get_max_level("", "school")
 		3:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "village")
+			max_level = await UpdateData.get_max_level("", "village")
 		4:
-			max_level = await UpdateData.get_max_level("کاوش در منطقه", "VE")
+			max_level = await UpdateData.get_max_level("", "VE")
 	$Control/Label2.text = "مرحلـه " + str(level)
 	$TextureRect3/Line2D.position = -$TextureRect3.global_position
 	for node in get_tree().get_nodes_in_group("purchase"):
