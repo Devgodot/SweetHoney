@@ -22,7 +22,8 @@ def get_me():
         previous_score = None
         current_position = 0
         for index, user in enumerate(users):
-            current_score = user.data.get(request.args.get("sort"))
+            current_score = user.data.get(request.args.get("sort"), 0)
+            print(current_score)
             if current_score != previous_score:
                 current_position = index
             user.data['position'] = current_position + 1
