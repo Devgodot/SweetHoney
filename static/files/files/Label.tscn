@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="1_1voiu"]
-[ext_resource type="Script" path="res://script/Label.gd" id="2_tm5bt"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="1_cxuuu"]
+[ext_resource type="Script" path="res://script/Label.gd" id="2_a7g05"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_74wjw"]
-font = ExtResource("1_1voiu")
+font = ExtResource("1_cxuuu")
 font_size = 65
 font_color = Color(0.0431373, 0.533333, 0.0235294, 1)
 outline_size = 20
@@ -20,7 +20,7 @@ label_settings = SubResource("LabelSettings_74wjw")
 horizontal_alignment = 1
 vertical_alignment = 1
 language = "fa_IR"
-script = ExtResource("2_tm5bt")
+script = ExtResource("2_a7g05")
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]

@@ -3,7 +3,7 @@ extends Node
 
 var save_path = "user://data.cfg"
 func reload():
-	get_scene("res://scenes/intro.tscn")
+	get_tree().change_scene_to_file("res://scenes/intro.tscn")
 func save(_name, num):
 	var confige = ConfigFile.new()
 	confige.load(save_path)
@@ -28,7 +28,9 @@ func get_scene(path, anime=true, mode=0):
 	
 	requst.request(UpdateData.protocol+UpdateData.subdomin+"/download?filename="+path.get_file(), UpdateData.get_header())
 	var d = await requst.request_completed
-	
+	print(d[0])
+	if d[0] == 2 or d[0] == 9 or d[0] == 3:
+		Exit.reload()
 	var file = FileAccess.open("user://resources/"+path.get_file(), FileAccess.WRITE)
 	file.store_buffer(d[3])
 	file.close()
@@ -48,14 +50,15 @@ func get_scene(path, anime=true, mode=0):
 	return [ResourceLoader.load_threaded_get(path2), ResourceLoader.load("user://resources/"+path.get_file().get_basename()+".gd")]
 func change_scene(path, anime=true, mode=0):
 	var d = await get_scene(path, anime, mode)
-	var scene = d[0]
-	for child in get_tree().get_root().get_children():
-		if child != AddBee and child != ChaneSene and child != self  and child != CheckInternet and child != UpdateData:
-			child.queue_free()
-	var s = scene.instantiate()
-	s.set_script(d[1])
-	get_tree().get_root().add_child(s)
-	if anime:
-		if s.has_signal("start"):
-			await s.start
-		ChaneSene.get_node("AnimationPlayer").play_backwards("open_close")
+	if d[0]:
+		var scene = d[0]
+		for child in get_tree().get_root().get_children():
+			if child != AddBee and child != ChaneSene and child != self  and child != CheckInternet and child != UpdateData:
+				child.queue_free()
+		var s = scene.instantiate()
+		s.set_script(d[1])
+		get_tree().get_root().add_child(s)
+		if anime:
+			if s.has_signal("start"):
+				await s.start
+			ChaneSene.get_node("AnimationPlayer").play_backwards("open_close")

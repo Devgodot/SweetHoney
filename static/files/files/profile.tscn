@@ -1,9 +1,9 @@
 [gd_scene load_steps=14 format=3]
 
-[ext_resource type="Texture2D" uid="uid://bwylog0tjvnpt" path="res://sprite/honey_wood.png" id="1_p4xon"]
-[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="2_hnsn3"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_vjl8e"]
-[ext_resource type="Texture2D" uid="uid://x5ixvbs26pb8" path="res://sprite/default.png" id="4_h04o2"]
+[ext_resource type="Texture2D" uid="uid://bwylog0tjvnpt" path="res://sprite/honey_wood.png" id="1_dv8hv"]
+[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="2_e0buy"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="3_i35e8"]
+[ext_resource type="Texture2D" uid="uid://x5ixvbs26pb8" path="res://sprite/default.png" id="4_bribc"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xhceu"]
 
@@ -50,7 +50,7 @@ fill_from = Vector2(0.5, 0.5)
 fill_to = Vector2(0, 0)
 
 [sub_resource type="LabelSettings" id="LabelSettings_ntyr0"]
-font = ExtResource("3_vjl8e")
+font = ExtResource("3_i35e8")
 font_size = 24
 font_color = Color(1, 0, 0, 1)
 
@@ -121,7 +121,7 @@ anchor_right = 1.0
 offset_left = -40.0
 offset_bottom = 40.0
 grow_horizontal = 0
-texture_normal = ExtResource("1_p4xon")
+texture_normal = ExtResource("1_dv8hv")
 ignore_texture_size = true
 stretch_mode = 0
 flip_h = true
@@ -146,7 +146,7 @@ grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(125, 125)
 size_flags_horizontal = 3
-texture = ExtResource("2_hnsn3")
+texture = ExtResource("2_e0buy")
 expand_mode = 1
 stretch_mode = 5
 
@@ -173,7 +173,7 @@ offset_left = 22.224
 offset_top = 27.458
 offset_right = 62.224
 offset_bottom = 67.458
-texture_normal = ExtResource("4_h04o2")
+texture_normal = ExtResource("4_bribc")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -188,7 +188,7 @@ offset_top = 25.0
 offset_right = -74.0
 offset_bottom = 65.0
 grow_horizontal = 2
-texture_normal = ExtResource("1_p4xon")
+texture_normal = ExtResource("1_dv8hv")
 ignore_texture_size = true
 stretch_mode = 5
 flip_h = true

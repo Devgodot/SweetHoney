@@ -200,6 +200,7 @@ func request_completed2(result, response_code, header, body):
 		if data.has("tokens"):
 			save_auth(data.tokens)
 			UpdateData.load_user()
+			save("phone", $login/Panel/MarginContainer/TabContainer/VBoxContainer2/HBoxContainer/LineEdit.text, "user://data.cfg")
 			await UpdateData.load_from_server()
 			load_data = true
 			$login.hide()
@@ -241,7 +242,6 @@ func verify(body):
 	var headers = [
 		"Content-Type: application/json"
 	]
-	
 	auth.request(UpdateData.protocol+UpdateData.subdomin+"/auth/verify", headers, HTTPClient.METHOD_POST, JSON.stringify(body))
 	await auth.request_completed
 	auth.queue_free()

@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3]
 
-[ext_resource type="Texture2D" uid="uid://c6itf7a8i78lf" path="res://sprite/hive2.png" id="1_j6o15"]
-[ext_resource type="Texture2D" uid="uid://chpqdk0ckjvei" path="res://sprite/hive.png" id="2_67hl3"]
-[ext_resource type="Script" path="res://script/hive.gd" id="3_visv1"]
-[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="4_1mx2i"]
+[ext_resource type="Texture2D" uid="uid://c6itf7a8i78lf" path="res://sprite/hive2.png" id="1_2kb37"]
+[ext_resource type="Texture2D" uid="uid://chpqdk0ckjvei" path="res://sprite/hive.png" id="2_1fp8k"]
+[ext_resource type="Script" path="res://script/hive.gd" id="3_yeov4"]
+[ext_resource type="PackedScene" uid="uid://biiyvsk4wdpm1" path="res://scenes/timer.tscn" id="4_v6t3f"]
 
 [sub_resource type="SystemFont" id="SystemFont_i0d2t"]
 font_names = PackedStringArray("Serif")
@@ -26,13 +26,13 @@ outline_color = Color(0.00784314, 0.00784314, 0.00784314, 1)
 offset_right = 155.0
 offset_bottom = 156.0
 disabled = true
-texture_normal = ExtResource("1_j6o15")
-texture_disabled = ExtResource("2_67hl3")
+texture_normal = ExtResource("1_2kb37")
+texture_disabled = ExtResource("2_1fp8k")
 ignore_texture_size = true
 stretch_mode = 5
-script = ExtResource("3_visv1")
+script = ExtResource("3_yeov4")
 
-[node name="timer" parent="." instance=ExtResource("4_1mx2i")]
+[node name="timer" parent="." instance=ExtResource("4_v6t3f")]
 texture_filter = 6
 layout_mode = 1
 anchors_preset = -1

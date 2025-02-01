@@ -61,7 +61,7 @@ func _ready():
 	var d2 = await request3.request_completed
 	var data2 = UpdateData.get_json(d2[3])
 	request3.queue_free()
-	if data2.has("pos") and data2.pos != 0:
+	if data2 and data2.has("pos") and data2.pos != 0:
 		$MarginContainer/VBoxContainer/my_position/Panel/HBoxContainer/HBoxContainer/Label.text = str("رتبه : ", data2.pos)
 	else:
 		$MarginContainer/VBoxContainer/my_position/Panel/HBoxContainer/HBoxContainer/Label.text = "رتبه : - "

@@ -1,23 +1,23 @@
 [gd_scene load_steps=26 format=3]
 
-[ext_resource type="Script" path="res://script/load.gd" id="1_eklr7"]
-[ext_resource type="Texture2D" uid="uid://cobib2buc4l1u" path="res://sprite/شیرین عسل1.jpg" id="2_y6rpq"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="3_vb808"]
-[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="4_ao0nq"]
-[ext_resource type="Script" path="res://script/update.gd" id="5_y1ndo"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="6_ditgt"]
-[ext_resource type="PackedScene" uid="uid://pqhprp47chb2" path="res://scenes/weak_internet.tscn" id="7_bsgtl"]
-[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="8_u4lxh"]
-[ext_resource type="Texture2D" uid="uid://d2b4fu8bqhqlj" path="res://sprite/jar-png-jar-of-honey-full.png" id="9_vsayp"]
-[ext_resource type="Shader" path="res://shaders/honey.gdshader" id="10_gmvs0"]
-[ext_resource type="Texture2D" uid="uid://chfwj4pnbojfm" path="res://sprite/honey2.png" id="11_uchnq"]
-[ext_resource type="PackedScene" uid="uid://7s7lcjkvekne" path="res://scenes/login.tscn" id="12_u4ky3"]
+[ext_resource type="Script" path="res://script/load.gd" id="1_3omw5"]
+[ext_resource type="Texture2D" uid="uid://cobib2buc4l1u" path="res://sprite/شیرین عسل1.jpg" id="2_p18ao"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="3_vj6r3"]
+[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="4_1yfqj"]
+[ext_resource type="Script" path="res://script/update.gd" id="5_r0330"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="6_bfxfw"]
+[ext_resource type="PackedScene" uid="uid://pqhprp47chb2" path="res://scenes/weak_internet.tscn" id="7_8fyss"]
+[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="8_ikb1b"]
+[ext_resource type="Texture2D" uid="uid://d2b4fu8bqhqlj" path="res://sprite/jar-png-jar-of-honey-full.png" id="9_pmv6p"]
+[ext_resource type="Shader" path="res://shaders/honey.gdshader" id="10_2rst4"]
+[ext_resource type="Texture2D" uid="uid://chfwj4pnbojfm" path="res://sprite/honey2.png" id="11_g7glk"]
+[ext_resource type="PackedScene" uid="uid://7s7lcjkvekne" path="res://scenes/login.tscn" id="12_lx5bf"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pfquf"]
 bg_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_j7u2d"]
-font = ExtResource("3_vb808")
+font = ExtResource("3_vj6r3")
 font_size = 40
 font_color = Color(0.0117647, 0.337255, 0.792157, 1)
 outline_size = 9
@@ -312,13 +312,13 @@ corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [sub_resource type="LabelSettings" id="LabelSettings_i8ad1"]
-font = ExtResource("6_ditgt")
+font = ExtResource("6_bfxfw")
 font_size = 28
 outline_size = 2
 outline_color = Color(0.247059, 0.721569, 0.584314, 1)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ea7nx"]
-shader = ExtResource("10_gmvs0")
+shader = ExtResource("10_2rst4")
 shader_parameter/speed = 1.0
 
 [node name="load" type="Control"]
@@ -329,7 +329,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
-script = ExtResource("1_eklr7")
+script = ExtResource("1_3omw5")
 
 [node name="Panel3" type="Panel" parent="."]
 layout_mode = 1
@@ -347,7 +347,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_y6rpq")
+texture = ExtResource("2_p18ao")
 expand_mode = 1
 stretch_mode = 6
 
@@ -376,7 +376,7 @@ autoplay = "waite"
 
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
 
-[node name="Panel" parent="." instance=ExtResource("4_ao0nq")]
+[node name="Panel" parent="." instance=ExtResource("4_1yfqj")]
 visible = false
 layout_mode = 1
 offset_left = -313.0
@@ -399,7 +399,7 @@ offset_bottom = 157.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_6y8mv")
-script = ExtResource("5_y1ndo")
+script = ExtResource("5_r0330")
 
 [node name="Button" type="Button" parent="Panel2"]
 layout_mode = 1
@@ -437,7 +437,7 @@ autowrap_mode = 3
 wait_time = 20.0
 autostart = true
 
-[node name="Weak_internet" parent="." instance=ExtResource("7_bsgtl")]
+[node name="Weak_internet" parent="." instance=ExtResource("7_8fyss")]
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(535, 1688)
@@ -457,8 +457,8 @@ rotation = 3.14159
 pivot_offset = Vector2(50, 65)
 fill_mode = 3
 nine_patch_stretch = true
-texture_under = ExtResource("8_u4lxh")
-texture_progress = ExtResource("9_vsayp")
+texture_under = ExtResource("8_ikb1b")
+texture_progress = ExtResource("9_pmv6p")
 metadata/_edit_use_anchors_ = true
 
 [node name="TextureProgressBar2" type="TextureProgressBar" parent="Node2D"]
@@ -474,8 +474,8 @@ offset_bottom = 280.0
 pivot_offset = Vector2(50, 65)
 fill_mode = 3
 nine_patch_stretch = true
-texture_under = ExtResource("8_u4lxh")
-texture_progress = ExtResource("9_vsayp")
+texture_under = ExtResource("8_ikb1b")
+texture_progress = ExtResource("9_pmv6p")
 metadata/_edit_use_anchors_ = true
 
 [node name="Honey2" type="Sprite2D" parent="Node2D"]
@@ -483,9 +483,9 @@ texture_repeat = 2
 material = SubResource("ShaderMaterial_ea7nx")
 position = Vector2(371, 847)
 scale = Vector2(0.046, 1e-05)
-texture = ExtResource("11_uchnq")
+texture = ExtResource("11_g7glk")
 
-[node name="login" parent="." instance=ExtResource("12_u4ky3")]
+[node name="login" parent="." instance=ExtResource("12_lx5bf")]
 visible = false
 layout_mode = 1
 
@@ -494,3 +494,5 @@ layout_mode = 1
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="entered_code" from="login" to="." method="signup"]
 [connection signal="entered_phone" from="login" to="." method="verify"]
+
+[editable path="login"]
