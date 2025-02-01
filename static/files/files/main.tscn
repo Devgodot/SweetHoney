@@ -1,35 +1,35 @@
 [gd_scene load_steps=86 format=3]
 
-[ext_resource type="Script" path="res://script/main.gd" id="1_0mf3e"]
-[ext_resource type="Texture2D" uid="uid://bjmu3tlopc5ot" path="res://sprite/Firefly Vector background for game with theme honey beehive, pattern hexagon 5652.jpg" id="2_a07x4"]
-[ext_resource type="Texture2D" uid="uid://b5ukl0y33oqqh" path="res://sprite/asal-kv-Tarh.ir-31-a.png" id="3_xhmyn"]
-[ext_resource type="StyleBox" uid="uid://drc1pvysoqn2h" path="res://styles/word_label_n2.tres" id="4_tvspy"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="5_nrtrh"]
-[ext_resource type="Texture2D" uid="uid://3aq8mmocv51q" path="res://sprite/border_l_panel_words.png" id="6_vw21h"]
-[ext_resource type="Texture2D" uid="uid://sho7gnaif26v" path="res://sprite/border_c_panel_words.png" id="7_vrpcl"]
-[ext_resource type="Texture2D" uid="uid://b20l87t8gmmh6" path="res://sprite/border_r_panel_words.png" id="8_lb7ix"]
-[ext_resource type="Texture2D" uid="uid://c2lfvjy0cqg5i" path="res://sprite/mar.png" id="9_vrkfg"]
-[ext_resource type="Texture2D" uid="uid://cppekcjr6xx7v" path="res://sprite/honey.png" id="10_kryq4"]
-[ext_resource type="Texture2D" uid="uid://bchtwxc83yxea" path="res://sprite/menu.png" id="11_8bmvu"]
-[ext_resource type="Texture2D" uid="uid://dohm5i066hyu7" path="res://sprite/turn_words.png" id="12_6h65k"]
-[ext_resource type="Texture2D" uid="uid://bg24akx2cwpi3" path="res://sprite/turn_words_h.png" id="13_v161a"]
-[ext_resource type="Texture2D" uid="uid://7okfxlpxt103" path="res://sprite/panel_q.png" id="14_5febf"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="15_1rjwl"]
-[ext_resource type="Texture2D" uid="uid://d2vdiijv5wb4e" path="res://sprite/honeycomb.png" id="16_h0mgd"]
-[ext_resource type="PackedScene" uid="uid://cbo01jw07iknn" path="res://scenes/bee.tscn" id="17_pfpm1"]
-[ext_resource type="Texture2D" uid="uid://ci58qngdsqe3b" path="res://sprite/so.png" id="18_48cn6"]
-[ext_resource type="Texture2D" uid="uid://cw8akri5ppdq0" path="res://sprite/bg7.png" id="19_8i1lv"]
-[ext_resource type="Texture2D" uid="uid://x50koawm04kx" path="res://sprite/Layer 6.png" id="20_vxpl3"]
-[ext_resource type="Texture2D" uid="uid://d0ew08lppj7r0" path="res://sprite/Layer 4 copy.png" id="21_44ruk"]
-[ext_resource type="Texture2D" uid="uid://da2c0balfdlbp" path="res://sprite/Layer 5 copy 2.png" id="22_xeayq"]
-[ext_resource type="Shader" path="res://shaders/light.gdshader" id="23_3a87o"]
-[ext_resource type="Texture2D" uid="uid://bs464bab2nxf3" path="res://sprite/Remove background project.png" id="24_sprak"]
-[ext_resource type="FontFile" uid="uid://xrlcfeoa67ka" path="res://fonts/Titr_Stancil.ttf" id="25_s3mfw"]
-[ext_resource type="Texture2D" uid="uid://6ooblg4ips67" path="res://sprite/lens-flare-light-special-effect-free-png.png" id="26_l41if"]
-[ext_resource type="Texture2D" uid="uid://dwpqhso0x5j5w" path="res://sprite/Untitled_۲۰۲۴۱۲۰۵_۱۸۰۱۰۸.png" id="27_4i2lh"]
-[ext_resource type="Texture2D" uid="uid://vwnyf5d0pf2q" path="res://sprite/Untitled_۲۰۲۴۱۱۳۰_۱۶۴۶۳۵.png" id="28_63k5l"]
-[ext_resource type="Texture2D" uid="uid://cfihj6bh04g8v" path="res://sprite/pngtree-fire-circle-image-png-image_7305293.png" id="29_mlms6"]
-[ext_resource type="Texture2D" uid="uid://b4m2p7u48oq2h" path="res://sprite/fire-light-circle-free-png.png" id="30_hakm7"]
+[ext_resource type="Script" path="res://script/main.gd" id="1_qloof"]
+[ext_resource type="Texture2D" uid="uid://bjmu3tlopc5ot" path="res://sprite/Firefly Vector background for game with theme honey beehive, pattern hexagon 5652.jpg" id="2_s2hoc"]
+[ext_resource type="Texture2D" uid="uid://b5ukl0y33oqqh" path="res://sprite/asal-kv-Tarh.ir-31-a.png" id="3_7d6sn"]
+[ext_resource type="StyleBox" uid="uid://drc1pvysoqn2h" path="res://styles/word_label_n2.tres" id="4_j2po5"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="5_axkyg"]
+[ext_resource type="Texture2D" uid="uid://3aq8mmocv51q" path="res://sprite/border_l_panel_words.png" id="6_hu1oh"]
+[ext_resource type="Texture2D" uid="uid://sho7gnaif26v" path="res://sprite/border_c_panel_words.png" id="7_8futp"]
+[ext_resource type="Texture2D" uid="uid://b20l87t8gmmh6" path="res://sprite/border_r_panel_words.png" id="8_gs7rj"]
+[ext_resource type="Texture2D" uid="uid://c2lfvjy0cqg5i" path="res://sprite/mar.png" id="9_6ps87"]
+[ext_resource type="Texture2D" uid="uid://cppekcjr6xx7v" path="res://sprite/honey.png" id="10_1wk3q"]
+[ext_resource type="Texture2D" uid="uid://bchtwxc83yxea" path="res://sprite/menu.png" id="11_dci08"]
+[ext_resource type="Texture2D" uid="uid://dohm5i066hyu7" path="res://sprite/turn_words.png" id="12_v60vw"]
+[ext_resource type="Texture2D" uid="uid://bg24akx2cwpi3" path="res://sprite/turn_words_h.png" id="13_uw7dd"]
+[ext_resource type="Texture2D" uid="uid://7okfxlpxt103" path="res://sprite/panel_q.png" id="14_vim2r"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="15_it82o"]
+[ext_resource type="Texture2D" uid="uid://d2vdiijv5wb4e" path="res://sprite/honeycomb.png" id="16_pl1hd"]
+[ext_resource type="PackedScene" uid="uid://cbo01jw07iknn" path="res://scenes/bee.tscn" id="17_v1lc5"]
+[ext_resource type="Texture2D" uid="uid://ci58qngdsqe3b" path="res://sprite/so.png" id="18_rs73a"]
+[ext_resource type="Texture2D" uid="uid://cw8akri5ppdq0" path="res://sprite/bg7.png" id="19_fo3ru"]
+[ext_resource type="Texture2D" uid="uid://x50koawm04kx" path="res://sprite/Layer 6.png" id="20_vkagx"]
+[ext_resource type="Texture2D" uid="uid://d0ew08lppj7r0" path="res://sprite/Layer 4 copy.png" id="21_0kvpo"]
+[ext_resource type="Texture2D" uid="uid://da2c0balfdlbp" path="res://sprite/Layer 5 copy 2.png" id="22_4n2c7"]
+[ext_resource type="Shader" path="res://shaders/light.gdshader" id="23_pd3u3"]
+[ext_resource type="Texture2D" uid="uid://bs464bab2nxf3" path="res://sprite/Remove background project.png" id="24_ftry0"]
+[ext_resource type="FontFile" uid="uid://xrlcfeoa67ka" path="res://fonts/Titr_Stancil.ttf" id="25_w0dtg"]
+[ext_resource type="Texture2D" uid="uid://6ooblg4ips67" path="res://sprite/lens-flare-light-special-effect-free-png.png" id="26_du4w8"]
+[ext_resource type="Texture2D" uid="uid://dwpqhso0x5j5w" path="res://sprite/Untitled_۲۰۲۴۱۲۰۵_۱۸۰۱۰۸.png" id="27_4ad58"]
+[ext_resource type="Texture2D" uid="uid://vwnyf5d0pf2q" path="res://sprite/Untitled_۲۰۲۴۱۱۳۰_۱۶۴۶۳۵.png" id="28_n1wlw"]
+[ext_resource type="Texture2D" uid="uid://cfihj6bh04g8v" path="res://sprite/pngtree-fire-circle-image-png-image_7305293.png" id="29_6ayay"]
+[ext_resource type="Texture2D" uid="uid://b4m2p7u48oq2h" path="res://sprite/fire-light-circle-free-png.png" id="30_taug5"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_vroik"]
 viewport_path = NodePath("SubViewport2")
@@ -38,7 +38,7 @@ viewport_path = NodePath("SubViewport2")
 viewport_path = NodePath("SubViewport")
 
 [sub_resource type="LabelSettings" id="LabelSettings_8rd6i"]
-font = ExtResource("5_nrtrh")
+font = ExtResource("5_axkyg")
 font_size = 75
 outline_size = 15
 outline_color = Color(0, 0, 0, 1)
@@ -46,22 +46,22 @@ shadow_size = 20
 shadow_color = Color(1, 1, 1, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2il77"]
-texture = ExtResource("9_vrkfg")
+texture = ExtResource("9_6ps87")
 expand_margin_left = 20.0
 expand_margin_top = 8.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_6qc2t"]
-font = ExtResource("5_nrtrh")
+font = ExtResource("5_axkyg")
 font_size = 50
 font_color = Color(0.0901961, 0.447059, 0.152941, 1)
 outline_size = 8
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6fhtb"]
-texture = ExtResource("9_vrkfg")
+texture = ExtResource("9_6ps87")
 expand_margin_top = 8.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_fhkoj"]
-font = ExtResource("5_nrtrh")
+font = ExtResource("5_axkyg")
 font_size = 50
 font_color = Color(0.0901961, 0.447059, 0.152941, 1)
 outline_size = 8
@@ -69,27 +69,27 @@ outline_size = 8
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1c8n2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mxvhb"]
-texture = ExtResource("14_5febf")
+texture = ExtResource("14_vim2r")
 modulate_color = Color(1, 1, 0.0705882, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2rdjk"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_njfyo"]
-texture = ExtResource("18_48cn6")
+texture = ExtResource("18_rs73a")
 modulate_color = Color(0.627451, 0.627451, 0.627451, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7ns6x"]
-texture = ExtResource("18_48cn6")
+texture = ExtResource("18_rs73a")
 modulate_color = Color(0.529412, 0.529412, 0.529412, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u3vuq"]
-texture = ExtResource("18_48cn6")
+texture = ExtResource("18_rs73a")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_42w20"]
-texture = ExtResource("19_8i1lv")
+texture = ExtResource("19_fo3ru")
 
 [sub_resource type="LabelSettings" id="LabelSettings_rdoh8"]
-font = ExtResource("15_1rjwl")
+font = ExtResource("15_it82o")
 font_size = 45
 font_color = Color(1, 0, 0.0941176, 1)
 outline_size = 6
@@ -97,45 +97,45 @@ outline_size = 6
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e6s01"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cbi37"]
-texture = ExtResource("21_44ruk")
+texture = ExtResource("21_0kvpo")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.831373, 0.831373, 0.831373, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jmdpm"]
-texture = ExtResource("21_44ruk")
+texture = ExtResource("21_0kvpo")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.580392, 0.580392, 0.580392, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rsi8c"]
-texture = ExtResource("21_44ruk")
+texture = ExtResource("21_0kvpo")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u73vi"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_k0dc5"]
-font = ExtResource("5_nrtrh")
+font = ExtResource("5_axkyg")
 font_size = 65
 font_color = Color(0.992157, 1, 0.00392157, 1)
 outline_size = 11
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cg2mp"]
-texture = ExtResource("22_xeayq")
+texture = ExtResource("22_4n2c7")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.831373, 0.831373, 0.831373, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qubhs"]
-texture = ExtResource("22_xeayq")
+texture = ExtResource("22_4n2c7")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 modulate_color = Color(0.580392, 0.580392, 0.580392, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_27xpa"]
-texture = ExtResource("22_xeayq")
+texture = ExtResource("22_4n2c7")
 texture_margin_top = 20.0
 texture_margin_bottom = 10.0
 
@@ -459,7 +459,7 @@ _data = {
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3m5k3"]
-shader = ExtResource("23_3a87o")
+shader = ExtResource("23_pd3u3")
 shader_parameter/waite_time = -6
 shader_parameter/speed = 50.0
 shader_parameter/down = false
@@ -486,10 +486,10 @@ metadata/_snap_enabled = true
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qldb7"]
 resource_local_to_scene = true
-texture = ExtResource("24_sprak")
+texture = ExtResource("24_ftry0")
 
 [sub_resource type="FontVariation" id="FontVariation_eef74"]
-base_font = ExtResource("25_s3mfw")
+base_font = ExtResource("25_w0dtg")
 spacing_top = -22
 
 [sub_resource type="LabelSettings" id="LabelSettings_xnu62"]
@@ -499,13 +499,13 @@ font_color = Color(4.9334e-07, 0.452373, 0.0908485, 1)
 outline_size = 11
 
 [sub_resource type="FontVariation" id="FontVariation_t6nxa"]
-base_font = ExtResource("25_s3mfw")
+base_font = ExtResource("25_w0dtg")
 spacing_top = -20
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4nesk"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ygtsj"]
-texture = ExtResource("24_sprak")
+texture = ExtResource("24_ftry0")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_3bbp8"]
@@ -575,7 +575,7 @@ _data = {
 }
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3pnrs"]
-texture = ExtResource("27_4i2lh")
+texture = ExtResource("27_4ad58")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Animation" id="Animation_343wq"]
@@ -624,7 +624,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_0mf3e")
+script = ExtResource("1_qloof")
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 texture_repeat = 2
@@ -636,7 +636,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("2_a07x4")
+texture = ExtResource("2_s2hoc")
 expand_mode = 1
 stretch_mode = 6
 
@@ -674,7 +674,7 @@ anchor_bottom = 0.9645
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("3_xhmyn")
+texture = ExtResource("3_7d6sn")
 expand_mode = 1
 metadata/_edit_use_anchors_ = true
 
@@ -696,7 +696,7 @@ position = Vector2(515, 992)
 layout_direction = 2
 offset_right = 1.0
 offset_bottom = 124.0
-theme_override_styles/normal = ExtResource("4_tvspy")
+theme_override_styles/normal = ExtResource("4_j2po5")
 label_settings = SubResource("LabelSettings_8rd6i")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -712,7 +712,7 @@ offset_left = -72.0
 offset_top = 0.0559998
 offset_bottom = 2.06
 grow_vertical = 2
-texture = ExtResource("6_vw21h")
+texture = ExtResource("6_hu1oh")
 
 [node name="TextureRect3" type="TextureRect" parent="label_pos/Label"]
 layout_mode = 1
@@ -725,7 +725,7 @@ offset_right = -0.205
 offset_bottom = 0.0350037
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_vrpcl")
+texture = ExtResource("7_8futp")
 expand_mode = 1
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
@@ -741,7 +741,7 @@ offset_top = 0.0559998
 offset_right = 73.0
 offset_bottom = -0.0480042
 grow_vertical = 2
-texture = ExtResource("8_lb7ix")
+texture = ExtResource("8_gs7rj")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 2
@@ -779,7 +779,7 @@ anchor_right = 0.505747
 anchor_bottom = 1.125
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.07
-texture = ExtResource("10_kryq4")
+texture = ExtResource("10_1wk3q")
 expand_mode = 1
 metadata/_edit_use_anchors_ = true
 
@@ -867,7 +867,7 @@ offset_left = 19.0
 offset_top = -1.686
 offset_right = 68.0
 offset_bottom = 43.752
-texture_normal = ExtResource("11_8bmvu")
+texture_normal = ExtResource("11_dci08")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -879,9 +879,9 @@ anchor_top = 0.637
 anchor_right = 0.269
 anchor_bottom = 0.7175
 grow_vertical = 2
-texture_normal = ExtResource("12_6h65k")
-texture_pressed = ExtResource("13_v161a")
-texture_hover = ExtResource("13_v161a")
+texture_normal = ExtResource("12_v60vw")
+texture_pressed = ExtResource("13_uw7dd")
+texture_hover = ExtResource("13_uw7dd")
 ignore_texture_size = true
 stretch_mode = 0
 metadata/_edit_layout_mode = 1
@@ -918,7 +918,7 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_colors/default_color = Color(0.466667, 0.266667, 0.0313726, 1)
-theme_override_fonts/normal_font = ExtResource("15_1rjwl")
+theme_override_fonts/normal_font = ExtResource("15_it82o")
 theme_override_font_sizes/normal_font_size = 40
 text_direction = 2
 language = "fa_IR"
@@ -927,9 +927,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(910, 1100)
 scale = Vector2(1.74763, 1.74763)
-texture = ExtResource("16_h0mgd")
+texture = ExtResource("16_pl1hd")
 
-[node name="bee" parent="." instance=ExtResource("17_pfpm1")]
+[node name="bee" parent="." instance=ExtResource("17_v1lc5")]
 position = Vector2(996, 776)
 scale = Vector2(-1.39212, 1.39212)
 
@@ -950,7 +950,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 6
-theme_override_fonts/font = ExtResource("5_nrtrh")
+theme_override_fonts/font = ExtResource("5_axkyg")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/focus = SubResource("StyleBoxEmpty_2rdjk")
 theme_override_styles/hover = SubResource("StyleBoxTexture_njfyo")
@@ -994,7 +994,7 @@ anchor_right = 0.825826
 offset_left = 0.0249996
 offset_top = -408.0
 offset_bottom = -167.0
-texture = ExtResource("20_vxpl3")
+texture = ExtResource("20_vkagx")
 metadata/_edit_use_anchors_ = true
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel/VBoxContainer/Control/TextureRect"]
@@ -1035,7 +1035,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 80
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cbi37")
@@ -1065,7 +1065,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cg2mp")
@@ -1085,7 +1085,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cg2mp")
@@ -1106,7 +1106,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cg2mp")
@@ -1126,7 +1126,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 55
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cg2mp")
@@ -1151,7 +1151,7 @@ theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 8
-theme_override_fonts/font = ExtResource("15_1rjwl")
+theme_override_fonts/font = ExtResource("15_it82o")
 theme_override_font_sizes/font_size = 57
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e6s01")
 theme_override_styles/hover = SubResource("StyleBoxTexture_cbi37")
@@ -1168,7 +1168,7 @@ anchor_top = 0.013
 anchor_right = 0.882927
 anchor_bottom = 0.05
 grow_horizontal = 0
-texture_normal = ExtResource("11_8bmvu")
+texture_normal = ExtResource("11_dci08")
 ignore_texture_size = true
 stretch_mode = 0
 metadata/_edit_use_anchors_ = true
@@ -1243,7 +1243,7 @@ emitting = false
 amount = 50
 lifetime = 0.5
 one_shot = true
-texture = ExtResource("26_l41if")
+texture = ExtResource("26_du4w8")
 emission_shape = 1
 emission_sphere_radius = 48.68
 direction = Vector2(0, -1)
@@ -1280,13 +1280,13 @@ size = Vector2i(997, 659)
 light_mask = 1025
 offset_right = 997.0
 offset_bottom = 659.0
-texture = ExtResource("28_63k5l")
+texture = ExtResource("28_n1wlw")
 expand_mode = 1
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport2/TextureRect"]
 position = Vector2(498, 329)
 range_item_cull_mask = 1024
-texture = ExtResource("29_mlms6")
+texture = ExtResource("29_6ayay")
 texture_scale = 7.45
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport2"]
@@ -1306,7 +1306,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("27_4i2lh")
+texture = ExtResource("27_4ad58")
 expand_mode = 1
 stretch_mode = 5
 
@@ -1314,7 +1314,7 @@ stretch_mode = 5
 position = Vector2(111, 121)
 energy = 2.15
 range_item_cull_mask = 2048
-texture = ExtResource("30_hakm7")
+texture = ExtResource("30_taug5")
 texture_scale = 1.4
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport3"]

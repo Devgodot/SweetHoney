@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3]
 
-[ext_resource type="Script" path="res://script/intro.gd" id="1_jqll8"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="2_y8yic"]
+[ext_resource type="Script" path="res://script/intro.gd" id="1_odg8a"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="2_7m7wq"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_6xltr"]
-font = ExtResource("2_y8yic")
+font = ExtResource("2_7m7wq")
 font_size = 200
 font_color = Color(1, 1, 0, 1)
 outline_size = 20
@@ -89,7 +89,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_jqll8")
+script = ExtResource("1_odg8a")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1

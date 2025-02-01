@@ -1,32 +1,32 @@
 [gd_scene load_steps=27 format=3]
 
-[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="1_nohmg"]
-[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="2_tl4cb"]
-[ext_resource type="AudioStream" uid="uid://bjcwtvu82qjmb" path="res://sounds/۱۶ نوامبر، ۱۱.۰۷​.wav" id="3_jn2xc"]
-[ext_resource type="AudioStream" uid="uid://jknsdwdgbbju" path="res://sounds/۱۶ نوامبر، ۱۱.۰۵​.wav" id="4_6hvng"]
+[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="1_if586"]
+[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="2_ospu8"]
+[ext_resource type="AudioStream" uid="uid://bjcwtvu82qjmb" path="res://sounds/۱۶ نوامبر، ۱۱.۰۷​.wav" id="3_egq17"]
+[ext_resource type="AudioStream" uid="uid://jknsdwdgbbju" path="res://sounds/۱۶ نوامبر، ۱۱.۰۵​.wav" id="4_jyela"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_athrc"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24lmi"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gn5p4"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(70, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jcj6q"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_76kk0"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0mk7k"]
-atlas = ExtResource("2_tl4cb")
+atlas = ExtResource("2_ospu8")
 region = Rect2(140, 0, 70, 70)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h2anp"]
@@ -3134,7 +3134,7 @@ scale = Vector2(0.1, 0.1)
 [node name="hand_r" type="Polygon2D" parent="polygons"]
 position = Vector2(950, 1360)
 offset = Vector2(-2058, -1857)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
 uv = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
@@ -3146,7 +3146,7 @@ internal_vertex_count = 6
 texture_repeat = 2
 position = Vector2(210, 1850)
 offset = Vector2(-537, -2596)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
 uv = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
@@ -3157,7 +3157,7 @@ internal_vertex_count = 1
 [node name="body" type="Polygon2D" parent="polygons"]
 position = Vector2(570, 1420)
 offset = Vector2(-1371, -2226)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
 uv = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
@@ -3169,7 +3169,7 @@ clip_children = 2
 position = Vector2(700, 430)
 scale = Vector2(1.00828, 1.03242)
 offset = Vector2(-575.237, -1404.47)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
 uv = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
@@ -3179,7 +3179,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(-119.014, 77.488)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1375.81, -1166.16)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
 uv = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
@@ -3189,7 +3189,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(267.783, -38.7438)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1885.8, -988.161)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
 uv = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
@@ -3199,7 +3199,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0), "body/head", Packed
 texture_repeat = 2
 position = Vector2(640, 580)
 offset = Vector2(-640, -580)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
 uv = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
@@ -3210,7 +3210,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(780, 1800)
 offset = Vector2(-2161, -2546)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
 uv = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
@@ -3221,7 +3221,7 @@ internal_vertex_count = 4
 [node name="Polygon2D" type="Polygon2D" parent="polygons"]
 position = Vector2(390, 210)
 offset = Vector2(-1820, -670)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
 uv = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
@@ -3230,7 +3230,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D3" type="Polygon2D" parent="polygons"]
 position = Vector2(770, 130)
 offset = Vector2(-2150, -610)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
 uv = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
@@ -3239,7 +3239,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D2" type="Polygon2D" parent="polygons"]
 position = Vector2(890, -70)
 offset = Vector2(-2070, -330)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
 uv = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
@@ -3249,7 +3249,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 [node name="Polygon2D4" type="Polygon2D" parent="polygons"]
 position = Vector2(520, -120)
 offset = Vector2(-1700, -270)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
 uv = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
@@ -3260,7 +3260,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(110, 1410)
 offset = Vector2(-530, -1931)
-texture = ExtResource("1_nohmg")
+texture = ExtResource("1_if586")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
 uv = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
@@ -3437,7 +3437,7 @@ parameters/OneShot/internal_active = false
 parameters/OneShot/request = 0
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_jn2xc")
+stream = ExtResource("3_egq17")
 volume_db = 0.155
 pitch_scale = 1.2
 max_distance = 3215.0
@@ -3445,7 +3445,7 @@ attenuation = 0.0625
 bus = &"bee1"
 
 [node name="مرحبا" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("4_6hvng")
+stream = ExtResource("4_jyela")
 pitch_scale = 1.2
 max_distance = 3215.0
 attenuation = 0.732038

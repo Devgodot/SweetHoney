@@ -1,10 +1,10 @@
 [gd_scene load_steps=33 format=3]
 
-[ext_resource type="Script" path="res://script/icons.gd" id="1_xi7au"]
-[ext_resource type="Texture2D" uid="uid://4goavpvpka03" path="res://sprite/122932.png" id="2_lxqpv"]
-[ext_resource type="FontFile" uid="uid://doy1oy3h7uje" path="res://fonts/BZarBd.ttf" id="3_bxjwh"]
-[ext_resource type="FontFile" uid="uid://m51h310jhiit" path="res://fonts/BRoyaBd.ttf" id="4_5kr30"]
-[ext_resource type="Texture2D" uid="uid://crip4nfsqx5un" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="5_dxork"]
+[ext_resource type="Script" path="res://script/icons.gd" id="1_ve1cn"]
+[ext_resource type="Texture2D" uid="uid://4goavpvpka03" path="res://sprite/122932.png" id="2_h46u6"]
+[ext_resource type="FontFile" uid="uid://doy1oy3h7uje" path="res://fonts/BZarBd.ttf" id="3_6mfl4"]
+[ext_resource type="FontFile" uid="uid://m51h310jhiit" path="res://fonts/BRoyaBd.ttf" id="4_3j8ta"]
+[ext_resource type="Texture2D" uid="uid://crip4nfsqx5un" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="5_vsouq"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yfm7r"]
 
@@ -48,7 +48,7 @@ corner_radius_bottom_left = 10
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yeuo0"]
 
 [sub_resource type="Theme" id="Theme_vwmm3"]
-default_font = ExtResource("3_bxjwh")
+default_font = ExtResource("3_6mfl4")
 Button/styles/disabled = SubResource("StyleBoxEmpty_smc5s")
 Button/styles/focus = SubResource("StyleBoxEmpty_4iguq")
 Button/styles/hover = SubResource("StyleBoxEmpty_swo23")
@@ -210,7 +210,7 @@ current_screen = 0
 visible = true
 max_size = Vector2i(740, 800)
 theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
-script = ExtResource("1_xi7au")
+script = ExtResource("1_ve1cn")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 offset_right = 740.0
@@ -233,7 +233,7 @@ layout_mode = 2
 [node name="TextureRect" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(80, 50)
 layout_mode = 2
-texture = ExtResource("2_lxqpv")
+texture = ExtResource("2_h46u6")
 expand_mode = 1
 stretch_mode = 5
 
@@ -390,7 +390,7 @@ custom_minimum_size = Vector2(80, 45)
 offset_right = 740.0
 offset_bottom = 800.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_fonts/normal_font = ExtResource("4_5kr30")
+theme_override_fonts/normal_font = ExtResource("4_3j8ta")
 theme_override_font_sizes/normal_font_size = 35
 bbcode_enabled = true
 text = "قاسم سلیمانی"
@@ -405,7 +405,7 @@ size = Vector2i(740, 800)
 texture_repeat = 2
 position = Vector2(81.5, 42.5)
 scale = Vector2(1.415, 1.415)
-texture = ExtResource("5_dxork")
+texture = ExtResource("5_vsouq")
 region_rect = Rect2(418, 405, 163, 85)
 
 [node name="TextureRect2" type="TextureRect" parent="SubViewport2"]

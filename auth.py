@@ -135,7 +135,8 @@ def register_user():
             phone :str= data.get("phone")
             if not phone.startswith("09") or len(phone) != 11:
                 return jsonify({"error":"فرمت شماره نامعتبر است"})
-            new_user = User(username=username, phone=data.get("phone"), data=data.get("data", {}), password="1234")
+                
+            new_user = User(username=username, phone=data.get("phone"), data=data.get("data", {"lvl":0, "score":0, "unlock_level_h":1, "unlock_level_v":1, "unlock_level_ve":1, "unlock_level_m":1, "unlock_level_s":1, "level":1, "part":1, "ticket":0, "name":"", "icon":"", "unlock_part":0, "sound":True, "music":True, "league_open_time":0,"league_close_time":0 , "league_end_time":0}), password="1234")
             new_user.save()
             access_token = create_access_token(identity=new_user.username, expires_delta=False)
             refresh_token = create_refresh_token(identity=new_user.username)
@@ -221,12 +222,10 @@ def save_data():
             }
         )
     return "شما اجازه دسترسی ندارید", 400
-
 @auth_bp.post("/AnswerLeague")
 @jwt_required()
 def answer_league():
     if "GodotEngine" in request.headers.get("User-Agent"):
-        
         data = request.get_json()
         _id = data.get("id", 0)
         part = data.get("part", 0)
@@ -440,7 +439,7 @@ def get_time():
         mode = request.get_json().get("mode", 0)
         if mode == 1:
             if current_user.data.get("last_time_"+name, 0) == 0:
-                current_user.update(data ={"last_time_"+name : int(time.time())}, overwrite=False)
+                current_user.data = current_user.update(data ={"last_time_"+name : int(time.time())}, overwrite=False)
                 db.session.commit()
             last_time =  current_user.data.get("last_time_"+name)
             if int(time.time()) - last_time >= 86400:

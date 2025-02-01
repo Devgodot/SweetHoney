@@ -322,8 +322,6 @@ func help(state, _score, id):
 	else:
 		$AnimationPlayer.play("score")
 	
-	
-
 func save(_name, num):
 	UpdateData.save(_name, num)
 func load_game(_name, defaulte = null):
@@ -333,7 +331,6 @@ func load_game2(_name, defaulte = null):
 	confige.load("user://files.cfg")
 	return confige.get_value("user", _name, defaulte)
 func _ready():
-	UpdateData.load_user()
 	set_process(false)
 	$bee/AnimationPlayer.get_animation("true_answer").set_loop_mode(1)
 	update_score()
@@ -552,7 +549,7 @@ func add_answer(num, count):
 		$VBoxContainer/ScrollContainer/GridBoxContainer.columns = 1
 		$VBoxContainer/ScrollContainer.clip_contents = false
 		$VBoxContainer/ScrollContainer/GridBoxContainer.size_flags_horizontal = SIZE_EXPAND_FILL
-		$VBoxContainer/ScrollContainer/GridBoxContainer.add_theme_constant_override("v_separation" , 120)
+		$VBoxContainer/ScrollContainer/GridBoxContainer.add_theme_constant_override("v_separation" , 250)
 		
 		for x in range(data.options.size() / 2):
 			var hbox = HBoxContainer.new()

@@ -25,9 +25,12 @@ func _ready():
 	r.timeout = 3
 	r.request(UpdateData.protocol+UpdateData.subdomin+"/auth/random_levels?part="+str(part), UpdateData.get_header())
 	levels = UpdateData.get_json((await r.request_completed)[3])
-	r.queue_free()
-	max_score = levels.total_score
-	add_level_btn2()
+	if levels:
+		r.queue_free()
+		max_score = levels.total_score
+		add_level_btn2()
+	else :
+		Exit.reload()
 func save_tiles():
 	var tile = $TileMap.get_used_cells(1)
 	var file = FileAccess.open("res://files/league_levels_"+str(part)+".dat", FileAccess.WRITE)
