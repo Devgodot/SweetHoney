@@ -34,7 +34,7 @@ func _ready():
 	var d2 = await request3.request_completed
 	var data2 = UpdateData.get_json(d2[3])
 	request3.queue_free()
-	if data2.has("pos") and data2.pos != 0:
+	if data2 and data2.has("pos") and data2.pos != 0:
 		$Panel/VBoxContainer2/TextureRect3/RichTextLabel2.text = str("[center]", data2.pos)
 	
 	var my_name = load_game("name", "")

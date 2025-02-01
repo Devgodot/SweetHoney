@@ -1,18 +1,18 @@
 [gd_scene load_steps=4 format=3]
 
-[ext_resource type="PackedScene" uid="uid://da5cx6hx3fnqc" path="res://scenes/LineEdit2.tscn" id="1_aeg88"]
-[ext_resource type="Script" path="res://script/match_option.gd" id="2_yclwo"]
+[ext_resource type="PackedScene" uid="uid://da5cx6hx3fnqc" path="res://scenes/LineEdit2.tscn" id="1_ounns"]
+[ext_resource type="Script" path="res://script/match_option.gd" id="2_qhjfb"]
 
 [sub_resource type="Gradient" id="Gradient_xj88l"]
 offsets = PackedFloat32Array(0.391089, 1)
 colors = PackedColorArray(0.545098, 0.568627, 0.996078, 1, 0, 1, 0.00784314, 1)
 
-[node name="LineEdit" groups=["match_option"] instance=ExtResource("1_aeg88")]
+[node name="LineEdit" groups=["match_option"] instance=ExtResource("1_ounns")]
 offset_left = -145.5
 offset_right = 145.5
 size_flags_horizontal = 3
 mouse_default_cursor_shape = 2
-script = ExtResource("2_yclwo")
+script = ExtResource("2_qhjfb")
 
 [node name="Line2D" type="Line2D" parent="." index="0"]
 show_behind_parent = true

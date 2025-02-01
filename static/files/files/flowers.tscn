@@ -1,13 +1,13 @@
 [gd_scene load_steps=14 format=3]
 
-[ext_resource type="Script" path="res://script/flowers.gd" id="1_q7aol"]
-[ext_resource type="Shader" path="res://shaders/flower.gdshader" id="2_3k817"]
-[ext_resource type="Texture2D" uid="uid://halxflir0jq3" path="res://sprite/flower4.png" id="3_8bchh"]
-[ext_resource type="Texture2D" uid="uid://ct4vuowsqvx7e" path="res://sprite/yellow_flower.png" id="4_8fd3a"]
-[ext_resource type="Texture2D" uid="uid://cgdsdlt2d4jm5" path="res://sprite/vintage_lily.png" id="5_v2pr4"]
+[ext_resource type="Script" path="res://script/flowers.gd" id="1_yqisb"]
+[ext_resource type="Shader" path="res://shaders/flower.gdshader" id="2_6rwl8"]
+[ext_resource type="Texture2D" uid="uid://halxflir0jq3" path="res://sprite/flower4.png" id="3_eam1p"]
+[ext_resource type="Texture2D" uid="uid://ct4vuowsqvx7e" path="res://sprite/yellow_flower.png" id="4_8ukvx"]
+[ext_resource type="Texture2D" uid="uid://cgdsdlt2d4jm5" path="res://sprite/vintage_lily.png" id="5_1opc8"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_mgbb1"]
-shader = ExtResource("2_3k817")
+shader = ExtResource("2_6rwl8")
 shader_parameter/range = 50.0
 shader_parameter/speed = 2.0
 shader_parameter/dir = -1.0
@@ -27,7 +27,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_8bchh")]
+"values": [ExtResource("3_eam1p")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -78,7 +78,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("4_8fd3a")]
+"values": [ExtResource("4_8ukvx")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -117,7 +117,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("5_v2pr4")]
+"values": [ExtResource("5_1opc8")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -156,7 +156,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_8bchh")]
+"values": [ExtResource("3_eam1p")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -209,13 +209,13 @@ radius = 87.367
 [node name="flowers" type="Area2D"]
 collision_layer = 4
 collision_mask = 2
-script = ExtResource("1_q7aol")
+script = ExtResource("1_yqisb")
 range2 = 200
 
 [node name="Flower4" type="Sprite2D" parent="."]
 material = SubResource("ShaderMaterial_mgbb1")
 scale = Vector2(0.03, 0.03)
-texture = ExtResource("3_8bchh")
+texture = ExtResource("3_eam1p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false

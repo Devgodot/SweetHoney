@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3]
 
-[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="1_7rarn"]
+[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="1_5pmhy"]
 
 [sub_resource type="GDScript" id="GDScript_pdt6d"]
 script/source = "extends Node2D
@@ -46,7 +46,7 @@ noise = SubResource("FastNoiseLite_gboww")
 [sub_resource type="CircleShape2D" id="CircleShape2D_3hnm5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4btph"]
-atlas = ExtResource("1_7rarn")
+atlas = ExtResource("1_5pmhy")
 region = Rect2(269, 19, 137, 217)
 
 [node name="Node2D" type="Node2D"]

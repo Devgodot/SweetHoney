@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="1_8hj8p"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="1_t6u3c"]
 
 [sub_resource type="Animation" id="Animation_tqx76"]
 length = 0.001
@@ -74,7 +74,7 @@ offset_top = -70.0
 offset_right = 59.0
 offset_bottom = -16.0
 theme_override_colors/font_color = Color(0, 1, 0, 1)
-theme_override_fonts/font = ExtResource("1_8hj8p")
+theme_override_fonts/font = ExtResource("1_t6u3c")
 theme_override_font_sizes/font_size = 50
 text = "+10"
 horizontal_alignment = 1

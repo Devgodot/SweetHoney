@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3]
 
-[ext_resource type="Script" path="res://script/file_dialog.gd" id="1_7bjrt"]
-[ext_resource type="Texture2D" uid="uid://ccb24lm26ppuo" path="res://sprite/back_btn.png" id="2_g657c"]
+[ext_resource type="Script" path="res://script/file_dialog.gd" id="1_ovv3e"]
+[ext_resource type="Texture2D" uid="uid://ccb24lm26ppuo" path="res://sprite/back_btn.png" id="2_rlkqk"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_njv5a"]
 bg_color = Color(0.317647, 0.317647, 0.317647, 1)
@@ -11,7 +11,7 @@ expand_margin_right = 20.0
 expand_margin_bottom = 20.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r2s8y"]
-texture = ExtResource("2_g657c")
+texture = ExtResource("2_rlkqk")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tur44"]
 
@@ -30,7 +30,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_7bjrt")
+script = ExtResource("1_ovv3e")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 layout_mode = 1

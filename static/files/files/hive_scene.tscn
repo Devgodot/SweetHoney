@@ -1,23 +1,23 @@
 [gd_scene load_steps=33 format=3]
 
-[ext_resource type="Script" path="res://script/hive_scene.gd" id="1_qujbp"]
-[ext_resource type="Texture2D" uid="uid://cf13120p1s6sk" path="res://sprite/heaven-in-quran-3.jpg" id="2_x3iyr"]
-[ext_resource type="Shader" path="res://shaders/water2.gdshader" id="3_trsve"]
-[ext_resource type="Texture2D" uid="uid://bojcoljas50bv" path="res://sprite/Layer 4.png" id="4_lixwr"]
-[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="5_loh5u"]
-[ext_resource type="Texture2D" uid="uid://d2b4fu8bqhqlj" path="res://sprite/jar-png-jar-of-honey-full.png" id="6_347c2"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="7_bpnyv"]
-[ext_resource type="PackedScene" uid="uid://dxhm8phid2x2f" path="res://scenes/flowers.tscn" id="8_d42sa"]
-[ext_resource type="PackedScene" uid="uid://cuogrhixihefr" path="res://scenes/hive.tscn" id="9_6upjc"]
-[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="10_8ngfs"]
-[ext_resource type="Texture2D" uid="uid://cjbkicdipwiqs" path="res://sprite/empty_hive.png" id="11_5edrk"]
-[ext_resource type="Texture2D" uid="uid://bxb2fvlxbm7tq" path="res://sprite/full_hive.png" id="12_xfrij"]
-[ext_resource type="Shader" path="res://shaders/honey.gdshader" id="13_h6i68"]
-[ext_resource type="Texture2D" uid="uid://chfwj4pnbojfm" path="res://sprite/honey2.png" id="14_uw8fq"]
-[ext_resource type="Texture2D" uid="uid://bsq6vvmobkgfu" path="res://sprite/drop.png" id="15_1ia53"]
+[ext_resource type="Script" path="res://script/hive_scene.gd" id="1_5va5i"]
+[ext_resource type="Texture2D" uid="uid://cf13120p1s6sk" path="res://sprite/heaven-in-quran-3.jpg" id="2_712b6"]
+[ext_resource type="Shader" path="res://shaders/water2.gdshader" id="3_gixga"]
+[ext_resource type="Texture2D" uid="uid://bojcoljas50bv" path="res://sprite/Layer 4.png" id="4_s1kdb"]
+[ext_resource type="Texture2D" uid="uid://bpc5sk3a6o3du" path="res://sprite/jar-of-honey-empty.png" id="5_wgwvr"]
+[ext_resource type="Texture2D" uid="uid://d2b4fu8bqhqlj" path="res://sprite/jar-png-jar-of-honey-full.png" id="6_ej0bj"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="7_m84qt"]
+[ext_resource type="PackedScene" uid="uid://dxhm8phid2x2f" path="res://scenes/flowers.tscn" id="8_qtlsx"]
+[ext_resource type="PackedScene" uid="uid://cuogrhixihefr" path="res://scenes/hive.tscn" id="9_1w38v"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="10_xydm8"]
+[ext_resource type="Texture2D" uid="uid://cjbkicdipwiqs" path="res://sprite/empty_hive.png" id="11_fmyof"]
+[ext_resource type="Texture2D" uid="uid://bxb2fvlxbm7tq" path="res://sprite/full_hive.png" id="12_qcmlt"]
+[ext_resource type="Shader" path="res://shaders/honey.gdshader" id="13_eq1ju"]
+[ext_resource type="Texture2D" uid="uid://chfwj4pnbojfm" path="res://sprite/honey2.png" id="14_u648r"]
+[ext_resource type="Texture2D" uid="uid://bsq6vvmobkgfu" path="res://sprite/drop.png" id="15_ixpoy"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pvdaj"]
-shader = ExtResource("3_trsve")
+shader = ExtResource("3_gixga")
 shader_parameter/uv_scale = 0.1
 shader_parameter/color_alpha = 0.905
 shader_parameter/speed = 0.2
@@ -32,7 +32,7 @@ shader_parameter/specular_colour = Color(1, 1, 1, 1)
 gradient = SubResource("Gradient_v7jvx")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_2gq13"]
-shader = ExtResource("3_trsve")
+shader = ExtResource("3_gixga")
 shader_parameter/uv_scale = 1.5
 shader_parameter/color_alpha = 0.95
 shader_parameter/speed = 0.37
@@ -42,7 +42,7 @@ shader_parameter/sky_colour = Color(0.835294, 0.847059, 0.156863, 1)
 shader_parameter/specular_colour = Color(1, 1, 1, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_gkrhl"]
-font = ExtResource("7_bpnyv")
+font = ExtResource("7_m84qt")
 font_size = 40
 font_color = Color(0, 0.2, 1, 1)
 outline_size = 10
@@ -55,7 +55,7 @@ point_count = 3
 colors = PackedColorArray(0.760784, 0.603922, 0, 1, 1, 1, 1, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_b1krw"]
-shader = ExtResource("13_h6i68")
+shader = ExtResource("13_eq1ju")
 shader_parameter/speed = 1.0
 
 [sub_resource type="Animation" id="Animation_ib5jw"]
@@ -432,7 +432,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_qujbp")
+script = ExtResource("1_5va5i")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -454,7 +454,7 @@ offset_right = 373.0
 offset_bottom = 6.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_x3iyr")
+texture = ExtResource("2_712b6")
 metadata/_edit_lock_ = true
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
@@ -471,7 +471,7 @@ metadata/_edit_lock_ = true
 material = SubResource("ShaderMaterial_2gq13")
 position = Vector2(573, 1257.5)
 scale = Vector2(6.28125, 7.84817)
-texture = ExtResource("4_lixwr")
+texture = ExtResource("4_s1kdb")
 polygon = PackedVector2Array(-4.8, -95.1, -6.9, -95.5, -38.6, -95.5, -43.5, -92.5, -45.2, -92.5, -46.3, -90.4, -37, -75.9, -37, -72.6, -20.8, -57.5, -21, -57, -21, -55.2, -29.4, -53.5, -37.1, -53.5, -39.8, -49.5, -62.1, -48.5, -68.3, -48.5, -80.3, -44.5, -84.1, -44.5, -86.1, -41.5, -89, -41.5, -92, -37.5, -94.9, -37.5, -88.4, -20.5, -87, -6.4, -87, -5.2, -91, 0.900002, -91, 2, -128, 12.4, -128, 95.5, 47.8, 95.5, 61, 82.3, 61, 81.6, 73, 74.6, 73, 73.7, 97, 62.8, 97, 62.2, 111.4, 59.5, 128, 59.5, 128, 48.5, 116.6, 48.5, 111.8, 45.3, 113.8, 41.2, 128, 38.5, 128, 12.3, 121, 9.2, 121, 7.7, 109, 6.6, 109, 4.3, 79.8, 7.5, 79.2, 7.5, 51.1, 4.5, 48, 4.5, 48, 1.7, 52, -3.9, 73.4, -11.5, 78.7, -11.5, 87.7, -18.5, 92, -18.5, 92, -30.5, 94, -30.5, 100, -22.9, 100, -20.5, 104, -20.5, 104, -32.5, 105.1, -32.5, 112.1, -24.5, 118, -24.5, 118, -44.7, 113.5, -42.5, 110, -46.2, 110, -47.9, 90, -55, 90, -56.5, 52.8, -56.5, 49, -60.3, 49, -61.8, 30.4, -69.5, 17.8, -69.5, 13, -74.3, 13, -77, 4.3, -79.5, 1, -79.5, -1, -82.2, -1, -84.2, -16.9, -86.5, -19, -86.5, -19, -88.1, -7.7, -91.5, -5.2, -91.5)
 uv = PackedVector2Array(123.2, 0.4, 121.1, 0, 89.4, 0, 84.5, 3, 82.8, 3, 81.7, 5.1, 91, 19.6, 91, 22.9, 107.2, 38, 107, 38.5, 107, 40.3, 98.6, 42, 90.9, 42, 88.2, 46, 65.9, 47, 59.7, 47, 47.7, 51, 43.9, 51, 41.9, 54, 39, 54, 36, 58, 33.1, 58, 39.6, 75, 41, 89.1, 41, 90.3, 37, 96.4, 37, 97.5, 0, 107.9, 0, 191, 175.8, 191, 189, 177.8, 189, 177.1, 201, 170.1, 201, 169.2, 225, 158.3, 225, 157.7, 239.4, 155, 256, 155, 256, 144, 244.6, 144, 239.8, 140.8, 241.8, 136.7, 256, 134, 256, 107.8, 249, 104.7, 249, 103.2, 237, 102.1, 237, 99.8, 207.8, 103, 207.2, 103, 179.1, 100, 176, 100, 176, 97.2, 180, 91.6, 201.4, 84, 206.7, 84, 215.7, 77, 220, 77, 220, 65, 222, 65, 228, 72.6, 228, 75, 232, 75, 232, 63, 233.1, 63, 240.1, 71, 246, 71, 246, 50.8, 241.5, 53, 238, 49.3, 238, 47.6, 218, 40.5, 218, 39, 180.8, 39, 177, 35.2, 177, 33.7, 158.4, 26, 145.8, 26, 141, 21.2, 141, 18.5, 132.3, 16, 129, 16, 127, 13.3, 127, 11.3, 111.1, 9, 109, 9, 109, 7.4, 120.3, 4, 122.8, 4)
 polygons = [PackedInt32Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88)]
@@ -486,8 +486,8 @@ scale = Vector2(1.47545, 1.47545)
 value = 100.0
 fill_mode = 3
 nine_patch_stretch = true
-texture_under = ExtResource("5_loh5u")
-texture_progress = ExtResource("6_347c2")
+texture_under = ExtResource("5_wgwvr")
+texture_progress = ExtResource("6_ej0bj")
 
 [node name="Label" type="Label" parent="TextureProgressBar2"]
 layout_mode = 1
@@ -559,11 +559,11 @@ color_ramp = SubResource("Gradient_xqkbb")
 [node name="flowers" type="Node2D" parent="."]
 scale = Vector2(1.48761, 1.48761)
 
-[node name="flowers" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(79.9939, 1211.34)
 scale = Vector2(2.04, 2.04)
 
-[node name="flowers2" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers2" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(263.509, 1233.52)
 scale = Vector2(2.17038, 2.18522)
 num = 3
@@ -571,13 +571,13 @@ dir = -1
 range2 = 100
 speed = 1.5
 
-[node name="flowers3" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers3" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(51.7607, 654.068)
 scale = Vector2(1.37073, 1.37073)
 num = 2
 range2 = 150
 
-[node name="flowers4" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers4" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(258.131, 685.662)
 scale = Vector2(1.37073, 1.37073)
 num = 3
@@ -585,7 +585,7 @@ dir = -1
 range2 = 100
 speed = 1.5
 
-[node name="flowers5" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers5" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(332.748, 588.862)
 scale = Vector2(1.37073, 1.37073)
 num = 3
@@ -593,45 +593,45 @@ dir = -1
 range2 = 100
 speed = 1.5
 
-[node name="flowers6" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers6" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(568.696, 516.263)
 scale = Vector2(1.08164, 1.08164)
 
-[node name="flowers7" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers7" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(643.984, 567.351)
 scale = Vector2(1.08164, 1.08164)
 num = 2
 dir = -1
 range2 = 150
 
-[node name="flowers8" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers8" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(379.803, 695.745)
 scale = Vector2(1.08164, 1.08164)
 
-[node name="flowers9" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers9" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(536.43, 857.749)
 scale = Vector2(1.59353, 1.59353)
 dir = -1
 
-[node name="flowers10" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers10" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(301.826, 943.793)
 scale = Vector2(1.59353, 1.59353)
 num = 3
 range2 = 100
 speed = 1.5
 
-[node name="flowers11" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers11" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(384, 823)
 scale = Vector2(1.16897, 1.16897)
 num = 2
 range2 = 150
 
-[node name="flowers12" parent="flowers" instance=ExtResource("8_d42sa")]
+[node name="flowers12" parent="flowers" instance=ExtResource("8_qtlsx")]
 position = Vector2(209.732, 1069.5)
 scale = Vector2(1.74825, 1.74825)
 dir = -1
 
-[node name="TextureButton4" parent="." groups=["honey_hive"] instance=ExtResource("9_6upjc")]
+[node name="TextureButton4" parent="." groups=["honey_hive"] instance=ExtResource("9_1w38v")]
 layout_mode = 0
 offset_left = 146.0
 offset_top = 696.0
@@ -691,7 +691,7 @@ scale_amount_max = 4.7
 scale_amount_curve = SubResource("Curve_eyrqt")
 color_ramp = SubResource("Gradient_xqkbb")
 
-[node name="TextureButton5" parent="." groups=["honey_hive"] instance=ExtResource("9_6upjc")]
+[node name="TextureButton5" parent="." groups=["honey_hive"] instance=ExtResource("9_1w38v")]
 layout_mode = 0
 offset_left = 601.0
 offset_top = 844.0
@@ -751,7 +751,7 @@ scale_amount_max = 4.7
 scale_amount_curve = SubResource("Curve_eyrqt")
 color_ramp = SubResource("Gradient_xqkbb")
 
-[node name="TextureButton6" parent="." groups=["honey_hive"] instance=ExtResource("9_6upjc")]
+[node name="TextureButton6" parent="." groups=["honey_hive"] instance=ExtResource("9_1w38v")]
 layout_mode = 0
 offset_left = -1.0
 offset_top = 1035.0
@@ -812,7 +812,7 @@ scale_amount_max = 4.7
 scale_amount_curve = SubResource("Curve_eyrqt")
 color_ramp = SubResource("Gradient_xqkbb")
 
-[node name="TextureButton7" parent="." groups=["honey_hive"] instance=ExtResource("9_6upjc")]
+[node name="TextureButton7" parent="." groups=["honey_hive"] instance=ExtResource("9_1w38v")]
 layout_mode = 0
 offset_left = 399.0
 offset_top = 1343.0
@@ -884,7 +884,7 @@ anchor_right = 1.0
 offset_left = -116.0
 offset_bottom = 111.0
 grow_horizontal = 0
-texture_normal = ExtResource("10_8ngfs")
+texture_normal = ExtResource("10_xydm8")
 ignore_texture_size = true
 stretch_mode = 5
 
@@ -898,8 +898,8 @@ rotation = 25.1327
 scale = Vector2(0.1, 0.1)
 value = 85.0
 fill_mode = 3
-texture_under = ExtResource("11_5edrk")
-texture_progress = ExtResource("12_xfrij")
+texture_under = ExtResource("11_fmyof")
+texture_progress = ExtResource("12_qcmlt")
 
 [node name="honey" type="Node2D" parent="."]
 position = Vector2(601, 307)
@@ -911,7 +911,7 @@ texture_repeat = 2
 material = SubResource("ShaderMaterial_b1krw")
 position = Vector2(0.000488281, 76)
 scale = Vector2(0.19, 1e-05)
-texture = ExtResource("14_uw8fq")
+texture = ExtResource("14_u648r")
 
 [node name="GPUParticles2D" type="CPUParticles2D" parent="honey/Honey2"]
 position = Vector2(-0.00244141, -258.557)
@@ -934,7 +934,7 @@ libraries = {
 material = SubResource("CanvasItemMaterial_y645j")
 position = Vector2(499, 18)
 lifetime = 4.0
-texture = ExtResource("15_1ia53")
+texture = ExtResource("15_ixpoy")
 emission_shape = 3
 emission_rect_extents = Vector2(500, 1)
 direction = Vector2(0, 2)

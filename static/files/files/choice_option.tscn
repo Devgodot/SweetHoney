@@ -1,15 +1,15 @@
 [gd_scene load_steps=8 format=3]
 
-[ext_resource type="Texture2D" uid="uid://djca78esp02as" path="res://sprite/nody1--1635465614.png" id="1_ub3bh"]
-[ext_resource type="Script" path="res://script/choice_option.gd" id="2_l4mx0"]
-[ext_resource type="Texture2D" uid="uid://sudop3m7wmu7" path="res://sprite/nody2--1635465614.png" id="3_r62wp"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="4_1ltgp"]
+[ext_resource type="Texture2D" uid="uid://djca78esp02as" path="res://sprite/nody1--1635465614.png" id="1_4evl1"]
+[ext_resource type="Script" path="res://script/choice_option.gd" id="2_0at4s"]
+[ext_resource type="Texture2D" uid="uid://sudop3m7wmu7" path="res://sprite/nody2--1635465614.png" id="3_epqjc"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="4_cvphk"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_argdm"]
 radius = 29.4279
 
 [sub_resource type="FontVariation" id="FontVariation_ttcrq"]
-base_font = ExtResource("4_1ltgp")
+base_font = ExtResource("4_cvphk")
 spacing_top = -10
 spacing_bottom = -10
 
@@ -20,7 +20,7 @@ font_size = 30
 [node name="TextureRect" type="TextureRect"]
 offset_right = 140.0
 offset_bottom = 140.0
-texture = ExtResource("1_ub3bh")
+texture = ExtResource("1_4evl1")
 expand_mode = 1
 
 [node name="RigidBody2D" type="RigidBody2D" parent="." groups=["choice_option"]]
@@ -30,7 +30,7 @@ collision_mask = 0
 gravity_scale = 0.25
 freeze = true
 freeze_mode = 1
-script = ExtResource("2_l4mx0")
+script = ExtResource("2_0at4s")
 
 [node name="Label" type="TextureRect" parent="RigidBody2D"]
 anchors_preset = 8
@@ -47,7 +47,7 @@ grow_vertical = 2
 pivot_offset = Vector2(35, 35)
 size_flags_horizontal = 3
 mouse_filter = 0
-texture = ExtResource("3_r62wp")
+texture = ExtResource("3_epqjc")
 expand_mode = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
