@@ -3532,12 +3532,12 @@ func _on_line_edit_text_changed(new_text):
 	
 "
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_3e2v2"]
-viewport_path = NodePath("SubViewport2")
+[sub_resource type="ViewportTexture" id="ViewportTexture_nwava"]
+viewport_path = NodePath("icons/SubViewport2")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wt1vq"]
 resource_local_to_scene = true
-texture = SubResource("ViewportTexture_3e2v2")
+texture = SubResource("ViewportTexture_nwava")
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 
@@ -4385,6 +4385,7 @@ transparent_bg = true
 initial_position = 3
 size = Vector2i(730, 800)
 current_screen = 0
+visible = true
 max_size = Vector2i(740, 800)
 theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
 script = SubResource("GDScript_c2ur8")
@@ -4576,7 +4577,7 @@ scroll_active = false
 
 [node name="SubViewport2" type="SubViewport" parent="icons"]
 transparent_bg = true
-size = Vector2i(740, 800)
+size = Vector2i(730, 800)
 
 [node name="TextureRect" type="Sprite2D" parent="icons/SubViewport2"]
 texture_repeat = 2
