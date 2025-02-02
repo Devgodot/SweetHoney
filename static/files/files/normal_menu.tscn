@@ -1,28 +1,31 @@
-[gd_scene load_steps=61 format=3]
+[gd_scene load_steps=92 format=3]
 
-[ext_resource type="FontFile" uid="uid://dwqsmolqa8tth" path="res://fonts/Titr_Stancil-Old.ttf" id="1_afdt6"]
-[ext_resource type="Texture2D" uid="uid://bir7asbw4asvg" path="res://sprite/Untitled_۲۰۲۴۱۲۰۸_۱۰۵۲۱۷.png" id="2_v16sd"]
-[ext_resource type="Script" path="res://script/normal_menu.gd" id="3_tnecp"]
-[ext_resource type="Texture2D" uid="uid://c307pgy8644f6" path="res://sprite/s1.png" id="4_dy3pf"]
-[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="5_nduhc"]
-[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="6_facki"]
-[ext_resource type="Shader" path="res://shaders/bg.gdshader" id="7_xehjf"]
-[ext_resource type="Texture2D" uid="uid://cc0ynpqrmcrxt" path="res://sprite/Polygon 1.png" id="8_rv2fg"]
-[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="9_vj4mb"]
-[ext_resource type="Texture2D" uid="uid://cwasm6w2gibnw" path="res://sprite/empty_honey.png" id="10_vm1q2"]
-[ext_resource type="Texture2D" uid="uid://cppekcjr6xx7v" path="res://sprite/honey.png" id="11_g4qjk"]
-[ext_resource type="Shader" path="res://shaders/light.gdshader" id="12_kx6uu"]
-[ext_resource type="Texture2D" uid="uid://xiyod2ph08oc" path="res://sprite/flower.png" id="13_rxemq"]
-[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="14_o7cwj"]
-[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="15_u0t6k"]
-[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="16_u6c5g"]
-[ext_resource type="Texture2D" uid="uid://cuduuiyh54dhw" path="res://sprite/flower2.png" id="17_f3nyq"]
-[ext_resource type="Texture2D" uid="uid://bomhto3gfkdy0" path="res://sprite/flower3.png" id="18_yli8i"]
-[ext_resource type="Texture2D" uid="uid://sudop3m7wmu7" path="res://sprite/nody2--1635465614.png" id="19_dkumi"]
-[ext_resource type="PackedScene" uid="uid://bif1t8hdv8ixq" path="res://scenes/icons.tscn" id="20_6wcvs"]
+[ext_resource type="FontFile" uid="uid://dwqsmolqa8tth" path="res://fonts/Titr_Stancil-Old.ttf" id="1_lov3v"]
+[ext_resource type="Texture2D" uid="uid://bir7asbw4asvg" path="res://sprite/Untitled_۲۰۲۴۱۲۰۸_۱۰۵۲۱۷.png" id="2_b6tx1"]
+[ext_resource type="Script" path="res://script/normal_menu.gd" id="3_7htle"]
+[ext_resource type="Texture2D" uid="uid://c307pgy8644f6" path="res://sprite/s1.png" id="4_ulann"]
+[ext_resource type="FontFile" uid="uid://b27pddqoondca" path="res://fonts/Aviny2-mfnbbn.ttf" id="5_tvqgw"]
+[ext_resource type="FontFile" uid="uid://c583i0tksdfuq" path="res://fonts/B Titr Bold_0.ttf" id="6_nefgt"]
+[ext_resource type="Shader" path="res://shaders/bg.gdshader" id="7_tcvdo"]
+[ext_resource type="Texture2D" uid="uid://cc0ynpqrmcrxt" path="res://sprite/Polygon 1.png" id="8_5q4g8"]
+[ext_resource type="Texture2D" uid="uid://d1svtgreq1u0f" path="res://sprite/user_img.png" id="9_6p23h"]
+[ext_resource type="Texture2D" uid="uid://cwasm6w2gibnw" path="res://sprite/empty_honey.png" id="10_inyvp"]
+[ext_resource type="Texture2D" uid="uid://cppekcjr6xx7v" path="res://sprite/honey.png" id="11_iu4eq"]
+[ext_resource type="Shader" path="res://shaders/light.gdshader" id="12_3b8td"]
+[ext_resource type="Texture2D" uid="uid://xiyod2ph08oc" path="res://sprite/flower.png" id="13_a5jpk"]
+[ext_resource type="PackedScene" uid="uid://bgl5r7tkfldvy" path="res://scenes/internet.tscn" id="14_u0pfl"]
+[ext_resource type="Texture2D" uid="uid://68414nyahlqs" path="res://sprite/bee_sheet.png" id="15_8ownl"]
+[ext_resource type="Texture2D" uid="uid://d31viegy6kwip" path="res://sprite/mouth.png" id="16_5fxr6"]
+[ext_resource type="Texture2D" uid="uid://cuduuiyh54dhw" path="res://sprite/flower2.png" id="17_ixwxr"]
+[ext_resource type="Texture2D" uid="uid://bomhto3gfkdy0" path="res://sprite/flower3.png" id="18_ill04"]
+[ext_resource type="Texture2D" uid="uid://sudop3m7wmu7" path="res://sprite/nody2--1635465614.png" id="19_8n35m"]
+[ext_resource type="Texture2D" uid="uid://4goavpvpka03" path="res://sprite/122932.png" id="20_w3jrg"]
+[ext_resource type="FontFile" uid="uid://doy1oy3h7uje" path="res://fonts/BZarBd.ttf" id="21_tc8en"]
+[ext_resource type="FontFile" uid="uid://m51h310jhiit" path="res://fonts/BRoyaBd.ttf" id="22_tl4oj"]
+[ext_resource type="Texture2D" uid="uid://crip4nfsqx5un" path="res://sprite/Untitled_۲۰۲۴۱۱۱۵_۰۸۰۲۰۹.jpg" id="23_qrsmo"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0saou"]
-texture = ExtResource("2_v16sd")
+texture = ExtResource("2_b6tx1")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b55ya"]
 
@@ -35,7 +38,7 @@ Button/colors/font_outline_color = Color(1, 1, 1, 1)
 Button/colors/font_pressed_color = Color(0.0156863, 0.541176, 0.427451, 1)
 Button/constants/outline_size = 15
 Button/font_sizes/font_size = 148
-Button/fonts/font = ExtResource("1_afdt6")
+Button/fonts/font = ExtResource("1_lov3v")
 Button/styles/disabled = SubResource("StyleBoxTexture_0saou")
 Button/styles/focus = SubResource("StyleBoxEmpty_b55ya")
 Button/styles/hover = SubResource("StyleBoxTexture_0saou")
@@ -81,7 +84,7 @@ corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 
 [sub_resource type="LabelSettings" id="LabelSettings_x62s0"]
-font = ExtResource("6_facki")
+font = ExtResource("6_nefgt")
 font_size = 45
 font_color = Color(1, 0.776471, 0.74902, 1)
 outline_size = 5
@@ -91,17 +94,17 @@ shadow_color = Color(0, 0.219608, 0.152941, 1)
 shadow_offset = Vector2(1, 3)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1pnqx"]
-shader = ExtResource("7_xehjf")
+shader = ExtResource("7_tcvdo")
 shader_parameter/color = Color(1, 1, 0.286275, 1)
 shader_parameter/color2 = Color(0.752941, 0.227451, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_ntyr0"]
-font = ExtResource("5_nduhc")
+font = ExtResource("5_tvqgw")
 font_size = 47
 font_color = Color(0.137255, 0.407843, 0.384314, 1)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ok45q"]
-shader = ExtResource("12_kx6uu")
+shader = ExtResource("12_3b8td")
 shader_parameter/waite_time = 1
 shader_parameter/speed = 200.0
 shader_parameter/down = false
@@ -386,27 +389,27 @@ offsets = PackedFloat32Array(0, 0.6)
 colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_athrc"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jcj6q"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(140, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_76kk0"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gn5p4"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(70, 70, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0mk7k"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(140, 0, 70, 70)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_24lmi"]
-atlas = ExtResource("16_u6c5g")
+atlas = ExtResource("16_5fxr6")
 region = Rect2(0, 0, 70, 70)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h2anp"]
@@ -3384,6 +3387,345 @@ nodes/OneShot/position = Vector2(380, -40)
 nodes/output/position = Vector2(800, 100)
 node_connections = [&"OneShot", 0, &"Animation", &"OneShot", 1, &"Animation 2", &"output", 0, &"OneShot"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yfm7r"]
+
+[sub_resource type="GDScript" id="GDScript_c2ur8"]
+script/source = "extends PopupPanel
+var images = []
+var filter_image = []
+var page = 1
+var max_page = 1
+signal button_pressed
+# Called when the node enters the scene tree for the first time.
+var save_path = \"user://data.cfg\"
+func save(_name, num, path=save_path):
+	var confige = ConfigFile.new()
+	confige.load(save_path)
+	confige.set_value(\"user\", _name, num)
+	confige.save(path)
+func load_game(_name, defaulte=null, path=save_path):
+	var confige = ConfigFile.new()
+	confige.load(path)
+	return confige.get_value(\"user\", _name, defaulte)
+
+func _ready():
+	get_files()
+
+func get_image(img):
+	var image = Image.new()
+	image.load(\"user://icons/\"+img)
+	add_icon(image, img)
+
+func get_files(pattern=\"\"):
+	for child in %icons.get_children():
+		child.queue_free()
+	size = Vector2(730, 800)
+	var images = DirAccess.get_files_at(\"user://icons\")
+	var l = []
+	
+	for image in images:
+		if image.contains(pattern):
+			l.append(image)
+	if pattern == \"\":
+		l = images
+	max_page = int(l.size() / 15) + 1
+	add_page_btn(max_page)
+	var l2 = []
+	for x in range(l.size()):
+		if x >= (page - 1) * 15 and x < page * 15:
+			l2.append(l[x])
+	for x in range(l2.size()):
+		var img = l2[x]
+		get_image(img)
+	size = Vector2(730, 800)
+func add_page_btn(max_page):
+	for child in %HBoxContainer.get_children():
+		child.queue_free()
+	if max_page > 5:
+		if page > 2 and page < max_page - 2:
+			for x in range(page + 2, page - 2):
+				var button = $Button.duplicate()
+				button.show()
+				button.text = str(x)
+				button.pressed.connect(page_button_pressed.bind(x))
+				%HBoxContainer.add_child(button)
+		else :
+			for x in range(5):
+				var y = 0
+				if page <= 2:
+					y = x + 1
+				else :
+					y = max_page - 4 + x
+				var button = $Button.duplicate()
+				button.show()
+				button.text = str(y)
+				button.pressed.connect(page_button_pressed.bind(y))
+				%HBoxContainer.add_child(button)
+	else:
+		for x in range(max_page):
+			var button = $Button.duplicate()
+			button.show()
+			button.text = str(x+1)
+			button.pressed.connect(page_button_pressed.bind(x+1))
+			%HBoxContainer.add_child(button)
+func page_button_pressed(x):
+	if page!=x:
+		page = x
+		get_files(%LineEdit.text)
+func add_icon(img:Image, _name):
+	var vbox = VBoxContainer.new()
+	vbox.custom_minimum_size = Vector2(140, 210)
+	var tex = ImageTexture.create_from_image(img)
+	var btn = TextureButton.new()
+	btn.texture_normal = tex
+	btn.ignore_texture_size = true
+	btn.stretch_mode = TextureButton.STRETCH_KEEP_ASPECT_CENTERED
+	btn.custom_minimum_size = Vector2(140, 140)
+	btn.pressed.connect(_on_btn_pressed.bind(tex, _name))
+	var label = $Label.duplicate()
+	label.show()
+	if %LineEdit.text == \"\":
+		label.text = \"[center]\"+ _name.get_file().get_basename().uri_decode()
+	else:
+		var text = \"[center]\"
+		for t in _name.get_file().get_basename().uri_decode().split(%LineEdit.text):
+			text += t + \"[color=red]%s[/color]\"%%LineEdit.text
+		for x in range(8 + %LineEdit.text.length()):
+			text = text.erase(text.length() - 1)
+		label.text = text
+	vbox.add_child(btn)
+	vbox.add_child(label)
+	%icons.add_child(vbox)
+func _on_btn_pressed(img, _name):
+	emit_signal(\"button_pressed\", img)
+	UpdateData.save(\"icon\", _name)
+	hide()
+func _on_button_3_pressed():
+	if page != 1:
+		page = 1
+		get_files(%LineEdit.text)
+
+
+func _on_button_pressed():
+	if page > 1:
+		page -= 1
+		get_files(%LineEdit.text)
+
+
+func _on_button_2_pressed():
+	
+	if page < max_page:
+		page += 1
+		get_files(%LineEdit.text)
+
+
+func _on_button_4_pressed():
+	
+	if page != max_page:
+		page = max_page
+		
+		get_files(%LineEdit.text)
+
+
+func _on_line_edit_text_changed(new_text):
+	get_files(new_text)
+	
+"
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_3e2v2"]
+viewport_path = NodePath("SubViewport2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wt1vq"]
+resource_local_to_scene = true
+texture = SubResource("ViewportTexture_3e2v2")
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_53tk2"]
+bg_color = Color(0.174372, 0.576062, 0.130088, 1)
+border_width_bottom = 10
+border_color = Color(0.8, 0.8, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3nx47"]
+bg_color = Color(1, 0.351694, 0.181731, 1)
+border_width_bottom = 10
+border_color = Color(0.8, 0.8, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_smc5s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4iguq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_swo23"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_plu5n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yeuo0"]
+
+[sub_resource type="Theme" id="Theme_vwmm3"]
+default_font = ExtResource("21_tc8en")
+Button/styles/disabled = SubResource("StyleBoxEmpty_smc5s")
+Button/styles/focus = SubResource("StyleBoxEmpty_4iguq")
+Button/styles/hover = SubResource("StyleBoxEmpty_swo23")
+Button/styles/normal = SubResource("StyleBoxEmpty_plu5n")
+Button/styles/pressed = SubResource("StyleBoxEmpty_yeuo0")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xwrwt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_18gld"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_61cyp"]
+bg_color = Color(1, 1, 1, 0.180392)
+border_width_left = 30
+border_width_top = 30
+border_width_right = 30
+border_width_bottom = 30
+border_blend = true
+
+[sub_resource type="Gradient" id="Gradient_pimk4"]
+offsets = PackedFloat32Array(0.48125, 0.4875, 0.6, 0.61875)
+colors = PackedColorArray(0.67451, 0.67451, 0.67451, 0, 0.67451, 0.67451, 0.67451, 1, 0.67451, 0.67451, 0.67451, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_o38ic"]
+gradient = SubResource("Gradient_pimk4")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[sub_resource type="Gradient" id="Gradient_j36i0"]
+interpolation_mode = 2
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dk3b3"]
+gradient = SubResource("Gradient_j36i0")
+width = 256
+height = 256
+fill_from = Vector2(0, 0.5)
+fill_to = Vector2(1, 0.495536)
+metadata/_snap_enabled = true
+
+[sub_resource type="Animation" id="Animation_6vmgg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_k8ypa"]
+resource_name = "rotate"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s4h28"]
+_data = {
+"RESET": SubResource("Animation_6vmgg"),
+"rotate": SubResource("Animation_k8ypa")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ldk42"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="Animation" id="Animation_t1uo4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_c34md"]
+resource_name = "rotate"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_shinw"]
+_data = {
+"RESET": SubResource("Animation_t1uo4"),
+"rotate": SubResource("Animation_c34md")
+}
+
+[sub_resource type="Gradient" id="Gradient_4vtkf"]
+offsets = PackedFloat32Array(0.95625, 1)
+colors = PackedColorArray(0, 0, 0, 0, 1, 0.596078, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_220t7"]
+gradient = SubResource("Gradient_4vtkf")
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
 [node name="start2" type="Control" groups=["start"]]
 layout_mode = 3
 anchors_preset = 15
@@ -3392,7 +3734,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_leury")
-script = ExtResource("3_tnecp")
+script = ExtResource("3_7htle")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_repeat = 2
@@ -3403,7 +3745,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_dy3pf")
+texture = ExtResource("4_ulann")
 expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
@@ -3465,7 +3807,7 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_colors/font_selected_color = Color(0.0431373, 0.501961, 0.392157, 1)
 theme_override_colors/font_uneditable_color = Color(1, 1, 1, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("5_nduhc")
+theme_override_fonts/font = ExtResource("5_tvqgw")
 theme_override_font_sizes/font_size = 45
 theme_override_styles/focus = SubResource("StyleBoxEmpty_jb6ga")
 theme_override_styles/read_only = SubResource("StyleBoxFlat_upmq0")
@@ -3514,7 +3856,7 @@ offset_left = 6.2
 offset_top = -330.0
 offset_right = 115.0
 offset_bottom = -223.1
-texture = ExtResource("8_rv2fg")
+texture = ExtResource("8_5q4g8")
 expand_mode = 1
 metadata/_edit_group_ = true
 
@@ -3534,7 +3876,7 @@ grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(125, 125)
 size_flags_horizontal = 3
-texture_normal = ExtResource("9_vj4mb")
+texture_normal = ExtResource("9_6p23h")
 ignore_texture_size = true
 stretch_mode = 5
 
@@ -3572,8 +3914,8 @@ step = 0.01
 value = 25.09
 fill_mode = 3
 nine_patch_stretch = true
-texture_under = ExtResource("10_vm1q2")
-texture_progress = ExtResource("11_g4qjk")
+texture_under = ExtResource("10_inyvp")
+texture_progress = ExtResource("11_iu4eq")
 tint_progress = Color(1, 0.882353, 0.117647, 1)
 
 [node name="continue" type="Button" parent="."]
@@ -3611,7 +3953,7 @@ text = "منو شروع"
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(98, 1872)
 scale = Vector2(1.30556, 1.40361)
-texture = ExtResource("11_g4qjk")
+texture = ExtResource("11_iu4eq")
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 visible = false
@@ -3627,7 +3969,7 @@ grow_horizontal = 2
 grow_vertical = 2
 rotation = 6.28319
 pivot_offset = Vector2(384, 683)
-texture = ExtResource("13_rxemq")
+texture = ExtResource("13_a5jpk")
 expand_mode = 1
 stretch_mode = 5
 
@@ -3657,7 +3999,7 @@ scale_amount_curve = SubResource("Curve_a4wg0")
 color_ramp = SubResource("Gradient_75q5a")
 anim_offset_max = 1.0
 
-[node name="Panel" parent="." instance=ExtResource("14_o7cwj")]
+[node name="Panel" parent="." instance=ExtResource("14_u0pfl")]
 visible = false
 layout_mode = 0
 anchors_preset = 0
@@ -3699,7 +4041,7 @@ scale = Vector2(0.1, 0.1)
 [node name="hand_r" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(950, 1360)
 offset = Vector2(-2058, -1857)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
 uv = PackedVector2Array(1738.02, 1729.55, 1770.46, 1810.63, 1855.7, 1849.56, 1967.75, 1880.9, 2000.44, 1885.08, 2028.07, 1906.14, 2097.81, 1958.77, 2126.75, 1979.82, 2157.02, 1999.56, 2184.65, 2102.19, 2321.49, 2098.24, 2389.91, 2046.93, 2416.4, 1918.74, 2226.75, 1861.4, 2204.38, 1850.87, 2182.02, 1835.08, 2167.54, 1787.72, 2132.02, 1765.35, 2105.7, 1732.45, 1924.51, 1616.04, 1800.44, 1653.51, 2028.07, 1811.4, 2058.33, 1829.82, 2083.33, 1853.51, 2137.28, 1891.66, 2163.59, 1915.35, 2187.28, 1932.45)
@@ -3711,7 +4053,7 @@ internal_vertex_count = 6
 texture_repeat = 2
 position = Vector2(210, 1850)
 offset = Vector2(-537, -2596)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
 uv = PackedVector2Array(547.279, 2404.55, 387.873, 2502.57, 313.616, 2568.91, 332.619, 2699.82, 447.279, 2798.61, 568.071, 2810.49, 654.21, 2745.15, 604.705, 2674.85, 537.378, 2616.43, 560.151, 2595.64, 649.259, 2579.8, 738.368, 2540.2, 462.131, 2561.98)
@@ -3722,7 +4064,7 @@ internal_vertex_count = 1
 [node name="body" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(570, 1420)
 offset = Vector2(-1371, -2226)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
 uv = PackedVector2Array(1458.61, 1714.72, 1083.61, 1798.05, 921.112, 2152.22, 912.779, 2552.22, 1421.11, 2681.38, 1650.28, 2523.05, 1766.95, 2173.05, 1629.45, 1748.05)
@@ -3734,7 +4076,7 @@ clip_children = 2
 position = Vector2(700, 430)
 scale = Vector2(1.00828, 1.03242)
 offset = Vector2(-575.237, -1404.47)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
 uv = PackedVector2Array(684.591, 1114.2, 154.157, 1277.97, 144.012, 1518.54, 278.794, 1667.82, 393.287, 1688.11, 793.287, 1564.92, 974.775, 1394.54, 943.243, 1277.42, 849.549, 1164.81)
@@ -3744,7 +4086,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(-119.014, 77.488)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1375.81, -1166.16)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
 uv = PackedVector2Array(1257.34, 1027.69, 1193.16, 1112.76, 1200.62, 1233.66, 1276.74, 1323.21, 1402.11, 1341.12, 1515.55, 1282.91, 1560.32, 1138.13, 1481.22, 1018.73, 1348.38, 985.895)
@@ -3754,7 +4096,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0), "body/head", Pac
 position = Vector2(267.783, -38.7438)
 scale = Vector2(0.99179, 0.968599)
 offset = Vector2(-1885.8, -988.161)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../../Skeleton2D")
 polygon = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
 uv = PackedVector2Array(1761.62, 893.358, 1755.65, 999.328, 1816.84, 1117.24, 1918.33, 1139.63, 1997.44, 1109.78, 2025.8, 975.448, 1931.77, 833.657, 1818.33, 838.134)
@@ -3764,7 +4106,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0), "body/head", Packed
 texture_repeat = 2
 position = Vector2(640, 580)
 offset = Vector2(-640, -580)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
 uv = PackedVector2Array(-6, 548, 11.6673, 412.562, 71.2827, 268.331, 236.667, 87.5615, 475.129, -16.2846, 730.898, -8.59233, 919.36, 102.946, 1040.97, 196.404, 1139.05, 279.096, 1200.13, 485.638, 1217.44, 587.562, 1205.9, 710.638, 1127.05, 860.639, 948.206, 1024.1, 721.283, 1095.25, 463.59, 1102.95, 202.052, 1051.02, 28.975, 810.639, 0.128845, 664.485)
@@ -3775,7 +4117,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(780, 1800)
 offset = Vector2(-2161, -2546)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
 uv = PackedVector2Array(1954.44, 2223.87, 1887.32, 2309.48, 1893.77, 2419.14, 1935.71, 2470.75, 2010.14, 2509.35, 2080.82, 2541.68, 2105.63, 2558.98, 2110.14, 2589.8, 2088.67, 2630.58, 2092.59, 2703.59, 2101.16, 2864.74, 2243.39, 2918.62, 2429.07, 2906.98, 2457.43, 2763.69, 2424.02, 2696.16, 2346.98, 2701.01, 2268.79, 2716.12, 2274.05, 2691.31, 2332.53, 2539.62, 2295.54, 2488.93, 2288, 2448.52, 2120.88, 2253.32, 2177.01, 2490.07, 2212.4, 2515.37, 2198.73, 2554.07, 2202.15, 2719.21)
@@ -3786,7 +4128,7 @@ internal_vertex_count = 4
 [node name="Polygon2D" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(390, 210)
 offset = Vector2(-1820, -670)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
 uv = PackedVector2Array(1887.25, 648.151, 1768.34, 726.53, 1781.85, 613.016)
@@ -3795,7 +4137,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D3" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(770, 130)
 offset = Vector2(-2150, -610)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
 uv = PackedVector2Array(2210.72, 661.18, 2078.01, 609.486, 2178.43, 554.868)
@@ -3804,7 +4146,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0), "body/head", PackedFloat32Array(0,
 [node name="Polygon2D2" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(890, -70)
 offset = Vector2(-2070, -330)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
 uv = PackedVector2Array(1886.99, 438.531, 1935.9, 375.178, 1979.15, 329.232, 2000.42, 311.666, 2033.2, 296.8, 2146.69, 260.919, 2212.36, 223.606, 2254.16, 268.382, 2246.69, 311.666, 2200.42, 334.054, 2145.2, 298.233, 2044.01, 318.422, 2010.87, 341.516, 1985.5, 359.427, 1952.12, 394.097, 1909.38, 451.964)
@@ -3814,7 +4156,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 [node name="Polygon2D4" type="Polygon2D" parent="bee/polygons"]
 position = Vector2(520, -120)
 offset = Vector2(-1700, -270)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
 uv = PackedVector2Array(1580.25, 464.165, 1588.99, 348.879, 1615.22, 261.993, 1633.25, 222.649, 1656.2, 191.502, 1711.94, 132.485, 1723.42, 80.0262, 1767.68, 61.9934, 1803.74, 86.5836, 1803.74, 134.125, 1772.6, 170.19, 1721.78, 150.518, 1675.88, 207.895, 1657.84, 234.125, 1641.45, 271.83, 1615.22, 348.879, 1611.94, 476.748)
@@ -3825,7 +4167,7 @@ bones = ["body", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 texture_repeat = 2
 position = Vector2(110, 1410)
 offset = Vector2(-530, -1931)
-texture = ExtResource("15_u0t6k")
+texture = ExtResource("15_8ownl")
 skeleton = NodePath("../../Skeleton2D")
 polygon = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
 uv = PackedVector2Array(756.943, 1667.39, 597.484, 1713.33, 512.966, 1780.4, 487.252, 1796.4, 467.823, 1813.55, 395.252, 1906.12, 375.252, 1910.69, 353.538, 1914.69, 209.538, 1974.12, 219.105, 2056.58, 230.681, 2110.69, 303.823, 2151.26, 396.395, 2159.83, 431.823, 2138.12, 442.109, 2064.4, 451.252, 2051.83, 463.823, 2041.55, 587.823, 1950.69, 610.109, 1932.97, 642.681, 1927.83, 797.484, 1889.01, 878.565, 1805.22, 832.619, 1707.93, 427.823, 1971.22, 417.538, 1977.51, 405.538, 1983.79, 599.823, 1848.93, 572.966, 1864.93, 542.681, 1887.79)
@@ -4013,34 +4355,244 @@ columns = 2
 [node name="TextureRect" type="TextureRect" parent="SubViewport/GridContainer"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
-texture = ExtResource("17_f3nyq")
+texture = ExtResource("17_ixwxr")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="TextureRect2" type="TextureRect" parent="SubViewport/GridContainer"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
-texture = ExtResource("18_yli8i")
+texture = ExtResource("18_ill04")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="TextureRect3" type="TextureRect" parent="SubViewport/GridContainer"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
-texture = ExtResource("13_rxemq")
+texture = ExtResource("13_a5jpk")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="TextureRect4" type="TextureRect" parent="SubViewport/GridContainer"]
 custom_minimum_size = Vector2(256, 256)
 layout_mode = 2
-texture = ExtResource("19_dkumi")
+texture = ExtResource("19_8n35m")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="icons" parent="." instance=ExtResource("20_6wcvs")]
+[node name="icons" type="PopupPanel" parent="."]
+transparent_bg = true
+initial_position = 3
 size = Vector2i(730, 800)
+current_screen = 0
+max_size = Vector2i(740, 800)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
+script = SubResource("GDScript_c2ur8")
+
+[node name="PanelContainer" type="PanelContainer" parent="icons"]
+offset_right = 730.0
+offset_bottom = 800.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_wt1vq")
+
+[node name="MarginContainer" type="MarginContainer" parent="icons/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="icons/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="icons/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(80, 50)
+layout_mode = 2
+texture = ExtResource("20_w3jrg")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LineEdit" type="LineEdit" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxFlat_53tk2")
+theme_override_styles/normal = SubResource("StyleBoxFlat_3nx47")
+
+[node name="icons" type="GridContainer" parent="icons/PanelContainer/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 0
+columns = 5
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="icons/PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme = SubResource("Theme_vwmm3")
+alignment = 1
+
+[node name="Button3" type="Button" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xwrwt")
+text = "اول"
+
+[node name="Button" type="Button" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xwrwt")
+text = "<"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 55
+
+[node name="Button2" type="Button" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_18gld")
+text = ">"
+
+[node name="Button4" type="Button" parent="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_disabled_color = Color(0.325441, 0.325441, 0.325441, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.10748, 0.10748, 0.10748, 1)
+theme_override_colors/font_hover_color = Color(0.215902, 0.215902, 0.215902, 1)
+theme_override_colors/font_pressed_color = Color(0.314316, 0.314316, 0.314316, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 38
+theme_override_styles/focus = SubResource("StyleBoxEmpty_18gld")
+text = "آخر"
+
+[node name="SubViewport" type="SubViewport" parent="icons"]
+disable_3d = true
+transparent_bg = true
+size = Vector2i(300, 300)
+
+[node name="Panel" type="Panel" parent="icons/SubViewport"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_61cyp")
+
+[node name="Sprite2D" type="Sprite2D" parent="icons/SubViewport"]
+clip_children = 2
+position = Vector2(150, 150)
+scale = Vector2(0.7, 0.7)
+texture = SubResource("GradientTexture2D_o38ic")
+
+[node name="Sprite2D" type="Sprite2D" parent="icons/SubViewport/Sprite2D"]
+texture = SubResource("GradientTexture2D_dk3b3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="icons/SubViewport"]
+libraries = {
+"": SubResource("AnimationLibrary_s4h28")
+}
+autoplay = "rotate"
+
+[node name="Sprite2D" type="Sprite2D" parent="icons"]
 visible = false
+position = Vector2(256, 300)
+
+[node name="TextureButton" type="TextureRect" parent="icons" groups=["wait"]]
+visible = false
+custom_minimum_size = Vector2(140, 140)
+offset_right = 730.0
+offset_bottom = 800.0
+texture = SubResource("ViewportTexture_ldk42")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="icons"]
+libraries = {
+"": SubResource("AnimationLibrary_shinw")
+}
+autoplay = "rotate"
+
+[node name="Button" type="Button" parent="icons"]
+visible = false
+offset_right = 730.0
+offset_bottom = 800.0
+theme_override_colors/font_disabled_color = Color(1, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.780392, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.886275, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(1, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(1, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 36
+text = "1"
+flat = true
+
+[node name="Label" type="RichTextLabel" parent="icons"]
+visible = false
+clip_contents = false
+custom_minimum_size = Vector2(80, 45)
+offset_right = 730.0
+offset_bottom = 800.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("22_tl4oj")
+theme_override_font_sizes/normal_font_size = 35
+bbcode_enabled = true
+text = "قاسم سلیمانی"
+fit_content = true
+scroll_active = false
+
+[node name="SubViewport2" type="SubViewport" parent="icons"]
+transparent_bg = true
+size = Vector2i(740, 800)
+
+[node name="TextureRect" type="Sprite2D" parent="icons/SubViewport2"]
+texture_repeat = 2
+position = Vector2(81.5, 42.5)
+scale = Vector2(1.415, 1.415)
+texture = ExtResource("23_qrsmo")
+region_rect = Rect2(418, 405, 163, 85)
+
+[node name="TextureRect2" type="TextureRect" parent="icons/SubViewport2"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_220t7")
+expand_mode = 1
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]
 [connection signal="gui_input" from="VBoxContainer/HBoxContainer4/Control/Panel/Label" to="." method="_on_label_gui_input"]
@@ -4050,3 +4602,8 @@ visible = false
 [connection signal="pressed" from="levels" to="." method="_on_levels_pressed"]
 [connection signal="pressed" from="Button" to="." method="_on_persian_button_3_pressed"]
 [connection signal="button_pressed" from="icons" to="." method="_on_icons_button_pressed"]
+[connection signal="text_changed" from="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer/LineEdit" to="icons" method="_on_line_edit_text_changed"]
+[connection signal="pressed" from="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button3" to="icons" method="_on_button_3_pressed"]
+[connection signal="pressed" from="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button" to="icons" method="_on_button_pressed"]
+[connection signal="pressed" from="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button2" to="icons" method="_on_button_2_pressed"]
+[connection signal="pressed" from="icons/PanelContainer/MarginContainer/VBoxContainer/HBoxContainer2/Button4" to="icons" method="_on_button_4_pressed"]

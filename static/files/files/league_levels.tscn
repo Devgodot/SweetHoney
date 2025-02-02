@@ -1,21 +1,21 @@
 [gd_scene load_steps=43 format=3]
 
-[ext_resource type="Script" path="res://script/league_levels.gd" id="1_qtowm"]
-[ext_resource type="Texture2D" uid="uid://7r86kgpb1xev" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۷۳۹۴۷.jpg" id="2_uh5h5"]
-[ext_resource type="Texture2D" uid="uid://b137cs4h3k6wt" path="res://sprite/pngtree-soft-2d-cloud-png-image_13980627.png" id="3_4yi6r"]
-[ext_resource type="Texture2D" uid="uid://dx1pgw4qslsby" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۷۳۴۲۲.png" id="4_7lpvi"]
-[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="5_dm8kf"]
-[ext_resource type="Shader" path="res://shaders/kill.gdshader" id="6_ytfa8"]
-[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="7_ph8xb"]
-[ext_resource type="Texture2D" uid="uid://bfsywmktcvpds" path="res://sprite/yellow-bee-hive-cartoon-style-600nw-1716416230.png" id="8_m5xb5"]
-[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="9_5jnxx"]
-[ext_resource type="Texture2D" uid="uid://dcfa3xrc004ul" path="res://sprite/لیگ2.png" id="10_64qqu"]
-[ext_resource type="Shader" path="res://shaders/top_water.gdshader" id="11_l7tpj"]
-[ext_resource type="Texture2D" uid="uid://d054vur54jdie" path="res://sprite/bg_word.png" id="12_ke0ts"]
-[ext_resource type="Texture2D" uid="uid://cjk4d24jcul6t" path="res://sprite/heat.png" id="13_xbysr"]
-[ext_resource type="Texture2D" uid="uid://d2tw8s88xhih4" path="res://sprite/لیگ1.png" id="14_4rk6s"]
-[ext_resource type="Shader" path="res://shaders/water.gdshader" id="15_h5341"]
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="16_4y7s0"]
+[ext_resource type="Script" path="res://script/league_levels.gd" id="1_niycu"]
+[ext_resource type="Texture2D" uid="uid://7r86kgpb1xev" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۷۳۹۴۷.jpg" id="2_uyhlr"]
+[ext_resource type="Texture2D" uid="uid://b137cs4h3k6wt" path="res://sprite/pngtree-soft-2d-cloud-png-image_13980627.png" id="3_7ru5g"]
+[ext_resource type="Texture2D" uid="uid://dx1pgw4qslsby" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۷۳۴۲۲.png" id="4_b1vxr"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="5_3scx0"]
+[ext_resource type="Shader" path="res://shaders/kill.gdshader" id="6_bmlgp"]
+[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="7_pqu2k"]
+[ext_resource type="Texture2D" uid="uid://bfsywmktcvpds" path="res://sprite/yellow-bee-hive-cartoon-style-600nw-1716416230.png" id="8_jcur5"]
+[ext_resource type="Texture2D" uid="uid://sp68ainxn2fe" path="res://sprite/Tarh.ir copy.png" id="9_eiuko"]
+[ext_resource type="Texture2D" uid="uid://dcfa3xrc004ul" path="res://sprite/لیگ2.png" id="10_irdx0"]
+[ext_resource type="Shader" path="res://shaders/top_water.gdshader" id="11_tsstc"]
+[ext_resource type="Texture2D" uid="uid://d054vur54jdie" path="res://sprite/bg_word.png" id="12_wxcul"]
+[ext_resource type="Texture2D" uid="uid://cjk4d24jcul6t" path="res://sprite/heat.png" id="13_vj0bv"]
+[ext_resource type="Texture2D" uid="uid://d2tw8s88xhih4" path="res://sprite/لیگ1.png" id="14_auhw7"]
+[ext_resource type="Shader" path="res://shaders/water.gdshader" id="15_py872"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="16_o817f"]
 
 [sub_resource type="Curve" id="Curve_popmx"]
 _data = [Vector2(0, 0.505494), 0.0, 0.0, 0, 0, Vector2(0.342391, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
@@ -34,24 +34,24 @@ _data = {
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_t6w2e"]
-shader = ExtResource("6_ytfa8")
+shader = ExtResource("6_bmlgp")
 shader_parameter/frame = 0
 
 [sub_resource type="FontVariation" id="FontVariation_6le1l"]
-base_font = ExtResource("7_ph8xb")
+base_font = ExtResource("7_pqu2k")
 spacing_top = 62
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7sufw"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pbwdo"]
-texture = ExtResource("8_m5xb5")
+texture = ExtResource("8_jcur5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_udjk2"]
-texture = ExtResource("8_m5xb5")
+texture = ExtResource("8_jcur5")
 modulate_color = Color(0.843137, 0.843137, 0.843137, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kpoaj"]
-texture = ExtResource("8_m5xb5")
+texture = ExtResource("8_jcur5")
 modulate_color = Color(0.686275, 0.686275, 0.686275, 1)
 
 [sub_resource type="Curve" id="Curve_etdme"]
@@ -99,7 +99,7 @@ _data = {
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_oxv3p"]
-shader = ExtResource("11_l7tpj")
+shader = ExtResource("11_tsstc")
 shader_parameter/transparency = 1.0
 shader_parameter/color0 = Color(0.996094, 0.6875, 0, 1)
 shader_parameter/color1 = Color(1, 1, 1, 1)
@@ -124,7 +124,7 @@ point_count = 2
 colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ayy3a"]
-shader = ExtResource("15_h5341")
+shader = ExtResource("15_py872")
 shader_parameter/color = Color(0.85098, 0.584314, 0, 0.843137)
 shader_parameter/speed = 0.195
 shader_parameter/x = 10.0
@@ -135,7 +135,7 @@ radius = 67.0
 height = 946.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_fhptp"]
-font = ExtResource("16_4y7s0")
+font = ExtResource("16_o817f")
 font_size = 100
 font_color = Color(0, 0, 0, 1)
 outline_size = 6
@@ -235,7 +235,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_qtowm")
+script = ExtResource("1_niycu")
 metadata/_edit_lock_ = true
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -245,7 +245,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_uh5h5")
+texture = ExtResource("2_uyhlr")
 expand_mode = 1
 stretch_mode = 6
 metadata/_edit_lock_ = true
@@ -253,7 +253,7 @@ metadata/_edit_lock_ = true
 [node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
 position = Vector2(-206, 503)
 lifetime = 10.0
-texture = ExtResource("3_4yi6r")
+texture = ExtResource("3_7ru5g")
 emission_shape = 3
 emission_rect_extents = Vector2(1, 500)
 spread = 10.0
@@ -272,7 +272,7 @@ anchor_bottom = 1.0
 offset_bottom = -231.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_7lpvi")
+texture = ExtResource("4_b1vxr")
 expand_mode = 1
 stretch_mode = 6
 
@@ -284,7 +284,7 @@ anchor_right = 1.0
 offset_left = -116.0
 offset_bottom = 111.0
 grow_horizontal = 0
-texture_normal = ExtResource("5_dm8kf")
+texture_normal = ExtResource("5_3scx0")
 ignore_texture_size = true
 stretch_mode = 5
 
@@ -373,7 +373,7 @@ color_ramp = SubResource("Gradient_bitt2")
 position = Vector2(54.7522, 96.9304)
 energy = 2.6
 range_item_cull_mask = 2
-texture = ExtResource("9_5jnxx")
+texture = ExtResource("9_eiuko")
 texture_scale = 0.65
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="RigidBody2D/Button"]
@@ -390,7 +390,7 @@ offset_left = -23.0
 offset_top = 1326.0
 offset_right = 1041.0
 offset_bottom = 1996.0
-texture = ExtResource("10_64qqu")
+texture = ExtResource("10_irdx0")
 expand_mode = 1
 metadata/_edit_group_ = true
 
@@ -405,7 +405,7 @@ anchor_bottom = 0.461194
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(65, 30)
-texture = ExtResource("12_ke0ts")
+texture = ExtResource("12_wxcul")
 expand_mode = 1
 metadata/_edit_use_anchors_ = true
 
@@ -418,7 +418,7 @@ emitting = false
 amount = 50
 lifetime = 0.4
 one_shot = true
-texture = ExtResource("13_xbysr")
+texture = ExtResource("13_vj0bv")
 emission_shape = 3
 emission_rect_extents = Vector2(250, 50)
 gravity = Vector2(0, -980)
@@ -437,7 +437,7 @@ offset_left = -23.0
 offset_top = 1326.0
 offset_right = 1041.0
 offset_bottom = 1987.0
-texture = ExtResource("14_4rk6s")
+texture = ExtResource("14_auhw7")
 expand_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="TextureRect2"]
@@ -447,7 +447,7 @@ offset_left = 23.0
 offset_top = 646.0
 offset_right = 1023.0
 offset_bottom = 1147.0
-texture = ExtResource("14_4rk6s")
+texture = ExtResource("14_auhw7")
 expand_mode = 1
 
 [node name="Area2D" type="Area2D" parent="TextureRect2"]

@@ -59,10 +59,10 @@ func _ready():
 	$VBoxContainer/HBoxContainer4/Control/Panel/Label2.text = "امتیاز : "+ str(load_game("score", 0))
 	$VBoxContainer/HBoxContainer4/Control/Panel/TextureRect2.value = load_game("score", 0) * 100 / 5000
 func _process(delta):
-	modulate = [Color.WHITE, Color("4f4f4f")][int($icons.visible)]
-
+	pass
 	
 func _on_texture_button_pressed():
+	print(1)
 	$icons.show()
 	
 	

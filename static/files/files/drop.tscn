@@ -1,13 +1,13 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://script/drop.gd" id="1_xm8bn"]
-[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="2_rqloa"]
+[ext_resource type="Script" path="res://script/drop.gd" id="1_lc2ic"]
+[ext_resource type="Texture2D" uid="uid://bbat7dydd7o0h" path="res://sprite/honey_drop.png" id="2_8ybk5"]
 
 [node name="drop" type="Node2D"]
-script = ExtResource("1_xm8bn")
+script = ExtResource("1_lc2ic")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.213125, 0.213125)
-texture = ExtResource("2_rqloa")
+texture = ExtResource("2_8ybk5")
 region_enabled = true
 region_rect = Rect2(667.885, 299.833, 103.282, 270.872)

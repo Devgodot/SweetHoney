@@ -1,13 +1,13 @@
 [gd_scene load_steps=12 format=3]
 
-[ext_resource type="Texture2D" uid="uid://beahknjx17iyr" path="res://sprite/asal-kv-Tarh.ir5-3-b.png" id="1_bqfyw"]
-[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="2_hxbte"]
+[ext_resource type="Texture2D" uid="uid://beahknjx17iyr" path="res://sprite/asal-kv-Tarh.ir5-3-b.png" id="1_xh3fw"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="2_3wxmf"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tpw4e"]
-texture = ExtResource("1_bqfyw")
+texture = ExtResource("1_xh3fw")
 
 [sub_resource type="LabelSettings" id="LabelSettings_15pxp"]
-font = ExtResource("2_hxbte")
+font = ExtResource("2_3wxmf")
 font_size = 70
 font_color = Color(0, 0, 0, 1)
 outline_size = 10

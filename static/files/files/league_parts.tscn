@@ -1,13 +1,13 @@
 [gd_scene load_steps=22 format=3]
 
-[ext_resource type="Script" path="res://script/league_parts.gd" id="1_7nufj"]
-[ext_resource type="Texture2D" uid="uid://d0chy87jo2rgd" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۲۲۵۳.jpg" id="2_eeq1m"]
-[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_gbhwq"]
-[ext_resource type="Script" path="res://script/scaler.gd" id="4_p58ne"]
-[ext_resource type="Script" path="res://script/light.gd" id="5_lb7py"]
-[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="6_6wcrb"]
-[ext_resource type="Texture2D" uid="uid://ct2xwkrdanh5" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۳۹۵۱.png" id="7_oh3vu"]
-[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="8_6nmgl"]
+[ext_resource type="Script" path="res://script/league_parts.gd" id="1_fm7d2"]
+[ext_resource type="Texture2D" uid="uid://d0chy87jo2rgd" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۲۲۵۳.jpg" id="2_deiy6"]
+[ext_resource type="FontFile" uid="uid://bo36fo64tpc01" path="res://fonts/IR Morabba Regular.ttf" id="3_s7wx7"]
+[ext_resource type="Script" path="res://script/scaler.gd" id="4_t8g3a"]
+[ext_resource type="Script" path="res://script/light.gd" id="5_46q2x"]
+[ext_resource type="Texture2D" uid="uid://b6d34mm4uohp7" path="res://sprite/Untitled (20).png" id="6_hlyyy"]
+[ext_resource type="Texture2D" uid="uid://ct2xwkrdanh5" path="res://sprite/Untitled_۲۰۲۴۱۲۰۶_۱۰۳۹۵۱.png" id="7_2u54u"]
+[ext_resource type="Texture2D" uid="uid://c8x822rofaolb" path="res://sprite/2نور.png" id="8_gmy1u"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oqr4j"]
 
@@ -19,14 +19,14 @@ resource_local_to_scene = true
 texture = SubResource("ViewportTexture_df2v2")
 
 [sub_resource type="FontVariation" id="FontVariation_26jrf"]
-base_font = ExtResource("3_gbhwq")
+base_font = ExtResource("3_s7wx7")
 spacing_top = 18
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_cwnw7"]
-script = ExtResource("4_p58ne")
+script = ExtResource("4_t8g3a")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_0a4oa"]
-script = ExtResource("5_lb7py")
+script = ExtResource("5_46q2x")
 
 [sub_resource type="Animation" id="Animation_2j1aw"]
 length = 0.001
@@ -93,7 +93,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_7nufj")
+script = ExtResource("1_fm7d2")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -102,7 +102,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_eeq1m")
+texture = ExtResource("2_deiy6")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 1
@@ -326,7 +326,7 @@ anchor_right = 1.0
 offset_left = -116.0
 offset_bottom = 111.0
 grow_horizontal = 0
-texture_normal = ExtResource("6_6wcrb")
+texture_normal = ExtResource("6_hlyyy")
 stretch_mode = 5
 
 [node name="SubViewport" type="SubViewport" parent="."]
@@ -339,14 +339,14 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_oh3vu")
+texture = ExtResource("7_2u54u")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="PointLight2D" type="PointLight2D" parent="SubViewport/TextureRect"]
 position = Vector2(162, 166)
 energy = 3.67
-texture = ExtResource("8_6nmgl")
+texture = ExtResource("8_gmy1u")
 texture_scale = 1.4
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport"]
