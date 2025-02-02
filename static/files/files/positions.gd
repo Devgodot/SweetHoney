@@ -42,7 +42,7 @@ func _ready():
 		my_name = load_game('phone')
 	$Panel/VBoxContainer2/Label.text = my_name
 	$Panel/VBoxContainer2/TextureRect/TextureRect.texture = create_image(load_game("icon", ""))
-	$Panel/VBoxContainer2/TextureRect4/RichTextLabel.text = str("[center]", data2.num if data2 else 0)
+	$Panel/VBoxContainer2/TextureRect4/RichTextLabel.text = str("[center]", data2.num if data2 is Dictionary and data2.has("num") else 0)
 	start.emit()
 func load_game(_name, defaulte = null):
 	var confige = ConfigFile.new()
