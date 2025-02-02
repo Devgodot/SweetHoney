@@ -28,7 +28,6 @@ func get_scene(path, anime=true, mode=0):
 	
 	requst.request(UpdateData.protocol+UpdateData.subdomin+"/download?filename="+path.get_file(), UpdateData.get_header())
 	var d = await requst.request_completed
-	print(d[0])
 	if d[0] == 2 or d[0] == 9 or d[0] == 3:
 		Exit.reload()
 	var file = FileAccess.open("user://resources/"+path.get_file(), FileAccess.WRITE)
