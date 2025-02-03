@@ -40,7 +40,8 @@ func check_session() -> bool:
 	return d != null && d is Dictionary
 # Called when the node enters the scene tree for the first time.
 func _ready():
-
+	ChaneSene.get_node("HBoxContainer/TextureRect").mouse_filter = Control.MOUSE_FILTER_STOP
+	ChaneSene.get_node("HBoxContainer/TextureRect2").mouse_filter = Control.MOUSE_FILTER_STOP
 	#Sound.connect_signals(self)
 	if !check_session():
 		$login.show()
