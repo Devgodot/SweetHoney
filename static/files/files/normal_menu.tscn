@@ -4189,7 +4189,7 @@ editor_settings/show_bone_gizmo = false
 
 [node name="head" type="Bone2D" parent="bee/Skeleton2D/body"]
 position = Vector2(19, -48)
-scale = Vector2(0.999985, 0.999985)
+scale = Vector2(0.999984, 0.999984)
 rest = Transform2D(1, 0, 0, 1, 19, -48)
 editor_settings/show_bone_gizmo = false
 
@@ -4381,16 +4381,15 @@ stretch_mode = 5
 [node name="icons" type="PopupPanel" parent="."]
 transparent_bg = true
 initial_position = 3
-size = Vector2i(730, 800)
+size = Vector2i(730, 850)
 current_screen = 0
-visible = true
-max_size = Vector2i(740, 800)
+max_size = Vector2i(740, 850)
 theme_override_styles/panel = SubResource("StyleBoxEmpty_yfm7r")
 script = SubResource("GDScript_c2ur8")
 
 [node name="PanelContainer" type="PanelContainer" parent="icons"]
 offset_right = 730.0
-offset_bottom = 800.0
+offset_bottom = 850.0
 theme_override_styles/panel = SubResource("StyleBoxTexture_wt1vq")
 
 [node name="MarginContainer" type="MarginContainer" parent="icons/PanelContainer"]
@@ -4532,7 +4531,7 @@ position = Vector2(256, 300)
 visible = false
 custom_minimum_size = Vector2(140, 140)
 offset_right = 730.0
-offset_bottom = 800.0
+offset_bottom = 850.0
 texture = SubResource("ViewportTexture_ldk42")
 expand_mode = 1
 stretch_mode = 5
@@ -4546,7 +4545,7 @@ autoplay = "rotate"
 [node name="Button" type="Button" parent="icons"]
 visible = false
 offset_right = 730.0
-offset_bottom = 800.0
+offset_bottom = 850.0
 theme_override_colors/font_disabled_color = Color(1, 0, 0, 1)
 theme_override_colors/font_hover_pressed_color = Color(0.780392, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.886275, 0, 0, 1)
@@ -4564,7 +4563,7 @@ visible = false
 clip_contents = false
 custom_minimum_size = Vector2(80, 45)
 offset_right = 730.0
-offset_bottom = 800.0
+offset_bottom = 850.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("21_juw08")
 theme_override_font_sizes/normal_font_size = 35
@@ -4575,12 +4574,12 @@ scroll_active = false
 
 [node name="SubViewport2" type="SubViewport" parent="icons"]
 transparent_bg = true
-size = Vector2i(730, 800)
+size = Vector2i(730, 850)
 
 [node name="TextureRect" type="Sprite2D" parent="icons/SubViewport2"]
 texture_repeat = 2
 position = Vector2(81.5, 42.5)
-scale = Vector2(1.415, 1.415)
+scale = Vector2(1.49, 1.49)
 texture = ExtResource("22_agb5r")
 region_rect = Rect2(418, 405, 163, 85)
 
