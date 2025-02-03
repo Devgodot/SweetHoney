@@ -1,18 +1,18 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="Shader" path="res://shaders/exp.gdshader" id="1_dvnkk"]
-[ext_resource type="Texture2D" uid="uid://c7muml5bbfbx4" path="res://sprite/explosion2.png" id="2_3dglo"]
-[ext_resource type="Script" path="res://script/EXPLOSION.gd" id="3_14cxy"]
+[ext_resource type="Shader" path="res://shaders/exp.gdshader" id="1_74c28"]
+[ext_resource type="Texture2D" uid="uid://c7muml5bbfbx4" path="res://sprite/explosion2.png" id="2_2f0gm"]
+[ext_resource type="Script" path="res://script/EXPLOSION.gd" id="3_pcdbe"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_v7tmp"]
-shader = ExtResource("1_dvnkk")
+shader = ExtResource("1_74c28")
 
 [node name="Sprite2D" type="Sprite2D"]
 light_mask = 3
 material = SubResource("ShaderMaterial_v7tmp")
 position = Vector2(362, 714)
 scale = Vector2(0.1, 0.1)
-texture = ExtResource("2_3dglo")
+texture = ExtResource("2_2f0gm")
 region_enabled = true
 region_rect = Rect2(41.657, 347.524, 256.876, 278.135)
-script = ExtResource("3_14cxy")
+script = ExtResource("3_pcdbe")

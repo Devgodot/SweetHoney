@@ -1,25 +1,25 @@
 [gd_scene load_steps=13 format=3]
 
-[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="1_77d1h"]
-[ext_resource type="Texture2D" uid="uid://d1p1p3ynf1dfe" path="res://sprite/Untitled_۲۰۲۴۱۱۳۰_۱۶۴۶۳۵3.png" id="2_5al40"]
-[ext_resource type="Script" path="res://script/scale.gd" id="3_xh0vr"]
-[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="4_lemdl"]
-[ext_resource type="Texture2D" uid="uid://drdjbhpt02pwx" path="res://sprite/آیکون1.png" id="5_qt5vh"]
+[ext_resource type="FontFile" uid="uid://d1pwvl5nj00od" path="res://fonts/B Traffic Bold_0.ttf" id="1_r104s"]
+[ext_resource type="Texture2D" uid="uid://d1p1p3ynf1dfe" path="res://sprite/Untitled_۲۰۲۴۱۱۳۰_۱۶۴۶۳۵3.png" id="2_ywjj2"]
+[ext_resource type="Script" path="res://script/scale.gd" id="3_364fu"]
+[ext_resource type="FontFile" uid="uid://byiymopop4nyf" path="res://fonts/BTrafcBd.ttf" id="4_ocrli"]
+[ext_resource type="Texture2D" uid="uid://drdjbhpt02pwx" path="res://sprite/آیکون1.png" id="5_80b1j"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_647xe"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5w06x"]
-texture = ExtResource("2_5al40")
+texture = ExtResource("2_ywjj2")
 expand_margin_top = 6.0
 expand_margin_bottom = 10.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iimjs"]
-texture = ExtResource("2_5al40")
+texture = ExtResource("2_ywjj2")
 expand_margin_top = 6.0
 expand_margin_bottom = 10.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_0bup8"]
-font = ExtResource("4_lemdl")
+font = ExtResource("4_ocrli")
 font_size = 60
 font_color = Color(0, 0, 0, 1)
 
@@ -82,14 +82,14 @@ theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0.498039, 0, 0.690196, 1)
-theme_override_fonts/font = ExtResource("1_77d1h")
+theme_override_fonts/font = ExtResource("1_r104s")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/focus = SubResource("StyleBoxEmpty_647xe")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_5w06x")
 theme_override_styles/hover = SubResource("StyleBoxTexture_iimjs")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_iimjs")
 theme_override_styles/normal = SubResource("StyleBoxTexture_iimjs")
-script = ExtResource("3_xh0vr")
+script = ExtResource("3_364fu")
 metadata/num = 0
 
 [node name="Label" type="Label" parent="."]
@@ -117,7 +117,7 @@ position = Vector2(350.5, 127)
 scale = Vector2(2.59926, 3.2619)
 energy = 0.0
 range_item_cull_mask = 2
-texture = ExtResource("5_qt5vh")
+texture = ExtResource("5_80b1j")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

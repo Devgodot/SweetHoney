@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="Texture2D" uid="uid://bb6mbf6f25swm" path="res://sprite/satan_sheet.png" id="1_05cch"]
+[ext_resource type="Texture2D" uid="uid://bb6mbf6f25swm" path="res://sprite/satan_sheet.png" id="1_1sm2j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oki2m"]
 size = Vector2(93, 20)
@@ -17,6 +17,6 @@ position = Vector2(4.76837e-07, -5.96046e-08)
 rotation = 1.85697
 scale = Vector2(0.1, 0.1)
 offset = Vector2(-3208, -2354)
-texture = ExtResource("1_05cch")
+texture = ExtResource("1_1sm2j")
 polygon = PackedVector2Array(3296.15, 2876.92, 2988.46, 2019.23, 3230.77, 1842.31, 3280.77, 2330.77, 3384.62, 2838.46)
 uv = PackedVector2Array(3296.15, 2876.92, 2988.46, 2019.23, 3230.77, 1842.31, 3280.77, 2330.77, 3384.62, 2838.46)

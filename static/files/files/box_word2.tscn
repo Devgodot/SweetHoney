@@ -1,13 +1,13 @@
 [gd_scene load_steps=12 format=3]
 
-[ext_resource type="Texture2D" uid="uid://hf7g81n7bwiv" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۴۲۱۳۲ copy 2.png" id="1_dpa8i"]
-[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="2_ga2cf"]
+[ext_resource type="Texture2D" uid="uid://hf7g81n7bwiv" path="res://sprite/Untitled_۲۰۲۴۱۲۲۸_۱۴۲۱۳۲ copy 2.png" id="1_0gs78"]
+[ext_resource type="FontFile" uid="uid://de3lra4xfgvam" path="res://fonts/BTitrBd.ttf" id="2_k0cxd"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tpw4e"]
-texture = ExtResource("1_dpa8i")
+texture = ExtResource("1_0gs78")
 
 [sub_resource type="LabelSettings" id="LabelSettings_3n567"]
-font = ExtResource("2_ga2cf")
+font = ExtResource("2_k0cxd")
 font_size = 66
 font_color = Color(0, 0.207843, 1, 1)
 outline_size = 10

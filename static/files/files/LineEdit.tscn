@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="StyleBox" path="res://styles/LineEdit_n.tres" id="1_1jmau"]
+[ext_resource type="StyleBox" path="res://styles/LineEdit_n.tres" id="1_ebf47"]
 
 [node name="LineEdit" type="LineEdit"]
 anchors_preset = 5
@@ -10,7 +10,7 @@ offset_left = -82.0
 offset_right = 82.0
 offset_bottom = 40.0
 theme_override_font_sizes/font_size = 20
-theme_override_styles/normal = ExtResource("1_1jmau")
+theme_override_styles/normal = ExtResource("1_ebf47")
 placeholder_text = "پاسخ را وارد کنید"
 alignment = 1
 clear_button_enabled = true
