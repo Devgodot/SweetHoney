@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from flask_jwt_extended import jwt_required, get_jwt, current_user
+from flask_jwt_extended import jwt_required, current_user
 from models import User, UserInterface
 from schemas import UserSchema
 from sqlalchemy.sql import desc, text
@@ -15,28 +15,43 @@ def get_me():
         season = UserInterface.query.first().data.get("season", 1)
         if sort == "l":
             sort = f"league_score{season}"
-        if sort and sort != "":
-            users = User.query.order_by(desc( text(f"JSON_UNQUOTE(data->'$.{sort}')"))).all()
-        else:
-            users = User.query.all()
+        
+        # Define a default sort field
+        default_sort_field = 'lvl'
+        
+        # Use the default sort field if sort is None or empty
+        sort = sort or default_sort_field
+
+        # Ensure the sort field is properly sanitized
+        allowed_sort_fields = ['name', 'email', 'lvl', f'league_score{season}']
+        if sort not in allowed_sort_fields:
+            sort = default_sort_field
+
+        # Use JSON_UNQUOTE to ensure the correct JSON path syntax
+        users = User.query.order_by(desc(text(f"JSON_UNQUOTE(data->'$.{sort}')"))).all()
+
         previous_score = None
         current_position = 0
         for index, user in enumerate(users):
-            current_score = user.data.get(request.args.get("sort"), 0)
-            print(current_score)
+            current_score = user.data.get(sort, 0)
             if current_score != previous_score:
                 current_position = index
             user.data['position'] = current_position + 1
             previous_score = current_score
-            if current_user.data.get(sort) != None:
-                for x, user in enumerate(users):
-                    if user == current_user:
-                        return jsonify({"message": "موقعیت شما طبق این رتبه بندی به شرح پیوست است", "pos":user.data["position"], "phone": current_user.phone, "num":current_user.data.get(sort, 0)})
-            else:
-                return jsonify({"message": "شما در این رتبه بندی وجود ندارید", "pos":0})
-            
-            
-        return jsonify({"message": "لطفا پارامتر را مشخص کنید", "error":"sort=?"}), 400
+
+        # Find the current user's position
+        current_user_position = next((user.data['position'] for user in users if user == current_user), None)
+        if current_user_position is not None:
+            return jsonify({
+                "message": "موقعیت شما طبق این رتبه بندی به شرح پیوست است",
+                "pos": current_user_position,
+                "phone": current_user.phone,
+                "num": current_user.data.get(sort, 0)
+            })
+        else:
+            return jsonify({"message": "شما در این رتبه بندی وجود ندارید", "pos": 0})
+
+        return jsonify({"message": "لطفا پارامتر را مشخص کنید", "error": "sort=?"}), 400
     return "شما اجازه دسترسی ندارید", 400
     
 @user_bp.get("/all")
@@ -97,5 +112,3 @@ def get_all_users():
             200,
         )
     return "شما اجازه دسترسی ندارید", 400
-
-    
